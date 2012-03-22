@@ -105,12 +105,15 @@ void creaLayout() {
     }
     printf("4.3\n");
     for(i=0; i<numero_piezas; i++) {
+        printf("4.3.1\n");
         x = posMenorAltura();
+        printf("4.3.2\n");
         cPieza = lista_piezas[arreglo_orden[i]];
 /*
         printf("rotacion pieza %d: %d\n", arreglo_orden[i], arreglo_rotar[arreglo_orden[i]]);
 */
         n = 1;
+        printf("4.3.3\n");
         while(!fit) {
             x = posNMenorAltura(n);
 /*
@@ -120,7 +123,7 @@ void creaLayout() {
             else n++;
         }
         fit = 0;
-        
+        printf("4.3.4\n");
         altura = arreglo_alturas[x];
         for(j=x; j<cPieza.ancho+x-1; j++) {
             if(altura < arreglo_alturas[j+1]) {
@@ -131,7 +134,7 @@ void creaLayout() {
 /*
         printf("insertar pieza[%d]: %d x %d en (%d,%d)\n", arreglo_orden[i], cPieza.ancho, cPieza.alto, x, altura);
 */
-        printf("4.4\n");
+        printf("4.3.5\n");
         for(j=x; j<cPieza.ancho+x; j++) {
             arreglo_alturas[j] = altura + cPieza.alto;
         }
