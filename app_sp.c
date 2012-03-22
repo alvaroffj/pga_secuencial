@@ -123,7 +123,7 @@ void creaLayout() {
             else n++;
         }
         fit = 0;
-        printf("4.3.4\n");
+        printf("4.3.4: %d\n", x);
         altura = arreglo_alturas[x];
         for(j=x; j<cPieza.ancho+x-1; j++) {
             if(altura < arreglo_alturas[j+1]) {
