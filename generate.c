@@ -498,9 +498,9 @@ void generation(int tipo_problema, int corrida)
 {
     printf("generation\n");
    	int mate1, mate2, jcross=0, jmcross=0, j = 0;
-  
 	// Obtiene suma total del fitness para oldpop
    	preselect();
+  printf("0\n");
 
    	// Efecta selección, cruzamiento y mutación
    	do {
