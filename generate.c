@@ -447,9 +447,11 @@ int crossover (unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *ch
 			memcpy( lchild1, lparent1, sizeof( unsigned short ) * chlistasize );
 			memcpy( lchild2, lparent2, sizeof( unsigned short ) * chlistasize );
 			//Intercabia las Piezas desde uInicio y uFin
+/*
 			if(uFin<jcross){
 				jcross=uInicio;
 			}
+*/
 			for ( k = uInicio; k <= uFin; k++ ){
 				IntercambiaPiezas( k, iBuscaPieza( lparent1[k], lchild2 ), lchild2 );
 				IntercambiaPiezas( k, iBuscaPieza( lparent2[k], lchild1 ), lchild1 );
