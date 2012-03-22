@@ -48,7 +48,7 @@ void statistics(struct individual *pop, int corrida)
    	}//End if
 
    	// Escribe en archivo de Estaditicas para problema particular
-	fprintf(evofp, "%d;%d;%f;%f;%f;%f;%f\n", corrida, gen, min, max, med, varianza,bestfit.generation);
+	fprintf(evofp, "%i;%i;%f;%f;%f;%f;%f\n", corrida, gen, min, max, med, varianza,bestfit.generation);
 }//End statistics
 
 void initpop(int tipo_problema, int corrida)
