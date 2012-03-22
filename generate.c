@@ -517,29 +517,31 @@ void generation(int tipo_problema, int corrida)
       xcrossover(oldpop[mate1].chrom, oldpop[mate2].chrom, newpop[j].chrom, newpop[j+1].chrom,
                  oldpop[mate1].chmut, oldpop[mate2].chmut, newpop[j].chmut, newpop[j+1].chmut);
 */
-			
+	printf("1\n");
       	mutation(&(newpop[j]));
 		mutation(&(newpop[j+1]));
-			
+	printf("2\n");
       	// Decodifica string, evalúa fitness y guarda parentesco de ambos hijos
-		app_objfunc(tipo_problema, &(newpop[j]));
+        app_objfunc(tipo_problema, &(newpop[j]));
+        printf("3\n");
       	newpop[j].parent[0]	 	 = mate1+1;
       	newpop[j].xsite     	 = jcross;
 		jmcross 				 = jcross/bitsxcodigobinario;
 		if(jcross%bitsxcodigobinario)	jmcross++;
 		newpop[j].msite     	 = jmcross;
       	newpop[j].parent[1] 	 = mate2+1;
-
+        printf("4\n");
       	app_objfunc(tipo_problema, &(newpop[j+1]));
       	newpop[j+1].parent[0]    = newpop[j].parent[0];
       	newpop[j+1].xsite 	     = newpop[j].xsite;
       	newpop[j+1].msite 	     = newpop[j].msite;
       	newpop[j+1].parent[1]    = newpop[j].parent[1];
-
+        printf("5\n");
       	// Incrementa índice de la población
       	j = j + 2;
-	}while(j < (popsize-1));
+	} while(j < (popsize-1));
 	// Efecta estadísticas sobre nueva población y obtiene mejor individuo
+        printf("6\n");
 	statistics(newpop, corrida);
         printf("*generation\n");
 }//End generation
