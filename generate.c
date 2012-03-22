@@ -502,14 +502,14 @@ void generation(int tipo_problema, int corrida)
    	int mate1, mate2, jcross=0, jmcross=0, j = 0;
 	// Obtiene suma total del fitness para oldpop
    	preselect();
-  printf("0\n");
+  printf("-1\n");
 
    	// Efecta selección, cruzamiento y mutación
    	do {
       	// obtiene índices de individuos en oldpop a efectuar cruzamiento
       	mate1 = xselect();
       	mate2 = xselect();
-      	
+        printf("0\n");
 		//Cruzamiento en un solo punto para cromosoma String, cromosoma Mutación, cromosoma Lista
       	jcross = crossover(oldpop[mate1].chrom, oldpop[mate2].chrom, newpop[j].chrom, newpop[j+1].chrom,
        					   oldpop[mate1].chmut, oldpop[mate2].chmut, newpop[j].chmut, newpop[j+1].chmut,
