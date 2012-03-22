@@ -48,7 +48,7 @@ void statistics(struct individual *pop, int corrida)
    	}//End if
 
    	// Escribe en archivo de Estaditicas para problema particular
-	fprintf(evofp, "%i;%i;%f;%f;%f;%f;%f\n", corrida, gen, min, max, med, varianza,bestfit.generation);
+	fprintf(evofp, "%d;%d;%f;%f;%f;%f;%f\n", corrida, gen, min, max, med, varianza,bestfit.generation);
 }//End statistics
 
 void initpop(int tipo_problema, int corrida)
@@ -381,6 +381,7 @@ int crossover (unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *ch
                     //jcross = (int) ceil((float) lchrom/ 2.0);// GMO
             ncross++;
             for(k = 1; k <= chromsize; k++) {
+                printf("0.3.1\n");
                 if(jcross >= (k*UINTSIZE)) {
                     printf("0.3.1a\n");
                     child1[k-1] = parent1[k-1];
@@ -400,6 +401,7 @@ int crossover (unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *ch
                     child1[k-1] = parent2[k-1];
                     child2[k-1] = parent1[k-1];
                 }//End else
+                printf("0.3.2\n");
             }//End for
             printf("0.4\n");
             //Cruzamiento Cromosoma Mutacion
