@@ -59,7 +59,27 @@ int main(int argc, char *argv[]) {
                 // Crea una nueva generación
                 printf("generacion: %d => %f\n",gen, bestfit.fitness);
                 generation(tipo_problema, run);
+//-----------------------------------------------------------------                
+                int i, stop, tp, rt, j, bitpos, mask = 1;
+                printf("newpop: ");
+                for (i = 0; i < chromsize; i++) {
+                    if (i == (chromsize - 1)) //ultimo bloque
+                        stop = lchrom - (i * UINTSIZE);
+                    else
+                        stop = UINTSIZE;
 
+                    tp = newpop->chrom[i];
+                    rt = oldpop->chmut[i];
+                    for (j = 0; j < stop; j++) {
+                        bitpos = j + UINTSIZE*i;
+                        if (tp & mask) printf("1");
+                        else printf("0");
+                        tp = tp >> 1;
+                        rt = rt >> 1;
+                    }
+                }
+                printf("\n");
+//-----------------------------------------------------------------
                 // Avanza de Generación
                 tempold = oldpop;
                 oldpop = newpop;
