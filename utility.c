@@ -153,6 +153,8 @@ void initialize(void)
     lchrom = largo_cromosoma * bitsxcodigobinario;
     lchmut = largo_cromosoma;
 
+    printf("largo_cromosoma: %d\n", largo_cromosoma);
+    printf("lchrom: %d\n", lchrom);
     // Define el tamaño del cromosoma string en términos de los bytes de la máquina,
     // esto es, el largo del cromosoma en bits (lchrom) / (bits por bytes)
     // chromsize debe ser conocido en malloc() para puntero chrom
