@@ -73,6 +73,9 @@
         <compilerSet>default</compilerSet>
       </toolsSet>
       <compileType>
+        <cTool>
+          <commandlineTool>gcc</commandlineTool>
+        </cTool>
       </compileType>
     </conf>
     <conf name="Release" type="1">
