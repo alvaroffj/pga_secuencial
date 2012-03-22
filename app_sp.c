@@ -50,6 +50,7 @@ int posNMenorAltura(int n) {
         if(i==0) {
             menor[i] = arreglo_alturas[0];
             mayor = arreglo_alturas[0];
+            pos[i] = 0;
             for(j=1; j<ancho; j++) {
                 if(arreglo_alturas[j]<menor[i]) {
                     menor[i] = arreglo_alturas[j];
@@ -74,9 +75,9 @@ int posNMenorAltura(int n) {
                 }
             }
         }
-        printf("pos[%d]: %d", i, pos[i]);
+        printf("pos[%d]: %d\n", i, pos[i]);
     }
-    printf("pos[%d]: %d", n-1, pos[n-1]);
+    printf("*pos[%d]: %d\n", n-1, pos[n-1]);
     return pos[n-1];
 }
 
