@@ -4,7 +4,6 @@
 
 #include <stdlib.h>
 #include <string.h>
-#include <math.h>
 
 #include "memory.h"
 #include "sga.h"
@@ -383,10 +382,10 @@ int crossover (unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *ch
         //Hace cruzamiento con probabilidad pcross de la población
         if(flip(pcross)) {
                 //Cruzamiento Cromosoma String
-/*
             jcross = rnd(1 ,(lchrom - 1));// Cruzamiento entre 1 y l-1
+/*
+            jcross = (int) ceil((float) lchrom/ 2.0);// GMO
 */
-                    jcross = (int) ceil((float) lchrom/ 2.0);// GMO
             ncross++;
             printf("0.3 %d %d\n", lchrom, jcross);
             for(k = 1; k <= chromsize; k++) {

@@ -63,6 +63,7 @@ int rnd(int low,int high)
    	else {
       	i = (randomperc() * (high - low + 1)) + low;
       	if(i > high) i = high;
+        if(i < low) i = low;
    	}//End else
    	return(i);
 }//End rnd
