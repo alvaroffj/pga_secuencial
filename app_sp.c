@@ -93,29 +93,22 @@ int fitness() {
  * Inserta las piezas en la tira, según el orden y sentido correspondiente
  */
 void creaLayout() {
-    printf("creaLayout\n");
     int i, x = 0, j, altura = 0, n = 1, fit = 0;
     Datos_pieza cPieza;
-    printf("4.1\n");
 
     for(i=0; i<ancho; i++) {
         arreglo_alturas[i] = 0;
     }
-    printf("4.2\n");
     for(i=0; i<numero_piezas; i++) {
         arreglo_ocupado[i] = 0;
     }
-    printf("4.3\n");
     for(i=0; i<numero_piezas; i++) {
-        printf("4.3.1\n");
         x = posMenorAltura();
-        printf("4.3.2\n");
         cPieza = lista_piezas[arreglo_orden[i]];
 /*
         printf("rotacion pieza %d: %d\n", arreglo_orden[i], arreglo_rotar[arreglo_orden[i]]);
 */
         n = 1;
-        printf("4.3.3\n");
         while(!fit) {
             x = posNMenorAltura(n);
 /*
@@ -125,7 +118,6 @@ void creaLayout() {
             else n++;
         }
         fit = 0;
-        printf("4.3.4: %d\n", x);
         altura = arreglo_alturas[x];
         for(j=x; j<cPieza.ancho+x-1; j++) {
             if(altura < arreglo_alturas[j+1]) {
@@ -136,7 +128,6 @@ void creaLayout() {
 /*
         printf("insertar pieza[%d]: %d x %d en (%d,%d)\n", arreglo_orden[i], cPieza.ancho, cPieza.alto, x, altura);
 */
-        printf("4.3.5\n");
         for(j=x; j<cPieza.ancho+x; j++) {
             arreglo_alturas[j] = altura + cPieza.alto;
         }
@@ -229,7 +220,6 @@ void app_free_sp(void) {
  * Funcion Objetivo
  */
 void app_objfunc_sp(struct individual *critter) {
-    printf("app_objfunc_sp\n");
     unsigned mask = 1, tp, rt, bitpos, salto, dir, b, m, go = 1;
     int i, j, stop, pPend = numero_piezas, pIni = 0, ini, valPos, nAsig = 0, vueltas = 0;
     int chrom[numero_piezas];
@@ -246,7 +236,6 @@ void app_objfunc_sp(struct individual *critter) {
     printf("largo_cromosoma: %d\n", largo_cromosoma);
     printf("Cromosoma: ");
 */
-    printf("1\n");
     for (i = 0; i < chromsize; i++) {
         if (i == (chromsize - 1)) //ultimo bloque
             stop = lchrom - (i * UINTSIZE);
@@ -277,7 +266,6 @@ void app_objfunc_sp(struct individual *critter) {
 /*
     printf("\n");
 */
-    printf("2\n");
     tp = critter->chrom[0];
     /*
      * ini: Valor que se considera primero, 0 o 1, al recorrer el cromosoma
@@ -314,7 +302,6 @@ void app_objfunc_sp(struct individual *critter) {
      * Obtiene el orden en que deben ser insertadas las piezas según el cromosoma
      * orden[]: arreglo donde se almacena el id de las piezas
      */
-    printf("3\n");
     vueltas = 0;
     while(go) {
         if(dir) {
@@ -362,15 +349,11 @@ void app_objfunc_sp(struct individual *critter) {
         printf("%d ", arreglo_orden[i]);
     }
 */
-    printf("4\n");
     creaLayout();
-    printf("5\n");
     critter->fitness = fitness();
-    printf("6\n");
     TEval PEval;
     PEval.perdida = (float)(mayorAltura()*ancho)-area_total;
     critter->PEval = PEval;
-    printf("7\n");
 /*
     printf("=> %d %f\n", fitness(), (float)(mayorAltura()*ancho)-area_total);
 */
