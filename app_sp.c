@@ -218,6 +218,7 @@ void app_free_sp(void) {
  * Funcion Objetivo
  */
 void app_objfunc_sp(struct individual *critter) {
+    printf("app_objfunc_sp\n");
     unsigned mask = 1, tp, rt, bitpos, salto, dir, b, m, go = 1;
     int i, j, stop, pPend = numero_piezas, pIni = 0, ini, valPos, nAsig = 0, vueltas = 0;
     int chrom[numero_piezas];
@@ -234,6 +235,7 @@ void app_objfunc_sp(struct individual *critter) {
     printf("largo_cromosoma: %d\n", largo_cromosoma);
     printf("Cromosoma: ");
 */
+    printf("1\n");
     for (i = 0; i < chromsize; i++) {
         if (i == (chromsize - 1)) //ultimo bloque
             stop = lchrom - (i * UINTSIZE);
@@ -264,7 +266,7 @@ void app_objfunc_sp(struct individual *critter) {
 /*
     printf("\n");
 */
-    
+    printf("2\n");
     tp = critter->chrom[0];
     /*
      * ini: Valor que se considera primero, 0 o 1, al recorrer el cromosoma
@@ -301,6 +303,7 @@ void app_objfunc_sp(struct individual *critter) {
      * Obtiene el orden en que deben ser insertadas las piezas según el cromosoma
      * orden[]: arreglo donde se almacena el id de las piezas
      */
+    printf("3\n");
     vueltas = 0;
     while(go) {
         if(dir) {
@@ -348,11 +351,15 @@ void app_objfunc_sp(struct individual *critter) {
         printf("%d ", arreglo_orden[i]);
     }
 */
+    printf("4\n");
     creaLayout();
+    printf("5\n");
     critter->fitness = fitness();
+    printf("6\n");
     TEval PEval;
     PEval.perdida = (float)(mayorAltura()*ancho)-area_total;
     critter->PEval = PEval;
+    printf("7\n");
 /*
     printf("=> %d %f\n", fitness(), (float)(mayorAltura()*ancho)-area_total);
 */
@@ -365,7 +372,6 @@ void app_objfunc_sp(struct individual *critter) {
  */
 void app_genera_resultados_problema_sp(int corrida, int tipo_problema, char *nombrearchivo) {
     printf("app_genera_resultados_problema_sp\n");
-/*
     if (encabezado_resultado_problema == 0) {
         //IMPRIME ENCABEZADO DE LOS RESULTADOS DEL PROBLEMA
         fprintf(rprofp, "CORRIDA;TIPO_PROBLEMA;ARCHIVO_PROBLEMA;CANTIDAD_PIEZAS;CANTIDAD_TIPOS_PIEZAS;");
@@ -375,7 +381,6 @@ void app_genera_resultados_problema_sp(int corrida, int tipo_problema, char *nom
         fprintf(rprofp, "GENERACION_OCURRENCIA\n");
         encabezado_resultado_problema = 1; //Con ésto no imprime más el encabezado
     }//End if 
-*/
     //IMPRIME RESULTADOS DEL PROBLEMA
 /*
     fprintf(rprofp, "%d;%d;%s;%d;%d;%d;%d;%f;%f;%f;%f;%f;%f;%f;%f;%f;%d;%d;%d\n",
