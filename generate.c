@@ -385,7 +385,9 @@ int crossover (unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *ch
                 if(jcross >= (k*UINTSIZE)) {
                     printf("0.3.1a: %d\n", k);
                     child1[k-1] = parent1[k-1];
+                    printf("*0.3.1a: %d\n", k);
                     child2[k-1] = parent2[k-1];
+                    printf("**0.3.1a: %d\n", k);
                 } else if((jcross < (k*UINTSIZE)) && (jcross > ((k-1)*UINTSIZE))) {
                     printf("0.3.1b\n");
                     mask = 1;
@@ -495,57 +497,52 @@ int xselect(void)
    	return(i-1);
 }//End xselect
 
-void generation(int tipo_problema, int corrida)
 // Rutina que establece la generación de nuevos individuos
-{
+void generation(int tipo_problema, int corrida) {
     printf("generation\n");
-   	int mate1, mate2, jcross=0, jmcross=0, j = 0;
-	// Obtiene suma total del fitness para oldpop
-   	preselect();
-  printf("-1\n");
+    int mate1, mate2, jcross=0, jmcross=0, j = 0;
+    // Obtiene suma total del fitness para oldpop
+    preselect();
+    printf("-1\n");
 
    	// Efecta selección, cruzamiento y mutación
-   	do {
+    do {
       	// obtiene índices de individuos en oldpop a efectuar cruzamiento
       	mate1 = xselect();
       	mate2 = xselect();
         printf("0\n");
 		//Cruzamiento en un solo punto para cromosoma String, cromosoma Mutación, cromosoma Lista
       	jcross = crossover(oldpop[mate1].chrom, oldpop[mate2].chrom, newpop[j].chrom, newpop[j+1].chrom,
-       					   oldpop[mate1].chmut, oldpop[mate2].chmut, newpop[j].chmut, newpop[j+1].chmut,
-       					   oldpop[mate1].pusListaPiezas, oldpop[mate2].pusListaPiezas, newpop[j].pusListaPiezas, newpop[j+1].pusListaPiezas);
-/*
-      // Cruzamiento Uniforme para cromosoma string y cromosoma mutation
-      xcrossover(oldpop[mate1].chrom, oldpop[mate2].chrom, newpop[j].chrom, newpop[j+1].chrom,
-                 oldpop[mate1].chmut, oldpop[mate2].chmut, newpop[j].chmut, newpop[j+1].chmut);
-*/
+                            oldpop[mate1].chmut, oldpop[mate2].chmut, newpop[j].chmut, newpop[j+1].chmut,
+                            oldpop[mate1].pusListaPiezas, oldpop[mate2].pusListaPiezas, newpop[j].pusListaPiezas, newpop[j+1].pusListaPiezas);
+
 	printf("1\n");
       	mutation(&(newpop[j]));
-		mutation(&(newpop[j+1]));
+        mutation(&(newpop[j+1]));
 	printf("2\n");
       	// Decodifica string, evalúa fitness y guarda parentesco de ambos hijos
         app_objfunc(tipo_problema, &(newpop[j]));
         printf("3\n");
-      	newpop[j].parent[0]	 	 = mate1+1;
-      	newpop[j].xsite     	 = jcross;
-		jmcross 				 = jcross/bitsxcodigobinario;
-		if(jcross%bitsxcodigobinario)	jmcross++;
-		newpop[j].msite     	 = jmcross;
-      	newpop[j].parent[1] 	 = mate2+1;
+      	newpop[j].parent[0] = mate1+1;
+      	newpop[j].xsite = jcross;
+        jmcross = jcross/bitsxcodigobinario;
+        if(jcross%bitsxcodigobinario) jmcross++;
+        newpop[j].msite = jmcross;
+      	newpop[j].parent[1] = mate2+1;
         printf("4\n");
       	app_objfunc(tipo_problema, &(newpop[j+1]));
-      	newpop[j+1].parent[0]    = newpop[j].parent[0];
-      	newpop[j+1].xsite 	     = newpop[j].xsite;
-      	newpop[j+1].msite 	     = newpop[j].msite;
-      	newpop[j+1].parent[1]    = newpop[j].parent[1];
+      	newpop[j+1].parent[0] = newpop[j].parent[0];
+      	newpop[j+1].xsite = newpop[j].xsite;
+      	newpop[j+1].msite = newpop[j].msite;
+      	newpop[j+1].parent[1] = newpop[j].parent[1];
         printf("5\n");
       	// Incrementa índice de la población
       	j = j + 2;
-	} while(j < (popsize-1));
-	// Efecta estadísticas sobre nueva población y obtiene mejor individuo
-        printf("6\n");
-	statistics(newpop, corrida);
-        printf("*generation\n");
+    } while(j < (popsize-1));
+    // Efecta estadísticas sobre nueva población y obtiene mejor individuo
+    printf("6\n");
+    statistics(newpop, corrida);
+    printf("*generation\n");
 }//End generation
 
 
