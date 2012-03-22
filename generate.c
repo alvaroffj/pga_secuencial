@@ -383,7 +383,7 @@ int crossover (unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *ch
             for(k = 1; k <= chromsize; k++) {
                 printf("0.3.1\n");
                 if(jcross >= (k*UINTSIZE)) {
-                    printf("0.3.1a\n");
+                    printf("0.3.1a: %d\n", k);
                     child1[k-1] = parent1[k-1];
                     child2[k-1] = parent2[k-1];
                 } else if((jcross < (k*UINTSIZE)) && (jcross > ((k-1)*UINTSIZE))) {
