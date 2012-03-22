@@ -496,6 +496,7 @@ int xselect(void)
 void generation(int tipo_problema, int corrida)
 // Rutina que establece la generación de nuevos individuos
 {
+    printf("generation\n");
    	int mate1, mate2, jcross=0, jmcross=0, j = 0;
   
 	// Obtiene suma total del fitness para oldpop
@@ -540,6 +541,7 @@ void generation(int tipo_problema, int corrida)
 	}while(j < (popsize-1));
 	// Efecta estadísticas sobre nueva población y obtiene mejor individuo
 	statistics(newpop, corrida);
+        printf("*generation\n");
 }//End generation
 
 
