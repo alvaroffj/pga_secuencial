@@ -56,16 +56,16 @@ int flip(float prob)
 int rnd(int low,int high)
 // Entrega un entero aleatorio entre low y high
 {
-   	int i;
+    int i;
 
-   	if(low >= high)
-      	i = low;
-   	else {
-      	i = (randomperc() * (high - low + 1)) + low;
-      	if(i > high) i = high;
+    if(low >= high)
+        i = low;
+    else {
+        i = (randomperc() * (high - low + 1)) + low;
+        if(i > high) i = high;
         if(i < low) i = low;
-   	}//End else
-   	return(i);
+    }//End else
+    return(i);
 }//End rnd
 
 void warmup_random(float random_seed)

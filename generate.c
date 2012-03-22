@@ -492,20 +492,21 @@ void preselect(void)
 int xselect(void)
 // roulette-wheel selection que considera variables del tipo float
 {
-   	double sum, pick;
-   	int i;
+    double sum, pick;
+    int i;
 
-   	pick = (double) randomperc();
-   	sum = 0.0;
+    pick = (double) randomperc();
+    sum = 0.0;
 
-   	if(sumfitness != 0.0) {
-      	for(i = 0; (sum < pick) && (i < popsize); i++)
-         	sum += (double) (((double) 1.0) /(double) oldpop[i].fitness)/((double) sumfitness);
-   	}//End if
-   	else
-      	i = rnd(1,popsize);
-        printf("xselect: %d\n",(i-1));
-   	return(i-1);
+    if(sumfitness != 0.0) {
+        for(i = 0; (sum < pick) && (i < popsize); i++)
+            sum += (double) (((double) 1.0) /(double) oldpop[i].fitness)/((double) sumfitness);
+    } else {
+        printf("rnd: 1 %d\n", popsize);
+        i = rnd(1,popsize);
+    }
+    printf("xselect: %d\n",(i-1));
+    return(i-1);
 }//End xselect
 
 // Rutina que establece la generación de nuevos individuos
