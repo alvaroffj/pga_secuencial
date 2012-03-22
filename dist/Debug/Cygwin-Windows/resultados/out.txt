@@ -9,10 +9,10 @@ MAXIMO_GENERACIONES            : 20
 PESO_PERDIDA  (%)              : 0.000000
 PESO_DISTANCIA  (%)            : 0.000000
 PESO_DIGREGACION (%)           : 0.000000
-TAMANO_POBLACION (ind.)        : 20
+TAMANO_POBLACION (ind.)        : 2
 PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
 PROBABILIDAD_MUTACION (%)      : 10.000000
-SEMILLA (%)                    : 33.593407
+SEMILLA (%)                    : 68.111312
 MS_CALIDAD (%)                 : 0.000000
 MS_FITNESS                     : 0.000000
 MS_PERDIDA (%)                 : nan
@@ -23,8 +23,8 @@ MS_NUMERO_PIEZAS_COLOCADAS     : 0
 MS_NUMERO_PERDIDAS_GENERADAS   : 0
 GENERACION_OCURRENCIA          : 0
 TIEMPO_CPU (Segundos)          : 0.000000
-TIEMPO_IO (Segundos)           : 0.003000
-TIEMPO_TOTAL (Segundos)        : 0.003000
+TIEMPO_IO (Segundos)           : 0.006000
+TIEMPO_TOTAL (Segundos)        : 0.006000
 TOTAL PIEZAS+PERDIDAS HECHAS   : 0
 @
   TIPO_PIEZA	   POS_X_INI	   POS_Y_INI	   POS_X_FIN	   POS_Y_FIN	ESTADO_PIEZA	AREA_OCUPADA	
