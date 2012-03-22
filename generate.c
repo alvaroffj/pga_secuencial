@@ -505,6 +505,7 @@ int xselect(void)
         printf("rnd: 1 %d\n", popsize);
         i = rnd(1,popsize);
     }
+    if(i<1) i=1;
     printf("xselect: %d\n",(i-1));
     return(i-1);
 }//End xselect
