@@ -74,8 +74,9 @@ int posNMenorAltura(int n) {
                 }
             }
         }
+        printf("pos[%d]: %d", i, pos[i]);
     }
-    
+    printf("pos[%d]: %d", n-1, pos[n-1]);
     return pos[n-1];
 }
 
