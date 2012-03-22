@@ -361,111 +361,106 @@ void xcrossover (unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *
    	}//End else
 }//End xcrossover
 
-int crossover (unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *child2,
-               unsigned *mparent1,unsigned *mparent2,unsigned *mchild1,unsigned *mchild2,
-               unsigned short *lparent1,unsigned short *lparent2,unsigned short *lchild1,unsigned short *lchild2)
 // Funcin de Cruzamiento de 2 string padres, se transforma en 2 string hijos
 // Cruzamiento del String Cromosoma
-{
-   	int j, jcross, kcross, k;
-   	unsigned mask, temp;
-	unsigned uInicio, uFin;
-
-	if (tipo_elemento_cromosoma == BINARIO){
-		//Realiza cruzamiento cromosoma cruzamiento y cromosoma rotación
-	   	//Hace cruzamiento con probabilidad pcross de la población
-	   	if(flip(pcross)) {
-		   	//Cruzamiento Cromosoma String
-	      	jcross = rnd(1 ,(lchrom - 1));// Cruzamiento entre 1 y l-1
-			//jcross = (int) ceil((float) lchrom/ 2.0);// GMO
-			ncross++;
-	      	for(k = 1; k <= chromsize; k++) {
-	         	if(jcross >= (k*UINTSIZE)) {
-	            	child1[k-1] = parent1[k-1];
-	            	child2[k-1] = parent2[k-1];
-	         	}//end if
-	         	else if((jcross < (k*UINTSIZE)) && (jcross > ((k-1)*UINTSIZE))) {
-	            	mask = 1;
-	            	for(j = 1; j <= (jcross-1-((k-1)*UINTSIZE)); j++) {
-	            		temp = 1;
-	               		mask = mask<<1;
-	               		mask = mask|temp;
-	            	}//End for
-	            	child1[k-1] = (parent1[k-1]&mask)|(parent2[k-1]&(~mask));
-	            	child2[k-1] = (parent1[k-1]&(~mask))|(parent2[k-1]&mask);
-	         	}//End else if
-	         	else {
-	            	child1[k-1] = parent2[k-1];
-	            	child2[k-1] = parent1[k-1];
-	         	}//End else
-	      	}//End for
-	
-			//Cruzamiento Cromosoma Mutacion
-			kcross = jcross/bitsxcodigobinario;
-			if(jcross%bitsxcodigobinario)	kcross++;
-			mcross++;
-	      	for(k = 1; k <= chmutsize; k++) {
-	         	if(kcross >= (k*UINTSIZE)) {
-	            	mchild1[k-1] = mparent1[k-1];
-	            	mchild2[k-1] = mparent2[k-1];
-	         	}//End if
-	         	else if((kcross < (k*UINTSIZE)) && (kcross > ((k-1)*UINTSIZE))) {
-	            	mask = 1;
-	            	for(j = 1; j <= (kcross-1-((k-1)*UINTSIZE)); j++) {
-	               		temp = 1;
-	               		mask = mask<<1;
-	               		mask = mask|temp;
-	            	}//End for
-	            	mchild1[k-1] = (mparent1[k-1]&mask)|(mparent2[k-1]&(~mask));
-	            	mchild2[k-1] = (mparent1[k-1]&(~mask))|(mparent2[k-1]&mask);
-	         	}//End else if
-	         	else {
-	            	mchild1[k-1] = mparent2[k-1];
-	            	mchild2[k-1] = mparent1[k-1];
-	         	}//End else
-	      	}//End for
-	   	}//End if
-	   	else {
-	      	for(k = 0; k < chromsize; k++) {
-	         	child1[k] = parent1[k];
-	         	child2[k] = parent2[k];
-	      	}//End for
-	      	for(k = 0; k < chmutsize; k++) {
-	         	mchild1[k] = mparent1[k];
-	         	mchild2[k] = mparent2[k];
-	      	}//End for
-	      	jcross = 0;
-	   	}//End else
-   	}//End if
-	else if (tipo_elemento_cromosoma == ENTEROS){
-		//Realiza cruzamiento de cromosoma Lista
-		//Se utiliza cruzamiento PMX (Partially Mapped Crossover)
-	    if(flip(pcross)){
-			jcross = uInicio = rnd( 1, chlistasize - 1 );
-			uFin = rnd( uInicio--, chlistasize ) - 1;
-			//Copia lparent1 en lchild1 y lparent2 en lchild2	
-			memcpy( lchild1, lparent1, sizeof( unsigned short ) * chlistasize );
-			memcpy( lchild2, lparent2, sizeof( unsigned short ) * chlistasize );
-			//Intercabia las Piezas desde uInicio y uFin
-/*
-			if(uFin<jcross){
-				jcross=uInicio;
-			}
-*/
-			for ( k = uInicio; k <= uFin; k++ ){
-				IntercambiaPiezas( k, iBuscaPieza( lparent1[k], lchild2 ), lchild2 );
-				IntercambiaPiezas( k, iBuscaPieza( lparent2[k], lchild1 ), lchild1 );
-			}//End for
-	    }//End if
-	    else {
-	        for(k = 0; k < chlistasize; k++) {
-	            lchild1[k] = lparent1[k];
-	            lchild2[k] = lparent2[k];
-	        }//End for
-	        jcross = 0;
-	    }//End else
-   	}//End else if
-   	return(jcross);
+int crossover (unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *child2,
+               unsigned *mparent1,unsigned *mparent2,unsigned *mchild1,unsigned *mchild2,
+               unsigned short *lparent1,unsigned short *lparent2,unsigned short *lchild1,unsigned short *lchild2) {
+    int j, jcross, kcross, k;
+    unsigned mask, temp;
+    unsigned uInicio, uFin;
+    printf("0.1\n");
+    if (tipo_elemento_cromosoma == BINARIO) {
+        printf("0.2\n");
+        //Realiza cruzamiento cromosoma cruzamiento y cromosoma rotación
+        //Hace cruzamiento con probabilidad pcross de la población
+        if(flip(pcross)) {
+            printf("0.3\n");
+                //Cruzamiento Cromosoma String
+            jcross = rnd(1 ,(lchrom - 1));// Cruzamiento entre 1 y l-1
+                    //jcross = (int) ceil((float) lchrom/ 2.0);// GMO
+            ncross++;
+            for(k = 1; k <= chromsize; k++) {
+                if(jcross >= (k*UINTSIZE)) {
+                    child1[k-1] = parent1[k-1];
+                    child2[k-1] = parent2[k-1];
+                } else if((jcross < (k*UINTSIZE)) && (jcross > ((k-1)*UINTSIZE))) {
+                    mask = 1;
+                    for(j = 1; j <= (jcross-1-((k-1)*UINTSIZE)); j++) {
+                        temp = 1;
+                        mask = mask<<1;
+                        mask = mask|temp;
+                    }//End for
+                    child1[k-1] = (parent1[k-1]&mask)|(parent2[k-1]&(~mask));
+                    child2[k-1] = (parent1[k-1]&(~mask))|(parent2[k-1]&mask);
+                } else {
+                    child1[k-1] = parent2[k-1];
+                    child2[k-1] = parent1[k-1];
+                }//End else
+            }//End for
+            printf("0.4\n");
+            //Cruzamiento Cromosoma Mutacion
+            kcross = jcross/bitsxcodigobinario;
+            if(jcross%bitsxcodigobinario) kcross++;
+            mcross++;
+            for(k = 1; k <= chmutsize; k++) {
+                if(kcross >= (k*UINTSIZE)) {
+                    mchild1[k-1] = mparent1[k-1];
+                    mchild2[k-1] = mparent2[k-1];
+                } else if((kcross < (k*UINTSIZE)) && (kcross > ((k-1)*UINTSIZE))) {
+                    mask = 1;
+                    for(j = 1; j <= (kcross-1-((k-1)*UINTSIZE)); j++) {
+                        temp = 1;
+                        mask = mask<<1;
+                        mask = mask|temp;
+                    }//End for
+                    mchild1[k-1] = (mparent1[k-1]&mask)|(mparent2[k-1]&(~mask));
+                    mchild2[k-1] = (mparent1[k-1]&(~mask))|(mparent2[k-1]&mask);
+                } else {
+                    mchild1[k-1] = mparent2[k-1];
+                    mchild2[k-1] = mparent1[k-1];
+                }//End else
+            }//End for
+            printf("0.5\n");
+        } else {
+            for(k = 0; k < chromsize; k++) {
+                child1[k] = parent1[k];
+                child2[k] = parent2[k];
+            }//End for
+            for(k = 0; k < chmutsize; k++) {
+                mchild1[k] = mparent1[k];
+                mchild2[k] = mparent2[k];
+            }//End for
+            jcross = 0;
+        }//End else
+    }//End if
+    else if (tipo_elemento_cromosoma == ENTEROS){
+            //Realiza cruzamiento de cromosoma Lista
+            //Se utiliza cruzamiento PMX (Partially Mapped Crossover)
+        if(flip(pcross)){
+                    jcross = uInicio = rnd( 1, chlistasize - 1 );
+                    uFin = rnd( uInicio--, chlistasize ) - 1;
+                    //Copia lparent1 en lchild1 y lparent2 en lchild2	
+                    memcpy( lchild1, lparent1, sizeof( unsigned short ) * chlistasize );
+                    memcpy( lchild2, lparent2, sizeof( unsigned short ) * chlistasize );
+                    //Intercabia las Piezas desde uInicio y uFin
+                    if(uFin<jcross){
+                            jcross=uInicio;
+                    }
+                    for ( k = uInicio; k <= uFin; k++ ){
+                            IntercambiaPiezas( k, iBuscaPieza( lparent1[k], lchild2 ), lchild2 );
+                            IntercambiaPiezas( k, iBuscaPieza( lparent2[k], lchild1 ), lchild1 );
+                    }//End for
+        }//End if
+        else {
+            for(k = 0; k < chlistasize; k++) {
+                lchild1[k] = lparent1[k];
+                lchild2[k] = lparent2[k];
+            }//End for
+            jcross = 0;
+        }//End else
+    }//End else if
+    return(jcross);
 }//End crossover
 
 void preselect(void)
