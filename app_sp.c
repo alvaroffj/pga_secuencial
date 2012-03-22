@@ -79,12 +79,12 @@ int posNMenorAltura(int n) {
     return pos[n-1];
 }
 
-int fitness() {
-    int fitness = (2*mayorAltura()*ancho)-area_total;
+float fitness() {
+    float fitness = (float)(2*mayorAltura()*ancho)-area_total;
 /*
     printf("fitness: %d\n", fitness);
 */
-    return fitness;
+    return(fitness);
 }
 
 /*

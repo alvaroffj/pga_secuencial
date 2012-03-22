@@ -370,7 +370,6 @@ int crossover (unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *ch
     int i;
     unsigned mask, temp;
     unsigned uInicio, uFin;
-    printf("0.1\n");
 /*
     printf("parent1 %d: ",chromsize);
     for(i=0; i<chromsize; i++) {
@@ -379,7 +378,6 @@ int crossover (unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *ch
     printf("\n");
 */
     if (tipo_elemento_cromosoma == BINARIO) {
-        printf("0.2\n");
         //Realiza cruzamiento cromosoma cruzamiento y cromosoma rotación
         //Hace cruzamiento con probabilidad pcross de la población
         if(flip(pcross)) {
@@ -389,17 +387,11 @@ int crossover (unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *ch
             jcross = (int) ceil((float) lchrom/ 2.0);// GMO
 */
             ncross++;
-            printf("0.3 %d %d\n", lchrom, jcross);
             for(k = 1; k <= chromsize; k++) {
-                printf("0.3.1\n");
                 if(jcross >= (k*UINTSIZE)) {
-                    printf("0.3.1a: %d\n", k);
                     child1[k-1] = parent1[k-1];
-                    printf("*0.3.1a: %d\n", k);
                     child2[k-1] = parent2[k-1];
-                    printf("**0.3.1a: %d\n", k);
                 } else if((jcross < (k*UINTSIZE)) && (jcross > ((k-1)*UINTSIZE))) {
-                    printf("0.3.1b\n");
                     mask = 1;
                     for(j = 1; j <= (jcross-1-((k-1)*UINTSIZE)); j++) {
                         temp = 1;
@@ -409,13 +401,10 @@ int crossover (unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *ch
                     child1[k-1] = (parent1[k-1]&mask)|(parent2[k-1]&(~mask));
                     child2[k-1] = (parent1[k-1]&(~mask))|(parent2[k-1]&mask);
                 } else {
-                    printf("0.3.1c\n");
                     child1[k-1] = parent2[k-1];
                     child2[k-1] = parent1[k-1];
                 }//End else
-                printf("0.3.2\n");
             }//End for
-            printf("0.4\n");
             //Cruzamiento Cromosoma Mutacion
             kcross = jcross/bitsxcodigobinario;
             if(jcross%bitsxcodigobinario) kcross++;
@@ -438,7 +427,6 @@ int crossover (unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *ch
                     mchild2[k-1] = mparent1[k-1];
                 }//End else
             }//End for
-            printf("0.5\n");
         } else {
             for(k = 0; k < chromsize; k++) {
                 child1[k] = parent1[k];
@@ -502,96 +490,48 @@ int xselect(void)
         for(i = 0; (sum < pick) && (i < popsize); i++)
             sum += (double) (((double) 1.0) /(double) oldpop[i].fitness)/((double) sumfitness);
     } else {
-        printf("rnd: 1 %d\n", popsize);
         i = rnd(1,popsize);
     }
     if(i<1) i=1;
-    printf("xselect: %d\n",(i-1));
     return(i-1);
 }//End xselect
 
 // Rutina que establece la generación de nuevos individuos
 void generation(int tipo_problema, int corrida) {
-    printf("generation\n");
     int mate1, mate2, jcross=0, jmcross=0, j = 0;
     // Obtiene suma total del fitness para oldpop
     preselect();
-    printf("-1\n");
 
    	// Efecta selección, cruzamiento y mutación
     do {
       	// obtiene índices de individuos en oldpop a efectuar cruzamiento
       	mate1 = xselect();
       	mate2 = xselect();
-        printf("0\n");
-        printf("chromsize %d: \n",chromsize);
-//-----------------------------------------------------------------                
-        int i, stop, tp, rt, k, bitpos, mask = 1;
-        printf("oldpop %d: ", mate1);
-        for (i = 0; i < chromsize; i++) {
-            if (i == (chromsize - 1)) //ultimo bloque
-                stop = lchrom - (i * UINTSIZE);
-            else
-                stop = UINTSIZE;
-
-            rt = oldpop[mate1].chrom[i];
-            for (k = 0; k < stop; k++) {
-                bitpos = k + UINTSIZE*i;
-                if (rt & mask) printf("1");
-                else printf("0");
-                rt = rt >> 1;
-            }
-        }
-        printf("\n");
-        printf("newpop %d: ", j);
-        for (i = 0; i < chromsize; i++) {
-            if (i == (chromsize - 1)) //ultimo bloque
-                stop = lchrom - (i * UINTSIZE);
-            else
-                stop = UINTSIZE;
-
-            tp = newpop[j].chrom[i];
-            for (k = 0; k < stop; k++) {
-                bitpos = k + UINTSIZE*i;
-                if (tp & mask) printf("1");
-                else printf("0");
-                tp = tp >> 1;
-            }
-        }
-        printf("\n");
-//-----------------------------------------------------------------
 		//Cruzamiento en un solo punto para cromosoma String, cromosoma Mutación, cromosoma Lista
       	jcross = crossover(oldpop[mate1].chrom, oldpop[mate2].chrom, newpop[j].chrom, newpop[j+1].chrom,
                             oldpop[mate1].chmut, oldpop[mate2].chmut, newpop[j].chmut, newpop[j+1].chmut,
                             oldpop[mate1].pusListaPiezas, oldpop[mate2].pusListaPiezas, newpop[j].pusListaPiezas, newpop[j+1].pusListaPiezas);
 
-	printf("1\n");
       	mutation(&(newpop[j]));
         mutation(&(newpop[j+1]));
-	printf("2\n");
       	// Decodifica string, evalúa fitness y guarda parentesco de ambos hijos
         app_objfunc(tipo_problema, &(newpop[j]));
-        printf("3\n");
       	newpop[j].parent[0] = mate1+1;
       	newpop[j].xsite = jcross;
         jmcross = jcross/bitsxcodigobinario;
         if(jcross%bitsxcodigobinario) jmcross++;
         newpop[j].msite = jmcross;
       	newpop[j].parent[1] = mate2+1;
-        printf("4\n");
       	app_objfunc(tipo_problema, &(newpop[j+1]));
       	newpop[j+1].parent[0] = newpop[j].parent[0];
       	newpop[j+1].xsite = newpop[j].xsite;
       	newpop[j+1].msite = newpop[j].msite;
       	newpop[j+1].parent[1] = newpop[j].parent[1];
-        printf("5\n");
       	// Incrementa índice de la población
       	j = j + 2;
     } while(j < (popsize-1));
     // Efecta estadísticas sobre nueva población y obtiene mejor individuo
-    printf("6\n");
     statistics(newpop, corrida);
-    printf("*generation\n");
 }//End generation
 
 
