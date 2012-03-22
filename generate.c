@@ -522,6 +522,41 @@ void generation(int tipo_problema, int corrida) {
       	mate2 = xselect();
         printf("0\n");
         printf("chromsize %d: \n",chromsize);
+//-----------------------------------------------------------------                
+        int i, stop, tp, rt, k, bitpos, mask = 1;
+        printf("oldpop %d: ", mate1);
+        for (i = 0; i < chromsize; i++) {
+            if (i == (chromsize - 1)) //ultimo bloque
+                stop = lchrom - (i * UINTSIZE);
+            else
+                stop = UINTSIZE;
+
+            rt = oldpop[mate1].chrom[i];
+            for (k = 0; k < stop; k++) {
+                bitpos = k + UINTSIZE*i;
+                if (rt & mask) printf("1");
+                else printf("0");
+                rt = rt >> 1;
+            }
+        }
+        printf("\n");
+        printf("newpop %d: ", j);
+        for (i = 0; i < chromsize; i++) {
+            if (i == (chromsize - 1)) //ultimo bloque
+                stop = lchrom - (i * UINTSIZE);
+            else
+                stop = UINTSIZE;
+
+            tp = newpop[j].chrom[i];
+            for (k = 0; k < stop; k++) {
+                bitpos = k + UINTSIZE*i;
+                if (tp & mask) printf("1");
+                else printf("0");
+                tp = tp >> 1;
+            }
+        }
+        printf("\n");
+//-----------------------------------------------------------------
 		//Cruzamiento en un solo punto para cromosoma String, cromosoma Mutación, cromosoma Lista
       	jcross = crossover(oldpop[mate1].chrom, oldpop[mate2].chrom, newpop[j].chrom, newpop[j+1].chrom,
                             oldpop[mate1].chmut, oldpop[mate2].chmut, newpop[j].chmut, newpop[j+1].chmut,
