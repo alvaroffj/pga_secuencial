@@ -382,9 +382,11 @@ int crossover (unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *ch
             ncross++;
             for(k = 1; k <= chromsize; k++) {
                 if(jcross >= (k*UINTSIZE)) {
+                    printf("0.3.1a\n");
                     child1[k-1] = parent1[k-1];
                     child2[k-1] = parent2[k-1];
                 } else if((jcross < (k*UINTSIZE)) && (jcross > ((k-1)*UINTSIZE))) {
+                    printf("0.3.1b\n");
                     mask = 1;
                     for(j = 1; j <= (jcross-1-((k-1)*UINTSIZE)); j++) {
                         temp = 1;
@@ -394,6 +396,7 @@ int crossover (unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *ch
                     child1[k-1] = (parent1[k-1]&mask)|(parent2[k-1]&(~mask));
                     child2[k-1] = (parent1[k-1]&(~mask))|(parent2[k-1]&mask);
                 } else {
+                    printf("0.3.1c\n");
                     child1[k-1] = parent2[k-1];
                     child2[k-1] = parent1[k-1];
                 }//End else
