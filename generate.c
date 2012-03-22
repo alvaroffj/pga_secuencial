@@ -371,7 +371,7 @@ int crossover (unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *ch
     unsigned mask, temp;
     unsigned uInicio, uFin;
     printf("0.1\n");
-    printf("parent1: ");
+    printf("parent1 %d: ",chromsize);
     for(i=0; i<chromsize; i++) {
         printf(" %d", parent1[i]);
     }
