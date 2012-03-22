@@ -91,14 +91,19 @@ int fitness() {
  * Inserta las piezas en la tira, según el orden y sentido correspondiente
  */
 void creaLayout() {
+    printf("creaLayout\n");
     int i, x = 0, j, altura = 0, n = 1, fit = 0;
     Datos_pieza cPieza;
+    printf("4.1\n");
+
     for(i=0; i<ancho; i++) {
         arreglo_alturas[i] = 0;
     }
+    printf("4.2\n");
     for(i=0; i<numero_piezas; i++) {
         arreglo_ocupado[i] = 0;
     }
+    printf("4.3\n");
     for(i=0; i<numero_piezas; i++) {
         x = posMenorAltura();
         cPieza = lista_piezas[arreglo_orden[i]];
@@ -126,6 +131,7 @@ void creaLayout() {
 /*
         printf("insertar pieza[%d]: %d x %d en (%d,%d)\n", arreglo_orden[i], cPieza.ancho, cPieza.alto, x, altura);
 */
+        printf("4.4\n");
         for(j=x; j<cPieza.ancho+x; j++) {
             arreglo_alturas[j] = altura + cPieza.alto;
         }
