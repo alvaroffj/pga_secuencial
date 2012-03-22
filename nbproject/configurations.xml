@@ -17,26 +17,8 @@
       <itemPath>app.h</itemPath>
       <itemPath>app2.c</itemPath>
       <itemPath>app2.h</itemPath>
-      <itemPath>app2_g.c</itemPath>
-      <itemPath>app2_g.h</itemPath>
-      <itemPath>app2_ir.c</itemPath>
-      <itemPath>app2_ir.h</itemPath>
-      <itemPath>app2_irb.c</itemPath>
-      <itemPath>app2_irb.h</itemPath>
-      <itemPath>app2_ng.c</itemPath>
-      <itemPath>app2_ng.h</itemPath>
-      <itemPath>app2_sc_ng.c</itemPath>
-      <itemPath>app2_sc_ng.h</itemPath>
       <itemPath>app_g.c</itemPath>
       <itemPath>app_g.h</itemPath>
-      <itemPath>app_ir.c</itemPath>
-      <itemPath>app_ir.h</itemPath>
-      <itemPath>app_irb.c</itemPath>
-      <itemPath>app_irb.h</itemPath>
-      <itemPath>app_ng.c</itemPath>
-      <itemPath>app_ng.h</itemPath>
-      <itemPath>app_sc_ng.c</itemPath>
-      <itemPath>app_sc_ng.h</itemPath>
       <itemPath>app_sp.c</itemPath>
       <itemPath>app_sp.h</itemPath>
       <itemPath>generate.c</itemPath>

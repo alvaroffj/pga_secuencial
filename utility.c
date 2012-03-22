@@ -188,6 +188,7 @@ void initialize(void)
 void genera_resultados_algoritmo(int corrida, int tipo_problema, char *nombrearchivo, cpu_consummed_time_t *t)
 //Función que imprime los resultados del algoritmo
 {
+    printf("genera_resultados_algoritmo\n");
     if (encabezado_resultado_algoritmo == 0) {
         //IMPRIME RESULTADOS DEL ALGORIMO GENÉTICO
         fprintf(ralgfp, "CORRIDA;TIPO_PROBLEMA;ARCHIVO_PROBLEMA;TIEMPO_CPU;TIEMPO_IO;TIEMPO_TOTAL;");

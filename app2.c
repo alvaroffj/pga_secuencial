@@ -5,15 +5,18 @@
 #include <stdlib.h>
 
 #include "sga.h"
+/*
 #include "app2_g.h"
 #include "app2_ng.h"
 #include "app2_ir.h"
 #include "app2_irb.h"
 #include "app2_sc_ng.h"
+*/
 
 void app2_objfunc(int tipo_problema, char *archivodestino, char *nomarch, cpu_consummed_time_t *time_consumtion, struct bestever *bestcritter)
 // Función Objetivo General
 {
+/*
 	if(tipo_problema == 0) 
 		//Problema de Corte de Pieza Guillotina
 		app2_objfunc_g(tipo_problema, nomarch, time_consumtion, bestcritter);
@@ -29,6 +32,7 @@ void app2_objfunc(int tipo_problema, char *archivodestino, char *nomarch, cpu_co
 	else if(tipo_problema == 4)
 		//Problema Stock Cutting No Guillotina
 		app2_objfunc_sc_ng(tipo_problema, nomarch, time_consumtion, bestcritter);
+*/
 }//End app2_objfunc
 
 

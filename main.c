@@ -83,6 +83,9 @@ int main(int argc, char *argv[]) {
 
             //Genera la Salida hacia archivo de Layout
             app2_objfunc(tipo_problema, ruta_salida, nomarch, &time_consumtion, &(bestfit));
+/*
+            app_objfunc(tipo_problema, ruta_salida, nomarch, &time_consumtion, &(bestfit));
+*/
 
             // Libera memoria temporal del algoritmo no del problema
             freeall();

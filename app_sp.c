@@ -102,7 +102,9 @@ void creaLayout() {
     for(i=0; i<numero_piezas; i++) {
         x = posMenorAltura();
         cPieza = lista_piezas[arreglo_orden[i]];
+/*
         printf("rotacion pieza %d: %d\n", arreglo_orden[i], arreglo_rotar[arreglo_orden[i]]);
+*/
         n = 1;
         while(!fit) {
             x = posNMenorAltura(n);
@@ -346,7 +348,6 @@ void app_objfunc_sp(struct individual *critter) {
         printf("%d ", arreglo_orden[i]);
     }
 */
-    
     creaLayout();
     critter->fitness = fitness();
     TEval PEval;
@@ -364,6 +365,7 @@ void app_objfunc_sp(struct individual *critter) {
  */
 void app_genera_resultados_problema_sp(int corrida, int tipo_problema, char *nombrearchivo) {
     printf("app_genera_resultados_problema_sp\n");
+/*
     if (encabezado_resultado_problema == 0) {
         //IMPRIME ENCABEZADO DE LOS RESULTADOS DEL PROBLEMA
         fprintf(rprofp, "CORRIDA;TIPO_PROBLEMA;ARCHIVO_PROBLEMA;CANTIDAD_PIEZAS;CANTIDAD_TIPOS_PIEZAS;");
@@ -373,8 +375,9 @@ void app_genera_resultados_problema_sp(int corrida, int tipo_problema, char *nom
         fprintf(rprofp, "GENERACION_OCURRENCIA\n");
         encabezado_resultado_problema = 1; //Con ésto no imprime más el encabezado
     }//End if 
-/*
+*/
     //IMPRIME RESULTADOS DEL PROBLEMA
+/*
     fprintf(rprofp, "%d;%d;%s;%d;%d;%d;%d;%f;%f;%f;%f;%f;%f;%f;%f;%f;%d;%d;%d\n",
         //CORRIDA;TIPO_PROBLEMA;ARCHIVO_PROBLEMA;CANTIDAD_PIEZAS;CANTIDAD_TIPOS_PIEZAS;ANCHO_LAMINA;LARGO_LAMINA;
         corrida, tipo_problema, nombrearchivo, NumPie, cantidadtipospiezas, AnchoPl, AltoPl,

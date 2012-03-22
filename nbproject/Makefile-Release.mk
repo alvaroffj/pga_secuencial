@@ -34,24 +34,15 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/app_ng.o \
 	${OBJECTDIR}/app_g.o \
 	${OBJECTDIR}/app2.o \
 	${OBJECTDIR}/utility.o \
-	${OBJECTDIR}/app_ir.o \
-	${OBJECTDIR}/app_sc_ng.o \
 	${OBJECTDIR}/memory.o \
 	${OBJECTDIR}/app_sp.o \
-	${OBJECTDIR}/app2_sc_ng.o \
-	${OBJECTDIR}/app_irb.o \
 	${OBJECTDIR}/generate.o \
 	${OBJECTDIR}/main.o \
-	${OBJECTDIR}/app2_ng.o \
-	${OBJECTDIR}/app2_g.o \
-	${OBJECTDIR}/app2_irb.o \
 	${OBJECTDIR}/app.o \
-	${OBJECTDIR}/random.o \
-	${OBJECTDIR}/app2_ir.o
+	${OBJECTDIR}/random.o
 
 
 # C Compiler Flags
@@ -78,11 +69,6 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/pga_secuencial.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/pga_secuencial ${OBJECTFILES} ${LDLIBSOPTIONS} 
 
-${OBJECTDIR}/app_ng.o: app_ng.c 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} $@.d
-	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/app_ng.o app_ng.c
-
 ${OBJECTDIR}/app_g.o: app_g.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
@@ -98,16 +84,6 @@ ${OBJECTDIR}/utility.o: utility.c
 	${RM} $@.d
 	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/utility.o utility.c
 
-${OBJECTDIR}/app_ir.o: app_ir.c 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} $@.d
-	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/app_ir.o app_ir.c
-
-${OBJECTDIR}/app_sc_ng.o: app_sc_ng.c 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} $@.d
-	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/app_sc_ng.o app_sc_ng.c
-
 ${OBJECTDIR}/memory.o: memory.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
@@ -117,16 +93,6 @@ ${OBJECTDIR}/app_sp.o: app_sp.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
 	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/app_sp.o app_sp.c
-
-${OBJECTDIR}/app2_sc_ng.o: app2_sc_ng.c 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} $@.d
-	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/app2_sc_ng.o app2_sc_ng.c
-
-${OBJECTDIR}/app_irb.o: app_irb.c 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} $@.d
-	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/app_irb.o app_irb.c
 
 ${OBJECTDIR}/generate.o: generate.c 
 	${MKDIR} -p ${OBJECTDIR}
@@ -138,21 +104,6 @@ ${OBJECTDIR}/main.o: main.c
 	${RM} $@.d
 	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/main.o main.c
 
-${OBJECTDIR}/app2_ng.o: app2_ng.c 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} $@.d
-	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/app2_ng.o app2_ng.c
-
-${OBJECTDIR}/app2_g.o: app2_g.c 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} $@.d
-	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/app2_g.o app2_g.c
-
-${OBJECTDIR}/app2_irb.o: app2_irb.c 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} $@.d
-	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/app2_irb.o app2_irb.c
-
 ${OBJECTDIR}/app.o: app.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
@@ -162,11 +113,6 @@ ${OBJECTDIR}/random.o: random.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
 	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/random.o random.c
-
-${OBJECTDIR}/app2_ir.o: app2_ir.c 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} $@.d
-	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/app2_ir.o app2_ir.c
 
 # Subprojects
 .build-subprojects:
