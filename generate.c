@@ -367,9 +367,15 @@ int crossover (unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *ch
                unsigned *mparent1,unsigned *mparent2,unsigned *mchild1,unsigned *mchild2,
                unsigned short *lparent1,unsigned short *lparent2,unsigned short *lchild1,unsigned short *lchild2) {
     int j, jcross, kcross, k;
+    int i;
     unsigned mask, temp;
     unsigned uInicio, uFin;
     printf("0.1\n");
+    printf("parent1: ");
+    for(i=0; i<chromsize; i++) {
+        printf(" %d", parent1[i]);
+    }
+    printf("\n");
     if (tipo_elemento_cromosoma == BINARIO) {
         printf("0.2\n");
         //Realiza cruzamiento cromosoma cruzamiento y cromosoma rotación
@@ -384,9 +390,7 @@ int crossover (unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *ch
                 printf("0.3.1\n");
                 if(jcross >= (k*UINTSIZE)) {
                     printf("0.3.1a: %d\n", k);
-/*
                     child1[k-1] = parent1[k-1];
-*/
                     printf("*0.3.1a: %d\n", k);
                     child2[k-1] = parent2[k-1];
                     printf("**0.3.1a: %d\n", k);
