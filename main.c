@@ -32,15 +32,15 @@ int main(int argc, char *argv[]) {
         } while (randomseed == 0);
 
         // Lee archivo en infp con parámetros (todos ya chequeados)
-        fscanf(infp, "%d %s %d %d %f %f", &tipo_problema, nomarch, &popsize, &maxgen, &pcross, &pmutation);
 /*
+        fscanf(infp, "%d %s %d %d %f %f", &tipo_problema, nomarch, &popsize, &maxgen, &pcross, &pmutation);
+*/
         tipo_problema = atoi(argv[3]);
         sprintf(nomarch, "%s", argv[4]);
         popsize = atoi(argv[5]);
         maxgen = atoi(argv[6]);
         pcross = atof(argv[7]);
         pmutation = atof(argv[8]);
-*/
                 
         printf("Espere, efectuando Corrida %d, Archivo %s...\n", run, nomarch);
         printf("Generaciones: %d\n", maxgen);
