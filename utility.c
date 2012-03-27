@@ -213,6 +213,7 @@ int inicializa_archivos(int argc, char *argv[])
 
     // Determina input y output desde argumentos de la funcin main()
     numfiles = argc - 1;
+    printf("numfiles: %d", numfiles);
     switch (numfiles) {
         case 2:
             if ((infp = fopen(argv[1], "r")) == NULL) {
