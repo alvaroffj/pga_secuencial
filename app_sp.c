@@ -91,7 +91,7 @@ float fitness() {
  * Inserta las piezas en la tira, según el orden y sentido correspondiente
  */
 void creaLayout() {
-    int i, x = 0, j, altura = 0, n = 1, fit = 0;
+    int i, x = 0, j, altura = 0, n = 1, fit = 0, cAncho = 0, cAlto = 0;
     Datos_pieza cPieza;
 
     for(i=0; i<ancho; i++) {
@@ -112,12 +112,23 @@ void creaLayout() {
 /*
             printf("%d x: %d => %d\n", n, x, arreglo_alturas[x]);
 */
-            if(cPieza.ancho <= (ancho - x)) fit = 1;
-            else n++;
+            if(arreglo_rotar[arreglo_orden[i]] == 1) { //normal
+                if(cPieza.ancho <= (ancho - x)) {
+                    fit = 1;
+                    cAncho = cPieza.ancho;
+                    cAlto = cPieza.alto;
+                } else n++;
+            } else { //rotada en 90°
+                if(cPieza.alto <= (ancho - x)) {
+                    fit = 1;
+                    cAlto = cPieza.ancho;
+                    cAncho = cPieza.alto;
+                } else n++;
+            }
         }
         fit = 0;
         altura = arreglo_alturas[x];
-        for(j=x; j<cPieza.ancho+x-1; j++) {
+        for(j=x; j<cAncho+x-1; j++) {
             if(altura < arreglo_alturas[j+1]) {
                 altura = arreglo_alturas[j+1];
             }
@@ -126,8 +137,8 @@ void creaLayout() {
 /*
         printf("insertar pieza[%d]: %d x %d en (%d,%d)\n", arreglo_orden[i], cPieza.ancho, cPieza.alto, x, altura);
 */
-        for(j=x; j<cPieza.ancho+x; j++) {
-            arreglo_alturas[j] = altura + cPieza.alto;
+        for(j=x; j<cAncho+x; j++) {
+            arreglo_alturas[j] = altura + cAlto;
         }
 /*
         printf("arreglo_altura: ");
@@ -172,7 +183,7 @@ int app_leearchivo_sp(char *nombrearchivo) {
     }
 
     // Lee el numero de piezas y el ancho del strip
-    fscanf(fp,"%d %d",&numero_piezas,&ancho);
+    fscanf(fp,"%d %d", &numero_piezas, &ancho);
     printf("Piezas: %d\nAncho: %d\n", numero_piezas, ancho);
     if(numero_piezas != 0) {
         //Se establece la memoria de la lista de piezas
@@ -185,9 +196,10 @@ int app_leearchivo_sp(char *nombrearchivo) {
 
         Datos_pieza aux_pieza;
         area_total=0;
+        int id = 0;
         // Lee ancho y alto para cada pieza
         // Ciclo para leer todas las piezas del archivo de entrada
-        while( fscanf(fp,"%d %d", &aux_pieza.ancho, &aux_pieza.alto) != EOF) {
+        while( fscanf(fp,"%d %d %d", &id, &aux_pieza.ancho, &aux_pieza.alto) != EOF) {
             aux_pieza.area = aux_pieza.ancho * aux_pieza.alto; //Se calcula el area de la pieza
             aux_pieza.id = j; //Se asigna id a la pieza
             area_total += aux_pieza.area;
@@ -355,11 +367,154 @@ void app_objfunc_sp(struct individual *critter) {
     TEval PEval;
     PEval.perdida = (float)(mayorAltura()*ancho)-area_total;
     critter->PEval = PEval;
+/*
+    critter->fitness = (float) mayorAltura();
+*/
     critter->fitness = (float)(2*mayorAltura()*ancho)-area_total;
 /*
     printf("critter->fitness: %f\n", critter->fitness);
     printf("fitness: %d\n", (2*mayorAltura()*ancho)-area_total);
 */
+}
+
+void app_objfuncfinal_sp(struct bestever *critter) {
+    unsigned mask = 1, tp, rt, bitpos, salto, dir, b, m, go = 1;
+    int i, j, stop, pPend = numero_piezas, pIni = 0, ini, valPos, nAsig = 0, vueltas = 0;
+    int chrom[numero_piezas];
+    
+    for(i=0; i<numero_piezas; i++) {
+        arreglo_orden[i] = -1;
+        arreglo_ocupado[i] = 0;
+        chrom[i] = 0;
+        arreglo_rotar[i] = 0;
+    }
+    
+/*
+    printf("app_objfunc_sp\n");
+    printf("largo_cromosoma: %d\n", largo_cromosoma);
+    printf("Cromosoma: ");
+*/
+    for (i = 0; i < chromsize; i++) {
+        if (i == (chromsize - 1)) //ultimo bloque
+            stop = lchrom - (i * UINTSIZE);
+        else
+            stop = UINTSIZE;
+        
+        tp = critter->chrom[i];
+        rt = critter->chmut[i];
+        for (j = 0; j < stop; j++) {
+            bitpos = j + UINTSIZE*i;
+            if((i==0 && j >=bit_reservados) || i>0) {
+                /*
+                * Extrae segmento del cromosoma correspondiente a las piezas
+                */
+                if (tp & mask) chrom[bitpos - bit_reservados] = 1;
+                else chrom[bitpos - bit_reservados] = 0;
+
+                /*
+                * Extrae segmento del cromosoma correspondiente a la orientacion de la pieza
+                */
+                if (rt & mask) arreglo_rotar[bitpos - bit_reservados] = 1; //Rotada
+                else arreglo_rotar[bitpos - bit_reservados] = 0; //No rotada
+            }
+            tp = tp >> 1;
+            rt = rt >> 1;
+        }
+    }
+/*
+    printf("\n");
+*/
+    tp = critter->chrom[0];
+    /*
+     * ini: Valor que se considera primero, 0 o 1, al recorrer el cromosoma
+     */
+    ini = (tp & mask)?1:0;
+    tp = tp >> 1;
+    /*
+     * dir: Direccion inicial en que se recorre el cromosoma
+     * 0: der -> izq
+     * 1: izq -> der
+     */
+    dir = (tp & mask)?1:0; 
+    salto = 1;
+    
+    //Obtiene el valor del salto para recorrer el cromosoma
+    for(i=0; i<3; i++) {
+        tp = tp >> 1;
+        for(b = 1, m = 2; m > i; m--) { b *= 2;}
+        if(tp & mask) salto = salto + b;
+    }
+    
+/*
+    printf("ini: %d\n", ini);
+    printf("dir: %d\n", dir);
+    printf("salto: %d\n", salto);
+    printf("chrom: ");
+    for(i=0; i<numero_piezas; i++) {
+        printf("%d ", chrom[i]);
+    }
+    printf("\n");
+*/
+    
+    /*
+     * Obtiene el orden en que deben ser insertadas las piezas según el cromosoma
+     * orden[]: arreglo donde se almacena el id de las piezas
+     */
+    vueltas = 0;
+    while(go) {
+        if(dir) {
+            pIni = 0;
+            while(arreglo_ocupado[pIni] != 0) {
+                pIni++;
+            }
+            for(i=pIni; i<numero_piezas; i = i+salto) {
+                if(arreglo_ocupado[i] == 0) {
+                    valPos = chrom[i];
+                    if(valPos==ini) {
+                        arreglo_ocupado[i] = 1;
+                        arreglo_orden[nAsig] = i;
+                        nAsig++;
+                    }
+                    if(nAsig == numero_piezas) go = 0;
+                }
+            }
+        } else {
+            pIni = numero_piezas-1;
+            while(arreglo_ocupado[pIni] != 0) {
+                pIni--;
+            }
+            for(i=pIni; i>=0; i = i-salto) {
+                if(arreglo_ocupado[i] == 0) {
+                    valPos = chrom[i];
+                    if(valPos==ini) {
+                        arreglo_ocupado[i] = 1;
+                        arreglo_orden[nAsig] = i;
+                        nAsig++;
+                    }
+                    if(nAsig == numero_piezas) go = 0;
+                }
+            }
+        }
+        vueltas++;
+        
+        dir = (dir==0)?1:0;
+        if(vueltas%2 == 0) ini = (ini==0)?1:0;
+    }
+    
+    printf("Mejor resultado\n");
+    printf("Fitness: %f\n", critter->fitness);
+    
+    printf("O: ");
+    for(i=0; i<numero_piezas; i++) {
+        printf("%d ", arreglo_orden[i]);
+    }
+    printf("\n");
+    
+    printf("R: ");
+    for(i=0; i<numero_piezas; i++) {
+        printf("%d ", arreglo_rotar[arreglo_orden[i]]);
+    }
+    printf("\n");
 }
 
 

@@ -14,6 +14,7 @@ int      app_leearchivo_g(char *nombrearchivo);
 void 	 app_free_g(void);
 TEval    app_funceval_g(TNodoAP *piezas);
 void     app_objfunc_g(struct individual *critter);
+void     app_objfuncfinal_g(struct bestever *critter);
 TNodoRE  app_pieza2perdida_g(int anc,int alt);
 int      AreaNodoAPCompara_g(TNodoAP *Nodoi, TNodoAP *Nodoj);
 int      HorizontalNodoAPCompara_g(TNodoAP *Nodoi, TNodoAP *Nodoj);

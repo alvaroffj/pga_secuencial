@@ -54,3 +54,9 @@ void app_genera_resultados_problema(int corrida, int tipo_problema, char *nombre
     //Problema de Strip Packing
     else if (tipo_problema == 1) app_genera_resultados_problema_sp(corrida, tipo_problema, nombrearchivo);
 }
+
+void app_objfuncfinal(int tipo_problema, char *archivodestino, char *nomarch, cpu_consummed_time_t *time_consumtion, struct bestever *bestcritter) {
+    if (tipo_problema == 0) app_objfuncfinal_g(bestcritter);
+    //Problema de Strip Packing
+    else if (tipo_problema == 1) app_objfuncfinal_sp(bestcritter);
+}

@@ -453,6 +453,10 @@ TEval app_funceval_g(TNodoAP *piezas)
     return Eval;
 }//End app_funceval
 
+
+void app_objfuncfinal_g(struct bestever *critter) {
+    
+}
 // Funcin Objetivo, transforma el string cromosoma en un arreglo de piezas
 
 void app_objfunc_g(struct individual *critter) {

@@ -32,15 +32,15 @@ int main(int argc, char *argv[]) {
         } while (randomseed == 0);
 
         // Lee archivo en infp con parámetros (todos ya chequeados)
-/*
         fscanf(infp, "%d %s %d %d %f %f", &tipo_problema, nomarch, &popsize, &maxgen, &pcross, &pmutation);
-*/
+/*
         tipo_problema = atoi(argv[3]);
         sprintf(nomarch, "%s", argv[4]);
         popsize = atoi(argv[5]);
         maxgen = atoi(argv[6]);
         pcross = atof(argv[7]);
         pmutation = atof(argv[8]);
+*/
                 
         printf("Espere, efectuando Corrida %d, Archivo %s...\n", run, nomarch);
         printf("Generaciones: %d\n", maxgen);
@@ -80,7 +80,7 @@ int main(int argc, char *argv[]) {
             app_genera_resultados_problema(run, tipo_problema, nomarch);
 
             //Genera la Salida hacia archivo de Layout
-            app2_objfunc(tipo_problema, ruta_salida, nomarch, &time_consumtion, &(bestfit));
+            app_objfuncfinal(tipo_problema, ruta_salida, nomarch, &time_consumtion, &(bestfit));
 /*
             app_objfunc(tipo_problema, ruta_salida, nomarch, &time_consumtion, &(bestfit));
 */
@@ -93,7 +93,6 @@ int main(int argc, char *argv[]) {
 
         printf("Corrida %d, Archivo %s procesado...   [OK]\n", run, nomarch);
     }//End for
-
     //Cierra Archivos importantes
     cierra_archivos();
 
