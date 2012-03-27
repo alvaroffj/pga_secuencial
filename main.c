@@ -58,17 +58,15 @@ int main(int argc, char *argv[]) {
 
             for (gen = 0; gen < maxgen; gen++) {
                 // Crea una nueva generación
-                printf("generacion: %d => %f\n",gen, bestfit.fitness);
                 generation(tipo_problema, run);
+                printf("generacion: %d => %f\n",gen, bestfit.fitness);
                 // Avanza de Generación
                 tempold = oldpop;
                 oldpop = newpop;
                 newpop = tempold;
 
                 // Condicin para salir del problema => que la prdida sea cero
-/*
                 if (bestfit.PEval.perdida == 0.0) gen = maxgen;
-*/
             }//End for
 
             //Finaliza Contador de Segundos y calcula tiempos 

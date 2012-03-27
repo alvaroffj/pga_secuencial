@@ -200,6 +200,7 @@ int app_leearchivo_sp(char *nombrearchivo) {
         //Cierra archivo de piezas
         fclose(fp);
         largo_cromosoma = numero_piezas + bit_reservados;
+        fitness_inicial = (float) area_total*10;
         return -1;
     } else return 0;
 }
@@ -348,13 +349,15 @@ void app_objfunc_sp(struct individual *critter) {
     }
 */
     creaLayout();
+/*
     critter->fitness = fitness();
+*/
     TEval PEval;
     PEval.perdida = (float)(mayorAltura()*ancho)-area_total;
     critter->PEval = PEval;
-/*
-    printf("=> %d %f\n", fitness(), (float)(mayorAltura()*ancho)-area_total);
-*/
+    critter->fitness = (float)(2*mayorAltura()*ancho)-area_total;
+    printf("critter->fitness: %f\n", critter->fitness);
+    printf("fitness: %d\n", (2*mayorAltura()*ancho)-area_total);
 }
 
 
