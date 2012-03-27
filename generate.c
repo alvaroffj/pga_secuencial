@@ -24,15 +24,19 @@ void statistics(struct individual *pop, int corrida)
    	for(j = 0; j < popsize; j++) {
             if(pop[j].fitness > max) max = pop[j].fitness;         // Nuevo máximo
             if(pop[j].fitness < min) min = pop[j].fitness;         // nuevo mínimo
+/*
             printf("%d fitness: %f\n", j, pop[j].fitness);
             printf("%d max: %f, min: %f\n", j, max, min);
+*/
             med = med + pop[j].fitness; //Suma de fitness
             varianza = varianza + (pop[j].fitness * pop[j].fitness); //calculo de la varianza
             // Nuevo mejor individuo global
             if(pop[j].fitness < bestfit.fitness) {
                 bestfit.fitness = pop[j].fitness;
+/*
                 printf("pop[%d].fitness: %f\n", j, pop[j].fitness);
                 printf("bestfit.fitness: %f\n", bestfit.fitness);
+*/
                 k = j; //Quiere decir que se actualizó mejor individuo
             }//End if
    	}//End for

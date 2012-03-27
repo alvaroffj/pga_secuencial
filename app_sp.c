@@ -356,8 +356,10 @@ void app_objfunc_sp(struct individual *critter) {
     PEval.perdida = (float)(mayorAltura()*ancho)-area_total;
     critter->PEval = PEval;
     critter->fitness = (float)(2*mayorAltura()*ancho)-area_total;
+/*
     printf("critter->fitness: %f\n", critter->fitness);
     printf("fitness: %d\n", (2*mayorAltura()*ancho)-area_total);
+*/
 }
 
 
