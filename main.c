@@ -19,20 +19,47 @@
 #include "app.h"
 #include "random.h"
 
+/*
+-pr 1 -m 0.3 -c 0.6 -g 20 -po 3600 => 16240
+-pr 1 -m 0.3 -c 0.9 -g 20 -po 2400 => 16100
+-pr 1 -m 0.2 -c 0.9 -g 200 -po 3600 => 15680
+*/
+
 int main(int argc, char *argv[]) {
     // Obtiene rutas de trabajo y crea archivos generales
     if (inicializa_archivos(argc, argv) == -1) exit(-1);
-
+// ./paramils -numRun 0 -scenariofile escenario.txt -validN 5
     runmax = consistenciaarchivo();
     // Revisa consistencia del archivo de entrada (contiene el tipo y problema a resolver + parámetros genéticos 
     for (run = 1; run <= runmax; run++) {
         //Nueva semilla aleatoria
+/*
         do {
             randomseed = nueva_semilla();
         } while (randomseed == 0);
+*/
+/*
+        printf("lala %i\n", atoi(argv[8])%10000);
+*/
+        randomseed = (float)((atoi(argv[8])%10000)/10000.0);
+/*
+        printf("randomseed: %f\n", randomseed);
+*/
 
         // Lee archivo en infp con parámetros (todos ya chequeados)
+/*
         fscanf(infp, "%d %s %d %d %f %f", &tipo_problema, nomarch, &popsize, &maxgen, &pcross, &pmutation);
+*/
+        int i=0;
+        for(i=0; i<argc; i++) {
+            if(strcmp(argv[i], "-pr")==0) tipo_problema = atoi(argv[++i]);
+            if(strcmp(argv[i], "-po")==0) popsize = atoi(argv[++i]);
+            if(strcmp(argv[i], "-g")==0) maxgen = atoi(argv[++i]);
+            if(strcmp(argv[i], "-m")==0) pmutation = atof(argv[++i]);
+            if(strcmp(argv[i], "-c")==0) pcross = atof(argv[++i]);
+            if(strcmp(argv[i], "-f")==0) sprintf(nomarch, "%s", argv[++i]);
+        }
+        
 /*
         tipo_problema = atoi(argv[3]);
         sprintf(nomarch, "%s", argv[4]);
@@ -42,9 +69,11 @@ int main(int argc, char *argv[]) {
         pmutation = atof(argv[8]);
 */
                 
+/*
         printf("Espere, efectuando Corrida %d, Archivo %s...\n", run, nomarch);
         printf("Generaciones: %d\n", maxgen);
         printf("Poblacion: %d\n", popsize);
+*/
         if (app_leearchivo(tipo_problema, nomarch)) {
             //Inicializa Contador de Segundos 
             ticks_start = times(&time_start);
@@ -59,7 +88,9 @@ int main(int argc, char *argv[]) {
             for (gen = 0; gen < maxgen; gen++) {
                 // Crea una nueva generación
                 generation(tipo_problema, run);
-                printf("generacion: %d => %f\n",gen, bestfit.fitness);
+/*
+                printf("generacion: %d => %f\n\n",gen, bestfit.fitness);
+*/
                 // Avanza de Generación
                 tempold = oldpop;
                 oldpop = newpop;
@@ -84,14 +115,22 @@ int main(int argc, char *argv[]) {
 /*
             app_objfunc(tipo_problema, ruta_salida, nomarch, &time_consumtion, &(bestfit));
 */
-
+/*
+            printf("RunsExecuted = 1\n");
+            printf("CPUTime_Mean = %f\n", time_consumtion.elapsed_time);
+            printf("BestSolution_Mean = %f\n", bestfit.fitness);
+*/
+            printf("Result for ParamILS: SAT, %f, %i, %f, %s\n", -1.0, -1, bestfit.fitness, argv[8]);
             // Libera memoria temporal del algoritmo no del problema
             freeall();
         }//End if
         // Libera variables del problema  
         app_free(tipo_problema);
-
+//        Final best parameter configuration: c=0.9, g=20, m=0.3, po=30, pr=1
+//        Final best parameter configuration: c=0.9, g=20, m=0.1, po=30, pr=1
+/*
         printf("Corrida %d, Archivo %s procesado...   [OK]\n", run, nomarch);
+*/
     }//End for
     //Cierra Archivos importantes
     cierra_archivos();

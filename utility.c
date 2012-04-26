@@ -188,7 +188,9 @@ void initialize(void)
 void genera_resultados_algoritmo(int corrida, int tipo_problema, char *nombrearchivo, cpu_consummed_time_t *t)
 //Función que imprime los resultados del algoritmo
 {
+/*
     printf("genera_resultados_algoritmo\n");
+*/
     if (encabezado_resultado_algoritmo == 0) {
         //IMPRIME RESULTADOS DEL ALGORIMO GENÉTICO
         fprintf(ralgfp, "CORRIDA;TIPO_PROBLEMA;ARCHIVO_PROBLEMA;TIEMPO_CPU;TIEMPO_IO;TIEMPO_TOTAL;");
@@ -213,7 +215,9 @@ int inicializa_archivos(int argc, char *argv[])
 
     // Determina input y output desde argumentos de la funcin main()
     numfiles = argc - 1;
-    printf("numfiles: %d", numfiles);
+/*
+    printf("numfiles: %d\n", numfiles);
+*/
     switch (numfiles) {
         case 2:
             if ((infp = fopen(argv[1], "r")) == NULL) {
@@ -238,8 +242,19 @@ int inicializa_archivos(int argc, char *argv[])
             }
             break;
         default:
+            if ((infp = fopen(argv[1], "r")) == NULL) {
+                fprintf(stderr, "!!! Error, no puede abrir archivo de entrada %s \n", argv[1]);
+                return -1;
+            }
+            sprintf(ruta_salida, "%s%s", ruta_resultados, argv[2]); //Ruta del archivo de salida (layout)
+            if ((outfp = fopen(ruta_salida, "w")) == NULL) {
+                fprintf(stderr, "!!! Error, no puede abrir archivo de salida %s \n", ruta_salida);
+                return -1;
+            }
+/*
             fprintf(stderr, "Uso: ./ejecutable [input file] [output file]\n");
-            return -1;
+*/
+            break;
     }//End switch
 
     sprintf(arch_reporte_pro, "%s%s", ruta_resultados, "reporte_pro.txt"); //Archivo de reporte de variables importantes por corrida, relacionada por cada problema a resolver 

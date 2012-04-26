@@ -1,0 +1,331 @@
+Call: /usr/bin/ruby ../scripts/param_ils_2_3_run.rb "-numRun" "0" "-scenariofile" "escenario.txt" "-validN" "5"
+
+
+seed: 1234
+algo: ./pga_secuencial in.txt out.txt
+tunerTimeout: 30.0
+maxEvals: 100000000
+run_obj: runtime
+overall_obj: mean
+instance_file: in.txt
+test_instance_file: in.txt
+N: 2000
+cutoff_time: 5.0
+cutoff_length: 2
+R: 10
+pertubation_strength_basic: 
+pertubation_strength_scaling: false
+p_restart: 0.01
+Run 1
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=2000, and cutoff time=5.0.
+Current CPU time = 0, this run goes until 30.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 0.24, 0.24 [1, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+        -> Worse random: c=0.6 g=80 m=0.3 po=800 pr=1 (pruned0 [based on 1 runs with cutoff 5.0])
+        -> Worse random: c=0.9 g=100 m=0.1 po=2400 pr=1 (pruned0 [based on 1 runs with cutoff 5.0])
+        -> Worse random: c=0.6 g=40 m=0.2 po=2800 pr=1 (pruned0 [based on 1 runs with cutoff 5.0])
+        -> Worse random: c=0.7 g=80 m=0.3 po=3600 pr=1 (pruned0 [based on 1 runs with cutoff 5.0])
+        -> Worse random: c=0.9 g=60 m=0.3 po=2800 pr=1 (pruned0 [based on 1 runs with cutoff 5.0])
+        -> Worse random: c=0.9 g=20 m=0.1 po=800 pr=1 (pruned0 [based on 1 runs with cutoff 5.0])
+        -> Worse random: c=0.9 g=40 m=0.3 po=100 pr=1 (pruned0 [based on 1 runs with cutoff 5.0])
+        -> Worse random: c=0.9 g=80 m=0.1 po=800 pr=1 (pruned0 [based on 1 runs with cutoff 5.0])
+        -> Worse random: c=0.7 g=60 m=0.1 po=2400 pr=1 (pruned0 [based on 1 runs with cutoff 5.0])
+        -> Worse random: c=0.6 g=20 m=0.3 po=200 pr=1 (pruned0 [based on 1 runs with cutoff 5.0])
+   BLS in iteration 1, start with c=0.9 g=20 m=0.1 po=30 pr=1 (0.24 [based on 1 runs with cutoff 5.0])
+    Changing po: 30->200, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing m: 0.1->0.3, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing po: 30->400, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing po: 30->4000, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing po: 30->800, evaluating ...
+ Same incumbent, new precision:
+New Incumbent: 4.11, 0.305 [2, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing po: 30->3600, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing po: 30->2400, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing c: 0.9->0.6, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing g: 20->200, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing po: 30->2800, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing po: 30->1600, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing po: 30->3200, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing c: 0.9->0.8, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing po: 30->100, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing g: 20->80, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing m: 0.1->0.2, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing po: 30->50, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing po: 30->2000, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing g: 20->40, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing po: 30->1200, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing g: 20->60, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing g: 20->100, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing c: 0.9->0.7, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+          
+============= Performing 24 bonus runs of state: c=0.9 g=20 m=0.1 po=30 pr=1 (0.305 [based on 2 runs with cutoff 5.0]) ============ 
+
+ Same incumbent, new precision:
+New Incumbent: 8.97, 0.323333333333333 [3, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 9.33, 0.3325 [4, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 9.69, 0.338 [5, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+38/100000000, 10.05/30.0
+ Same incumbent, new precision:
+New Incumbent: 10.05, 0.341666666666667 [6, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 10.41, 0.344285714285714 [7, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 10.77, 0.34625 [8, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 11.13, 0.347777777777778 [9, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 11.48, 0.348 [10, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 11.86, 0.350909090909091 [11, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 12.26, 0.355 [12, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 12.65, 0.357692307692308 [13, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 13.03, 0.359285714285714 [14, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 13.41, 0.360666666666667 [15, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 13.8, 0.3625 [16, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 14.18, 0.363529411764706 [17, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 14.57, 0.365 [18, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 14.96, 0.366315789473684 [19, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 15.34, 0.367 [20, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 15.73, 0.368095238095238 [21, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 16.12, 0.369090909090909 [22, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 16.5, 0.369565217391304 [23, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 16.89, 0.370416666666667 [24, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 17.27, 0.3708 [25, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 17.67, 0.371923076923077 [26, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+          -> After 24 bonus runs for LM: c=0.9 g=20 m=0.1 po=30 pr=1 (0.371923076923077 [based on 26 runs with cutoff 5.0])
+
+   LM for iteration 1: c=0.9 g=20 m=0.1 po=30 pr=1 (0.371923076923077 [based on 26 runs with cutoff 5.0])
+
+========== DETAILED RESULTS (iteration 1): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 1): pr=1, m=0.1, c=0.9, g=20, po=30
+==================================================================
+Training quality of this incumbent parameter configuration: 0.371923076923077, based on 26 runs with cutoff 5.0
+==================================================================
+
+Comparing LM against incumbent:
+c=0.9 g=20 m=0.1 po=30 pr=1 (0.371923076923077 [based on 26 runs with cutoff 5.0])
+c=0.9 g=20 m=0.1 po=30 pr=1 (0.371923076923077 [based on 26 runs with cutoff 5.0])
+LM better, change incumbent
+New Incumbent: 17.67, 0.371923076923077 [26, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+58/100000000, 17.67/30.0
+iteration 2, flip 2, evaluation count 58
+    perturb to ---> c=0.9 g=20 m=0.1 po=3200 pr=1 (pruned0 [based on 1 runs with cutoff 5.0])
+    perturb to ---> c=0.9 g=20 m=0.1 po=200 pr=1 (pruned0 [based on 1 runs with cutoff 5.0])
+    perturb to ---> c=0.9 g=20 m=0.1 po=1600 pr=1 (pruned0 [based on 1 runs with cutoff 5.0])
+   BLS in iteration 2, start with c=0.9 g=20 m=0.1 po=1600 pr=1 (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing g: 20->200, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing g: 20->100, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing po: 1600->400, evaluating ...
+          -> Take improving step to neighbour c=0.9 g=20 m=0.1 po=400 pr=1 (pruned1 [based on 2 runs with cutoff 5.0]) with flip 2
+
+          
+============= Performing 3 bonus runs of state: c=0.9 g=20 m=0.1 po=400 pr=1 (pruned1 [based on 2 runs with cutoff 5.0]) ============ 
+
+          -> After 3 bonus runs: c=0.9 g=20 m=0.1 po=400 pr=1 (pruned1 [based on 5 runs with cutoff 5.0])
+
+    Changing g: 20->60, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing po: 400->200, evaluating ...
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing po: 400->3600, evaluating ...
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing po: 400->2000, evaluating ...
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing po: 400->3200, evaluating ...
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing c: 0.9->0.8, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing g: 20->80, evaluating ...
+63/100000000, 20.12/30.0
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing po: 400->2800, evaluating ...
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing g: 20->200, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing po: 400->50, evaluating ...
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing g: 20->40, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing c: 0.9->0.6, evaluating ...
+        -> worse: (pruned0 [based on 1 runs with cutoff 5.0])
+    Changing po: 400->100, evaluating ...
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing po: 400->1200, evaluating ...
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing po: 400->30, evaluating ...
+          -> Take improving step to neighbour c=0.9 g=20 m=0.1 po=30 pr=1 (0.371923076923077 [based on 26 runs with cutoff 5.0]) with flip 3
+
+          
+============= Performing 15 bonus runs of state: c=0.9 g=20 m=0.1 po=30 pr=1 (0.371923076923077 [based on 26 runs with cutoff 5.0]) ============ 
+
+ Same incumbent, new precision:
+New Incumbent: 22.58, 0.372222222222222 [27, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 22.96, 0.3725 [28, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 23.34, 0.372758620689655 [29, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 23.73, 0.373333333333333 [30, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 24.1, 0.373225806451613 [31, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 24.48, 0.3734375 [32, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 24.87, 0.373939393939394 [33, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 25.25, 0.374117647058824 [34, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 25.63, 0.374285714285714 [35, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 26.04, 0.375277777777778 [36, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 26.42, 0.375405405405406 [37, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 26.8, 0.375526315789474 [38, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 27.16, 0.375128205128205 [39, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 27.52, 0.37475 [40, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 27.88, 0.374390243902439 [41, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+          -> After 15 bonus runs: c=0.9 g=20 m=0.1 po=30 pr=1 (0.374390243902439 [based on 41 runs with cutoff 5.0])
+
+    Changing po: 30->4000, evaluating ...
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing c: 0.9->0.8, evaluating ...
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing g: 20->40, evaluating ...
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing g: 20->200, evaluating ...
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing c: 0.9->0.7, evaluating ...
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing g: 20->80, evaluating ...
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing m: 0.1->0.3, evaluating ...
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing m: 0.1->0.2, evaluating ...
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing g: 20->60, evaluating ...
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing po: 30->800, evaluating ...
+        -> worse: (pruned1 [based on 3 runs with cutoff 5.0])
+    Changing g: 20->100, evaluating ...
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing po: 30->2400, evaluating ...
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+    Changing c: 0.9->0.6, evaluating ...
+        -> worse: (pruned1 [based on 2 runs with cutoff 5.0])
+          
+============= Performing 13 bonus runs of state: c=0.9 g=20 m=0.1 po=30 pr=1 (0.374390243902439 [based on 41 runs with cutoff 5.0]) ============ 
+
+ Same incumbent, new precision:
+New Incumbent: 29.46, 0.374761904761905 [42, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+ Same incumbent, new precision:
+New Incumbent: 29.84, 0.374883720930233 [43, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+90/100000000, 30.24/30.0
+ Same incumbent, new precision:
+New Incumbent: 30.24, 0.375454545454546 [44, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+          -> After 13 bonus runs for LM: c=0.9 g=20 m=0.1 po=30 pr=1 (0.375454545454546 [based on 44 runs with cutoff 5.0])
+
+   LM for iteration 2: c=0.9 g=20 m=0.1 po=30 pr=1 (0.375454545454546 [based on 44 runs with cutoff 5.0])
+
+========== DETAILED RESULTS (iteration 2): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 2): pr=1, m=0.1, c=0.9, g=20, po=30
+==================================================================
+Training quality of this incumbent parameter configuration: 0.375454545454546, based on 44 runs with cutoff 5.0
+==================================================================
+
+Comparing LM against incumbent:
+c=0.9 g=20 m=0.1 po=30 pr=1 (0.375454545454546 [based on 44 runs with cutoff 5.0])
+c=0.9 g=20 m=0.1 po=30 pr=1 (0.375454545454546 [based on 44 runs with cutoff 5.0])
+LM better, change incumbent
+New Incumbent: 30.24, 0.375454545454546 [44, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+same state as last ILS: c=0.9 g=20 m=0.1 po=30 pr=1 (0.375454545454546 [based on 44 runs with cutoff 5.0])
+Final solution for depth 1 with limit N=2000, and cutoff time=5.0.
+New Incumbent: 30.24, 0.375454545454546 [44, 5.0]. With state c=0.9, g=20, m=0.1, po=30, pr=1
+
+==================================================================
+ParamILS is finished.
+==================================================================
+
+Final best parameter configuration found: c=0.9, g=20, m=0.1, po=30, pr=1
+==================================================================
+Active parameters: c=0.9, g=20, m=0.1, po=30, pr=1
+
+==================================================================
+Training quality of this final best found parameter configuration: 0.375454545454546, based on 44 runs with cutoff 5.0
+==================================================================
+
+
+==================================================================
+Computing validation result on independent data -- 5 runs with cutoff time 5.0...
+==================================================================
+/media/win/Users/Alvaro/Documents/Memoria 2012/pga_secuencial/dist/Debug/Cygwin-Windows/1: 0.38
+/media/win/Users/Alvaro/Documents/Memoria 2012/pga_secuencial/dist/Debug/Cygwin-Windows/1: 0.39
+/media/win/Users/Alvaro/Documents/Memoria 2012/pga_secuencial/dist/Debug/Cygwin-Windows/1: 0.39
+/media/win/Users/Alvaro/Documents/Memoria 2012/pga_secuencial/dist/Debug/Cygwin-Windows/1: 0.37
+/media/win/Users/Alvaro/Documents/Memoria 2012/pga_secuencial/dist/Debug/Cygwin-Windows/1: 0.38
+Combined result: 0.382
+
+================================================================
+Final best parameter configuration: c=0.9, g=20, m=0.1, po=30, pr=1
+==================================================================
+Active parameters: c=0.9, g=20, m=0.1, po=30, pr=1
+
+================================================================
+Training quality of this final best found parameter configuration: 0.375454545454546, based on 44 runs with cutoff 5.0
+Test quality of this final best found parameter configuration: 0.382, based on 5 independent runs with cutoff 5.0
+==================================================================

@@ -172,7 +172,9 @@ int app_leearchivo_sp(char *nombrearchivo) {
     char datos_pieza2[80800];
     char *ptr;
     int j=0;
+/*
     printf("Leyendo archivo de entrada\n");
+*/
 
     sprintf(nombre_archivo, "%s%s", ruta_instancias, nombrearchivo);
 
@@ -184,7 +186,9 @@ int app_leearchivo_sp(char *nombrearchivo) {
 
     // Lee el numero de piezas y el ancho del strip
     fscanf(fp,"%d %d", &numero_piezas, &ancho);
+/*
     printf("Piezas: %d\nAncho: %d\n", numero_piezas, ancho);
+*/
     if(numero_piezas != 0) {
         //Se establece la memoria de la lista de piezas
         lista_piezas = (Datos_pieza *) malloc(numero_piezas * sizeof(Datos_pieza)); //La lista de piezas guarda cada estructura de pieza
@@ -204,11 +208,15 @@ int app_leearchivo_sp(char *nombrearchivo) {
             aux_pieza.id = j; //Se asigna id a la pieza
             area_total += aux_pieza.area;
             lista_piezas[j] = aux_pieza; //Se ingresa la pieza
+/*
             printf("Pieza %d: %d x %d => %d\n", lista_piezas[j].id, lista_piezas[j].ancho, lista_piezas[j].alto, lista_piezas[j].area);
+*/
             j++;
         }
         
+/*
         printf("Area Total: %d\n", area_total);
+*/
         //Cierra archivo de piezas
         fclose(fp);
         largo_cromosoma = numero_piezas + bit_reservados;
@@ -373,6 +381,8 @@ void app_objfunc_sp(struct individual *critter) {
     critter->fitness = (float)(2*mayorAltura()*ancho)-area_total;
 /*
     printf("critter->fitness: %f\n", critter->fitness);
+*/
+/*
     printf("fitness: %d\n", (2*mayorAltura()*ancho)-area_total);
 */
 }
@@ -501,6 +511,7 @@ void app_objfuncfinal_sp(struct bestever *critter) {
         if(vueltas%2 == 0) ini = (ini==0)?1:0;
     }
     
+/*
     printf("Mejor resultado\n");
     printf("Fitness: %f\n", critter->fitness);
     
@@ -515,6 +526,7 @@ void app_objfuncfinal_sp(struct bestever *critter) {
         printf("%d ", arreglo_rotar[arreglo_orden[i]]);
     }
     printf("\n");
+*/
 }
 
 
@@ -523,7 +535,9 @@ void app_objfuncfinal_sp(struct bestever *critter) {
  * Escribe resultados en el archivo de salida
  */
 void app_genera_resultados_problema_sp(int corrida, int tipo_problema, char *nombrearchivo) {
+/*
     printf("app_genera_resultados_problema_sp\n");
+*/
     if (encabezado_resultado_problema == 0) {
         //IMPRIME ENCABEZADO DE LOS RESULTADOS DEL PROBLEMA
         fprintf(rprofp, "CORRIDA;TIPO_PROBLEMA;ARCHIVO_PROBLEMA;CANTIDAD_PIEZAS;CANTIDAD_TIPOS_PIEZAS;");

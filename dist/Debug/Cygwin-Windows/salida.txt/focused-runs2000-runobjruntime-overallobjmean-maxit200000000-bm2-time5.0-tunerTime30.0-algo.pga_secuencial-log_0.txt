@@ -1,0 +1,25 @@
+Call: /usr/bin/ruby ../scripts/param_ils_2_3_run.rb "-numRun" "0" "-scenariofile" "escenario.txt" "-validN" "100"
+
+
+seed: 1234
+algo: ./pga_secuencial
+tunerTimeout: 30.0
+maxEvals: 100000000
+run_obj: runtime
+overall_obj: mean
+instance_file: in.txt
+test_instance_file: in.txt
+N: 2000
+cutoff_time: 5.0
+cutoff_length: 2147483647
+R: 10
+pertubation_strength_basic: 
+pertubation_strength_scaling: false
+p_restart: 0.01
+Run 1
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=2000, and cutoff time=5.0.
+Current CPU time = 0, this run goes until 30.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state =0.1

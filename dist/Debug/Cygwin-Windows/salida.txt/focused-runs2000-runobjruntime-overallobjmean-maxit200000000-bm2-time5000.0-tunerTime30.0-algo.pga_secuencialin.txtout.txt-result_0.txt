@@ -1,0 +1,6 @@
+Final best parameter configuration: c=0.9, g=20, m=0.1, po=30, pr=1
+==================================================================
+Active parameters: c=0.9, g=20, m=0.1, po=30, pr=1
+==================================================================
+Training quality of this final best found parameter configuration: 0.582258064516129, based on 31 runs with cutoff 5000.0
+Test quality of this final best found parameter configuration: 0.506, based on 5 independent runs with cutoff 5000.0

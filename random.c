@@ -42,6 +42,9 @@ float randomperc(void)
       	advance_random();
    	}//End if
    	return((float) oldrand[jrand]);
+/*
+    return (float)((rand()%1000)/1000.0);
+*/
 }//End randomperc
 
 int flip(float prob)
@@ -80,6 +83,9 @@ void warmup_random(float random_seed)
    	for(j1 = 1 ; j1 <= 54; j1++) {
       	ii = (21*j1)%54;
       	oldrand[ii] = new_random;
+/*
+        printf("rand[%i]: %f\n", ii, oldrand[ii]);
+*/
       	new_random = prev_random-new_random;
       	if(new_random<0.0) new_random = new_random + 1.0;
       	prev_random = oldrand[ii];
@@ -98,6 +104,9 @@ void randomize(void)
    	for(j1=0; j1<=54; j1++)
       	oldrand[j1] = 0.0;
    	jrand=0;
+/*
+        printf("randomseed: %f\n", randomseed);
+*/
    	warmup_random(randomseed);
 }//End randomize
 
@@ -171,7 +180,10 @@ float nueva_semilla(void)
 		r250_index = 0;
 	else
 		r250_index++;
+/*
 	get_seed = (float)((float)new_rand / (float)ALL_BITS);
+*/
+        get_seed = (float)((new_rand%10000)/10000.0);
 	return get_seed;
 }//End nueva_semilla
 

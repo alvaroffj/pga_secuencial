@@ -56,7 +56,7 @@ void statistics(struct individual *pop, int corrida)
    	}//End if
 
    	// Escribe en archivo de Estaditicas para problema particular
-	fprintf(evofp, "%d;%d;%f;%f;%f;%f;%f\n", corrida, gen, min, max, med, varianza,bestfit.generation);
+	fprintf(evofp, "%d;%d;%f;%f;%f;%f;%f;%f\n", corrida, gen, min, max, med, varianza,bestfit.generation, bestfit.fitness);
 }//End statistics
 
 void initpop(int tipo_problema, int corrida)
@@ -493,7 +493,10 @@ int xselect(void)
 
     pick = (double) randomperc();
     sum = 0.0;
-
+/*
+    printf("sumfitness: %f\n", sumfitness);
+    printf("pick: %f\n", pick);
+*/
     if(sumfitness != 0.0) {
         for(i = 0; (sum < pick) && (i < popsize); i++)
             sum += (double) (((double) 1.0) /(double) oldpop[i].fitness)/((double) sumfitness);
@@ -501,6 +504,9 @@ int xselect(void)
         i = rnd(1,popsize);
     }
     if(i<1) i=1;
+/*
+    printf("sel: %f\n", oldpop[i-1].fitness);
+*/
     return(i-1);
 }//End xselect
 
