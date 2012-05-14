@@ -41,7 +41,7 @@ int main(int argc, char *argv[]) {
 /*
         printf("lala %i\n", atoi(argv[8])%10000);
 */
-        randomseed = (float)((atoi(argv[8])%10000)/10000.0);
+        randomseed = (float)((atoi(argv[7])%10000)/10000.0);
 /*
         printf("randomseed: %f\n", randomseed);
 */
