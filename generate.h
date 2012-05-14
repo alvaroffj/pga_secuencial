@@ -12,6 +12,7 @@ void  xcrossover(unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *
 					  unsigned *mparent1,unsigned *mparent2,unsigned *mchild1,unsigned *mchild2);
 void  preselect(void);
 int   xselect(void);
+int   tournament(void);
 void  generation(int tipo_problema, int corrida);
 void  statistics(struct individual *pop, int corrida);
 

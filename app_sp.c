@@ -80,7 +80,10 @@ int posNMenorAltura(int n) {
 }
 
 float fitness() {
+    float fitness = (float)mayorAltura();
+/*
     float fitness = (float)(2*mayorAltura()*ancho)-area_total;
+*/
 /*
     printf("fitness: %d\n", fitness);
 */
@@ -375,10 +378,10 @@ void app_objfunc_sp(struct individual *critter) {
     TEval PEval;
     PEval.perdida = (float)(mayorAltura()*ancho)-area_total;
     critter->PEval = PEval;
-/*
     critter->fitness = (float) mayorAltura();
-*/
+/*
     critter->fitness = (float)(2*mayorAltura()*ancho)-area_total;
+*/
 /*
     printf("critter->fitness: %f\n", critter->fitness);
 */

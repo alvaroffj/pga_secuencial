@@ -510,17 +510,33 @@ int xselect(void)
     return(i-1);
 }//End xselect
 
+int tournament(void) {
+    int a,b;
+    
+    a = (int) (randomperc()*1000)%(popsize-1);
+    b = (int) (randomperc()*1000)%(popsize-1);
+    
+    if(oldpop[a].fitness > oldpop[b].fitness) return b;
+    else return a;
+}
+
 // Rutina que establece la generación de nuevos individuos
 void generation(int tipo_problema, int corrida) {
     int mate1, mate2, jcross=0, jmcross=0, j = 0;
     // Obtiene suma total del fitness para oldpop
+/*
     preselect();
+*/
 
    	// Efecta selección, cruzamiento y mutación
     do {
       	// obtiene índices de individuos en oldpop a efectuar cruzamiento
+/*
       	mate1 = xselect();
       	mate2 = xselect();
+*/
+        mate1 = tournament();
+        mate2 = tournament();
 		//Cruzamiento en un solo punto para cromosoma String, cromosoma Mutación, cromosoma Lista
       	jcross = crossover(oldpop[mate1].chrom, oldpop[mate2].chrom, newpop[j].chrom, newpop[j+1].chrom,
                             oldpop[mate1].chmut, oldpop[mate2].chmut, newpop[j].chmut, newpop[j+1].chmut,

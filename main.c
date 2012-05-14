@@ -59,7 +59,6 @@ int main(int argc, char *argv[]) {
             if(strcmp(argv[i], "-c")==0) pcross = atof(argv[++i]);
             if(strcmp(argv[i], "-f")==0) sprintf(nomarch, "%s", argv[++i]);
         }
-        
 /*
         tipo_problema = atoi(argv[3]);
         sprintf(nomarch, "%s", argv[4]);
@@ -120,7 +119,7 @@ int main(int argc, char *argv[]) {
             printf("CPUTime_Mean = %f\n", time_consumtion.elapsed_time);
             printf("BestSolution_Mean = %f\n", bestfit.fitness);
 */
-            printf("Result for ParamILS: SAT, %f, %i, %f, %s\n", -1.0, -1, bestfit.fitness, argv[8]);
+            printf("Result for ParamILS: SAT, %f, %i, %f, %s\n", time_consumtion.elapsed_time, -1, bestfit.fitness, argv[8]);
             // Libera memoria temporal del algoritmo no del problema
             freeall();
         }//End if

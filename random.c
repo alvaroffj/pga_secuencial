@@ -114,9 +114,17 @@ void randomize(void)
 /************************ GENERACION DE SEMILLA ALEATORIA *************************/
 /**********************************************************************************/
 
+/*********** PARA 32 BITS ****************
 const unsigned long MSB = 0x80000000L;
 const unsigned long ALL_BITS = 0xffffffffL;
 const unsigned long HALF_RANGE = 0x40000000L;
+/*****************************************/
+
+/*********** PARA 64 BITS ****************/
+const unsigned long MSB = 0x8000000000000000L;
+const unsigned long ALL_BITS = 0xffffffffffffffffL;
+const unsigned long HALF_RANGE = 0x4000000000000000L;
+/*****************************************/
 const unsigned long STEP = 7;
 const unsigned long quotient  = LONG_MAX / 16807L;
 const unsigned long remainder_x = LONG_MAX % 16807L;
@@ -180,10 +188,10 @@ float nueva_semilla(void)
 		r250_index = 0;
 	else
 		r250_index++;
-/*
 	get_seed = (float)((float)new_rand / (float)ALL_BITS);
-*/
+/*
         get_seed = (float)((new_rand%10000)/10000.0);
+*/
 	return get_seed;
 }//End nueva_semilla
 
