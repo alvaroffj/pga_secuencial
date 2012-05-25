@@ -137,7 +137,7 @@ void creaLayout() {
             }
         }
         
-        printf("insertar pieza[%d]: %d x %d en (%d,%d)\n", arreglo_orden[i], cPieza.ancho, cPieza.alto, x, altura);
+        printf("insertar pieza[%d]: %d x %d en (%d,%d)\n", arreglo_orden[i], cAncho, cAlto, x, altura);
         for(j=x; j<cAncho+x; j++) {
             arreglo_alturas[j] = altura + cAlto;
         }
