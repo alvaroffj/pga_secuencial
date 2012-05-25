@@ -94,7 +94,7 @@ float fitness() {
  * Inserta las piezas en la tira, según el orden y sentido correspondiente
  */
 void creaLayout() {
-    int i, x = 0, j, altura = 0, n = 1, fit = 0, cAncho = 0, cAlto = 0;
+    int i, x = 0, j, altura = 0, n = 1, fit = 0, cAncho = 0, cAlto = 0, pen = 0;
     Datos_pieza cPieza;
 
     for(i=0; i<ancho; i++) {
@@ -113,6 +113,7 @@ void creaLayout() {
 /*
             printf("%d x: %d => %d\n", n, x, arreglo_alturas[x]);
 */
+            //validar que al rotar la pieza esta no exceda el ancho
             if(arreglo_rotar[arreglo_orden[i]] == 1) { //normal
                 if(cPieza.ancho <= (ancho - x)) {
                     fit = 1;
@@ -120,11 +121,16 @@ void creaLayout() {
                     cAlto = cPieza.alto;
                 } else n++;
             } else { //rotada en 90°
-                if(cPieza.alto <= (ancho - x)) {
-                    fit = 1;
-                    cAlto = cPieza.ancho;
-                    cAncho = cPieza.alto;
-                } else n++;
+                if(cPieza.alto <= ancho) {
+                    if(cPieza.alto <= (ancho - x)) {
+                        fit = 1;
+                        cAlto = cPieza.ancho;
+                        cAncho = cPieza.alto;
+                    } else n++;
+                } else {
+                    arreglo_rotar[arreglo_orden[i]] == 1;
+                    pen++;
+                }
             }
         }
         fit = 0;
@@ -152,6 +158,12 @@ void creaLayout() {
         printf("%d ", arreglo_alturas[j]);
     }
     printf("\n");
+    if(pen>0) {
+        printf("pen: %i\n", pen);
+        for(j=0; j<ancho; j++) {
+            arreglo_alturas[j] = arreglo_alturas[j] + 10*pen;
+        }
+    }
 }
 
 
@@ -316,7 +328,7 @@ void app_objfunc_sp(struct individual *critter) {
     
     /*
      * Obtiene el orden en que deben ser insertadas las piezas según el cromosoma
-     * orden[]: arreglo donde se almacena el id de las piezas
+     * arreglo_orden[]: arreglo donde se almacena el id de las piezas
      */
     vueltas = 0;
     while(go) {
