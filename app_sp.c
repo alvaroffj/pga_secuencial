@@ -106,9 +106,7 @@ void creaLayout() {
     for(i=0; i<numero_piezas; i++) {
         x = posMenorAltura();
         cPieza = lista_piezas[arreglo_orden[i]];
-/*
-        printf("rotacion pieza %d: %d\n", arreglo_orden[i], arreglo_rotar[arreglo_orden[i]]);
-*/
+        printf("ubicar pieza[%d]: %d %d x %d\n", arreglo_orden[i], arreglo_rotar[arreglo_orden[i]], cPieza.ancho, cPieza.alto);
         n = 1;
         while(!fit) {
             x = posNMenorAltura(n);
