@@ -128,7 +128,7 @@ void creaLayout() {
                         cAncho = cPieza.alto;
                     } else n++;
                 } else {
-                    arreglo_rotar[arreglo_orden[i]] == 1;
+                    arreglo_rotar[arreglo_orden[i]] = 1;
                     pen++;
                 }
             }
