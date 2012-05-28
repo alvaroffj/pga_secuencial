@@ -164,14 +164,13 @@ void creaLayout() {
     }
     printf("\n");
 */
-    if(pen>0) {
 /*
-        printf("pen: %i\n", pen);
-*/
+    if(pen>0) {
         for(j=0; j<ancho; j++) {
             arreglo_alturas[j] = arreglo_alturas[j] + 10*pen;
         }
     }
+*/
 }
 
 
