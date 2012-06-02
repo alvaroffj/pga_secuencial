@@ -107,7 +107,10 @@ int main(int argc, char *argv[]) {
                     if(lastBest == bestfit.fitness) {
                         nGen++;
                         if(nGen>=genStop) go = 0;
-                    } else nGen = 0;
+                    } else {
+                        lastBest = bestfit.fitness;
+                        nGen = 0;
+                    }
                 } else lastBest = bestfit.fitness;
                 gen++;
             }
