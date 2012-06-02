@@ -115,7 +115,6 @@ void creaLayout() {
 /*
             printf("%d x: %d => %d\n", n, x, arreglo_alturas[x]);
 */
-            //validar que al rotar la pieza esta no exceda el ancho
             if(arreglo_rotar[arreglo_orden[i]] == 1) { //normal
                 if(cPieza.ancho <= (ancho - x)) {
                     fit = 1;
@@ -201,7 +200,8 @@ int app_leearchivo_sp(char *nombrearchivo) {
     }
 
     // Lee el numero de piezas y el ancho del strip
-    fscanf(fp,"%d %d", &numero_piezas, &ancho);
+    fscanf(fp,"%d", &numero_piezas);
+    fscanf(fp,"%d", &ancho);
 /*
     printf("Piezas: %d\nAncho: %d\n", numero_piezas, ancho);
 */
@@ -338,34 +338,34 @@ void app_objfunc_sp(struct individual *critter) {
      * arreglo_orden[]: arreglo donde se almacena el id de las piezas
      */
     vueltas = 0;
-    while(go) {
-        if(dir) {
-            pIni = 0;
-            while(arreglo_ocupado[pIni] != 0) {
+    while(go) { //mientras queden piezas por ordenar
+        if(dir == 1) {//izq->der
+            pIni = 0; //posicion inicial
+            while(arreglo_ocupado[pIni] != 0) { //si ya se ordeno la pieza pasa a la de la derecha
                 pIni++;
             }
-            for(i=pIni; i<numero_piezas; i = i+salto) {
-                if(arreglo_ocupado[i] == 0) {
-                    valPos = chrom[i];
-                    if(valPos==ini) {
-                        arreglo_ocupado[i] = 1;
-                        arreglo_orden[nAsig] = i;
+            for(i=pIni; i<numero_piezas; i = i+salto) { //desde la posicion inicial hasta el final, con (i + salto) como valor de incremento
+                if(arreglo_ocupado[i] == 0) { // si no ha sido agregado
+                    valPos = chrom[i]; //obtiene el valor en esa posicion
+                    if(valPos==ini) { //si es igual al valor buscado se agrega al listado de piezas ordenado
+                        arreglo_ocupado[i] = 1; //se marca como leida
+                        arreglo_orden[nAsig] = i; //se agrega al listado de piezas ordenado
                         nAsig++;
                     }
-                    if(nAsig == numero_piezas) go = 0;
+                    if(nAsig == numero_piezas) go = 0; //si se ordenaron todas las piezas termina
                 }
             }
-        } else {
-            pIni = numero_piezas-1;
-            while(arreglo_ocupado[pIni] != 0) {
+        } else {//der->izq
+            pIni = numero_piezas-1; //se ubica en la ultima posicion del string
+            while(arreglo_ocupado[pIni] != 0) { //si ya se ordeno la pieza pasa a la de la izquierda
                 pIni--;
             }
-            for(i=pIni; i>=0; i = i-salto) {
-                if(arreglo_ocupado[i] == 0) {
-                    valPos = chrom[i];
-                    if(valPos==ini) {
-                        arreglo_ocupado[i] = 1;
-                        arreglo_orden[nAsig] = i;
+            for(i=pIni; i>=0; i = i-salto) { //desde la posicion inicial hasta el inicio del string, con (i + salto) como valor de retroceso
+                if(arreglo_ocupado[i] == 0) { // si no ha sido agregado
+                    valPos = chrom[i]; //obtiene el valor en esa posicion
+                    if(valPos==ini) { //si es igual al valor buscado se agrega al listado de piezas ordenado
+                        arreglo_ocupado[i] = 1; //se marca como leida
+                        arreglo_orden[nAsig] = i; //se agrega al listado de piezas ordenado
                         nAsig++;
                     }
                     if(nAsig == numero_piezas) go = 0;
@@ -374,8 +374,8 @@ void app_objfunc_sp(struct individual *critter) {
         }
         vueltas++;
         
-        dir = (dir==0)?1:0;
-        if(vueltas%2 == 0) ini = (ini==0)?1:0;
+        dir = (dir==0)?1:0; //se cambia la direccion en que se recorre el string
+        if(vueltas%2 == 0) ini = (ini==0)?1:0; //si ya se dio una vuelta completa, entonces se invierte el valor a buscar
     }
     
 /*

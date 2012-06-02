@@ -30,18 +30,21 @@ int main(int argc, char *argv[]) {
     if (inicializa_archivos(argc, argv) == -1) exit(-1);
 // ./paramils -numRun 0 -scenariofile escenario.txt -validN 5
     runmax = consistenciaarchivo();
+    int s = 0;
     // Revisa consistencia del archivo de entrada (contiene el tipo y problema a resolver + parámetros genéticos 
     for (run = 1; run <= runmax; run++) {
         //Nueva semilla aleatoria
-/*
-        do {
-            randomseed = nueva_semilla();
-        } while (randomseed == 0);
-*/
+        s = atoi(argv[7]);
+        if(s==0) {
+            do {
+                randomseed = nueva_semilla();
+            } while (randomseed == 0);
+        } else {
+            randomseed = (float)((atoi(argv[7])%10000)/10000.0);
+        }
 /*
         printf("lala %i\n", atoi(argv[8])%10000);
 */
-        randomseed = (float)((atoi(argv[7])%10000)/10000.0);
 /*
         printf("randomseed: %f\n", randomseed);
 */
@@ -119,7 +122,7 @@ int main(int argc, char *argv[]) {
             printf("CPUTime_Mean = %f\n", time_consumtion.elapsed_time);
             printf("BestSolution_Mean = %f\n", bestfit.fitness);
 */
-            printf("Result for ParamILS: SAT, %f, %i, %f, %s\n", -1.0, -1, bestfit.fitness, argv[7]);
+            printf("Result for ParamILS: SAT, %f, %i, %f, %f\n", -1.0, -1, bestfit.fitness, randomseed);
             // Libera memoria temporal del algoritmo no del problema
             freeall();
         }//End if

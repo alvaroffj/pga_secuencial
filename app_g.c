@@ -28,22 +28,21 @@ void app_liberamemlistaperdidas_g(int perdidaexterna)
    	}//End while
 }//End app_liberamemlistaperdidas_g
 
-void app_agregalistap_g(int anc,int alt)
 // Agrega un elemento al final de la lista de prdidas, su parmetro
 // inicial es un puntero apuntando al nodo final de la lista
-{
-   	TListaPE *LAux;
-   
-   	if((LAux = (TListaPE*) malloc(sizeof(TListaPE))) == NULL)
-	   	nomemory("Laux en app_agregalistap_g");
-#ifdef _DEBUG_MALLOC_		
-   printf("Malloc, App_g.c, 115, LAux, %d\n", sizeof(TListaPE));
-#endif
-   
-   	LAux->ancho = anc;
-   	LAux->alto = alt;
-   	LAux->prox = LPer;
-   	LPer = LAux;
+void app_agregalistap_g(int anc,int alt) {
+    TListaPE *LAux;
+
+    if((LAux = (TListaPE*) malloc(sizeof(TListaPE))) == NULL) nomemory("Laux en app_agregalistap_g");
+    
+    #ifdef _DEBUG_MALLOC_		
+        printf("Malloc, App_g.c, 115, LAux, %d\n", sizeof(TListaPE));
+    #endif
+
+    LAux->ancho = anc;
+    LAux->alto = alt;
+    LAux->prox = LPer;
+    LPer = LAux;
 } //End app_agregalistap_g
 
 TNodoRE app_pieza2perdida_g(int anc,int alt)
@@ -58,88 +57,82 @@ TNodoRE app_pieza2perdida_g(int anc,int alt)
   	LBusca = LPer;
 
    	if(LBusca == NULL) {
-      	Ret.ancho = -1;
-      	return Ret;
+            Ret.ancho = -1;
+            return Ret;
    	}//End if
    	while(LAux != NULL) {  // Mientras LAux.prox no apunte a NULL
-      	if((anc <= LAux->ancho) && (alt <= LAux->alto)) {
+            if((anc <= LAux->ancho) && (alt <= LAux->alto)) {
          	d_ancho_actual = LAux->ancho - anc;
         	d_alto_actual = LAux->alto - alt;
     		if((d_ancho_actual == 0) && (d_alto_actual == 0)){
-    		   	pos_nodo_best_fit = j;				
-				break;
-         	}//End if
-    		else if(d_ancho_actual == 0){
-        		if(d_alto_actual <= d_alto_min){
+                    pos_nodo_best_fit = j;				
+                    break;
+         	} else if(d_ancho_actual == 0){
+                    if(d_alto_actual <= d_alto_min){
                		d_ancho_min = d_ancho_actual;
                		d_alto_min = d_alto_actual;
-    				pos_nodo_best_fit = j;				
-            	}//End if
-        		else if((d_ancho_min != 0) && (d_alto_min != 0)){
-        			//Me interesa no perder la pieza actual ya que por lo menos
-        			//esta calza justo por un lado, pero la d_min NO...
+                        pos_nodo_best_fit = j;				
+                    } else if((d_ancho_min != 0) && (d_alto_min != 0)){
+                        //Me interesa no perder la pieza actual ya que por lo menos
+                        //esta calza justo por un lado, pero la d_min NO...
             		d_ancho_min = d_ancho_actual;
             		d_alto_min = d_alto_actual;
-    				pos_nodo_best_fit = j;				
-        		}//End else if
-         	}//End else if
-         	else if(d_alto_actual == 0){
-        	  	if(d_ancho_actual <= d_ancho_min){
-               		d_ancho_min = d_ancho_actual;
-               		d_alto_min = d_alto_actual;
-    				pos_nodo_best_fit = j;				
-            	}//End if
-        		else if((d_ancho_min != 0) && (d_alto_min != 0)){
-        			//Me interesa no perder la pieza actual ya que por lo menos
-        			//esta calza justo por un lado, pero la d_min NO...
+                        pos_nodo_best_fit = j;				
+                    }//End else if
+         	} else if(d_alto_actual == 0){
+                    if(d_ancho_actual <= d_ancho_min) {
+                        d_ancho_min = d_ancho_actual;
+                        d_alto_min = d_alto_actual;
+                        pos_nodo_best_fit = j;				
+                    } else if((d_ancho_min != 0) && (d_alto_min != 0)){
+                        //Me interesa no perder la pieza actual ya que por lo menos
+                        //esta calza justo por un lado, pero la d_min NO...
             		d_ancho_min = d_ancho_actual;
             		d_alto_min = d_alto_actual;
-    				pos_nodo_best_fit = j;				
-        		}//End else if
+                        pos_nodo_best_fit = j;				
+                    }//End else if
+         	} else if((d_ancho_actual < d_ancho_min) || (d_alto_actual < d_alto_min)){
+                    d_ancho_min = d_ancho_actual;
+                    d_alto_min = d_alto_actual;
+                    pos_nodo_best_fit = j;				
          	}//End else if
-    	   	else if((d_ancho_actual < d_ancho_min) || (d_alto_actual < d_alto_min)){
-            	d_ancho_min = d_ancho_actual;
-           		d_alto_min = d_alto_actual;
-				pos_nodo_best_fit = j;				
-         	}//End else if
-	   	}//End if
-	   	j++;
-	   	LAux = LAux->prox;
+            }//End if
+            j++;
+            LAux = LAux->prox;
    	}//End while
 
-	if(pos_nodo_best_fit == 0){
-  		//Trata de calzar nueva pieza en el nodo cabeza de la lista de Prdidas
-      	Ret.ancho = LBusca->ancho; // Nueva pieza calza en primer nodo
-      	Ret.alto = LBusca->alto;   // Asigna nuevo nodo
-      	LPer = LBusca->prox;       // LPer queda apuntandoa al prximo
+	if(pos_nodo_best_fit == 0) {
+            //Trata de calzar nueva pieza en el nodo cabeza de la lista de Prdidas
+            Ret.ancho = LBusca->ancho; // Nueva pieza calza en primer nodo
+            Ret.alto = LBusca->alto;   // Asigna nuevo nodo
+            LPer = LBusca->prox;       // LPer queda apuntandoa al prximo
+
+            free(LBusca);
+            #ifdef _DEBUG_MALLOC_		
+                printf("Free, app_g.c, 187, LBusca\n");             // Libera LBusca
+            #endif
       
-      	free(LBusca);
-#ifdef _DEBUG_MALLOC_		
-   printf("Free, app_g.c, 187, LBusca\n");             // Libera LBusca
-#endif
-      
-      	return Ret;
-   	}//End if
-	else if(pos_nodo_best_fit > 0){
-      	LAux = LPer;
-      	LBusca = LPer;
-		j = 1;
-      	while(LAux != NULL) {  // Mientras LAux.prox no apunte a NULL
+            return Ret;
+   	} else if(pos_nodo_best_fit > 0) {
+            LAux = LPer;
+            LBusca = LPer;
+            j = 1;
+            while(LAux != NULL) {  // Mientras LAux.prox no apunte a NULL
         	LAux = LBusca->prox;
          	if(j == pos_nodo_best_fit) {
-            	Ret.ancho = LAux->ancho;
-            	Ret.alto = LAux->alto;
-            	LBusca->prox = LAux->prox;
-            
-            	free(LAux);
-#ifdef _DEBUG_MALLOC_		
-   printf("Free, app_g.c, 200, LAux\n");
-#endif
-            	return Ret;
+                    Ret.ancho = LAux->ancho;
+                    Ret.alto = LAux->alto;
+                    LBusca->prox = LAux->prox;
+
+                    free(LAux);
+                    #ifdef _DEBUG_MALLOC_		
+                        printf("Free, app_g.c, 200, LAux\n");
+                    #endif
+                    return Ret;
          	}//End if
          	LBusca = LBusca->prox;
     		j++;
-      	}//End while
+            }//End while
    	}//End elseif
    	Ret.ancho = -1; // Sale por aqui cuando hay una lista de piezas
    	return Ret;     // y la nueva pieza no calza en ninguna de las prdidas.
@@ -300,9 +293,8 @@ void app_free_g(void)
 #endif
 }//End app_free_g
 
-TEval app_funceval_g(TNodoAP *piezas)
 // Funcion de evaluacin
-{
+TEval app_funceval_g(TNodoAP *piezas) {
    	int i,acum,cont;
    	int Acan = 0,Acal = 0,Nuan,Nual;
    	int PerdExt;
@@ -320,93 +312,83 @@ TEval app_funceval_g(TNodoAP *piezas)
 
 	// Se saltan las piezas de ancho y largo = 0
    	for(i=0;i<NumPie;i++){
-      	Acan = piezas[i].ancho;
-      	Acal = piezas[i].alto;
-      	if((Acan != 0) && (Acal != 0) && (Acan <= AnchoPl) && (Acal <= AltoPl)) {
-		   	// Entra aqui si la pieza tiene dimensiones > 0 y cabe en la lmina
-			siguiente = i+1;
-			i = NumPie;
-	   	}//End if 
-      	else
-		   	PieInc--;
+            Acan = piezas[i].ancho;
+            Acal = piezas[i].alto;
+            if((Acan != 0) && (Acal != 0) && (Acan <= AnchoPl) && (Acal <= AltoPl)) {
+                // Entra aqui si la pieza tiene dimensiones > 0 y cabe en la lmina
+                siguiente = i+1;
+                i = NumPie;
+                //aqui se deberia crear la primera perdida a la derecha de la pieza
+            } else PieInc--;
 	}//End for
 
 	if(siguiente<NumPie) {
-      	for(i=siguiente;i<NumPie;i++) {
+            for(i=siguiente;i<NumPie;i++) {
         	Nuan = piezas[i].ancho;
          	Nual = piezas[i].alto;
       		if((Nuan != 0) && (Nual != 0) && (Nuan <= AnchoPl) && (Nual <= AltoPl)) {
-			   	Perd = app_pieza2perdida_g(Nuan,Nual);
-            	if(Perd.ancho != -1) { // La pieza nueva calza en alguna prdida dentro de la lista de prdidas
-               		if((Nuan < Perd.ancho) && (Nual < Perd.alto)) { // La nueva pieza est dentro de una prdida
-																	// => se generan 2 nuevas prdidas
-					   	// Define fragmento de prdida inferior (dentro del patrn y debajo de la nueva pieza)
-                  		app_agregalistap_g(Perd.ancho,Perd.alto - Nual);
-						// Define fragmento de prdida derecho (dentro del patrn y al lado de la nueva pieza)
-                  		app_agregalistap_g(Perd.ancho - Nuan,Nual);
-               		}//End if
-               		else if(Nual < Perd.alto)	 // La nueva pieza calza exacto a lo ancho de la prdida
-												 // y queda una prdida inferior (por debajo de la nueva pieza)
-						//Agrega nueva prdida del mismo ancho de la prdida anterior pero de menor alto.
-                  		app_agregalistap_g(Nuan,Perd.alto - Nual);
-               		else if(Nuan < Perd.ancho)   // La nueva pieza calza exacto a lo largo de la pridida
-												 // y queda una prdida derecha (por al lado de la nueva pieza)
-						//Agrega nueva prdida del mismo alto de la perdida anterior pero de menor ancho.
-                  		app_agregalistap_g(Perd.ancho - Nuan,Nual);
-            	}//End if
-            	else {  // Nueva pieza no calzó en las pérdidas o no hay pérdidas.
-               		if((Acal + Nual) <= AltoPl) {// Determina corte horizontal,
-												 // la pieza la pone por debajo del patrn de corte
-                  		if(Acan > Nuan) {        // Genera Prdida al lado derecho de la nueva pieza
-												 // y por debajo del patrn de corte actual
-	                  		// Ingresa nueva Prdida de dimensiones (crecimiento a lo alto
-							// (hacia abajo) del patrn) x (Alto de la nueva pieza)
-                     		app_agregalistap_g(Acan - Nuan,Nual);
-							// Dimensiona nuevo alto del patrn de corte actual
-                     		Acal = Acal + Nual;
-                  		}//End if
-                  		else if(Nuan > Acan) {   // Genera Prdida al lado derecho el patrn de corte
-											     // y por encima de la nueva pieza.
-							// Ingresa nueva Prdida de dimensiones (crecimiento a lo ancho
-							// (hacia lado derecho) del patrn) x (Alto del patrn de corte antiguo)
-                     		app_agregalistap_g(Nuan - Acan,Acal);
-							// Dimensiona nuevo ancho del patrn de corte actual
-                     		Acan = Nuan;
-							// Dimensiona nuevo alto del patrn de corte actual
-                     		Acal = Acal + Nual;
-                  		}//End elseif
-                  		else// No hay pérdida,el ancho de la nueva pieza coincide exacto con el del patrn
-						 	// de corte, pero hay que actualizar el alto del nuevo patrn de corte
-                     		Acal = Acal + Nual;
-               		}//End if
-               		else if((Acan + Nuan) <= AnchoPl) { // Determina corte vertical, pieza la pone
-														// al lado derecho del patrn de corte
-                  		if(Acal > Nual) {        // Genera Prdida bajo la nueva pieza
-						   						 // y a la derecha del patrn de corte actual
-							// Ingresa nueva Prdida de dimensiones
-							// (Ancho nueva pieza) x (crecimiento a lo ancho (derecho) del patrn)
-                     		app_agregalistap_g(Nuan,Acal - Nual);
-							// Dimensiona nuevo ancho del patrn de corte actual
-                     		Acan = Acan + Nuan;
-                  		}//End if
-                  		else if(Nual > Acal) {   // Genera Prdida bajo el patrn de corte
-												 // y a la izquierda de la nueva pieza.
-							// Ingresa nueva Prdida de dimensiones (Ancho del patrn antes de insertar
-							// nueva pieza) x (crecimiento a lo alto (hacia abajo) del patrn)
-                     		app_agregalistap_g(Acan,Nual - Acal);
-							// Dimensiona nuevo ancho del patrn de corte actual
-                     		Acan = Acan + Nuan;
-							// Dimensiona nuevo alto del patrn de corte actual
-                     		Acal = Nual;
-                  		}//End elseif
-                  		else// No hay pérdida,el alto de la nueva pieza coincide con el del patrn de corte
-							// pero hay que actualizar el ancho del nuevo patrn de corte
-                     		Acan = Acan + Nuan;
-               		}//End else if
-               		else PieInc--; // Pieza excede el area disponible en la lámina.
-            	}//End else
-         	}//End if
-            else PieInc--; // Pieza excede el area disponible en la lámina.
+                    Perd = app_pieza2perdida_g(Nuan,Nual);
+                    if(Perd.ancho != -1) { // La pieza nueva calza en alguna prdida dentro de la lista de prdidas
+                        if((Nuan < Perd.ancho) && (Nual < Perd.alto)) { // La nueva pieza est dentro de una prdida
+                            // => se generan 2 nuevas prdidas
+                            // Define fragmento de prdida inferior (dentro del patrn y debajo de la nueva pieza)
+                            app_agregalistap_g(Perd.ancho,Perd.alto - Nual);
+                            // Define fragmento de prdida derecho (dentro del patrn y al lado de la nueva pieza)
+                            app_agregalistap_g(Perd.ancho - Nuan,Nual);
+                        } else if(Nual < Perd.alto)	 // La nueva pieza calza exacto a lo ancho de la prdida
+                            // y queda una prdida inferior (por debajo de la nueva pieza)
+                            //Agrega nueva prdida del mismo ancho de la prdida anterior pero de menor alto.
+                            app_agregalistap_g(Nuan,Perd.alto - Nual);
+                        else if(Nuan < Perd.ancho)   // La nueva pieza calza exacto a lo largo de la pridida
+                            // y queda una prdida derecha (por al lado de la nueva pieza)
+                            //Agrega nueva prdida del mismo alto de la perdida anterior pero de menor ancho.
+                            app_agregalistap_g(Perd.ancho - Nuan,Nual);
+                    } else {  // Nueva pieza no calzó en las pérdidas o no hay pérdidas.
+                        if((Acal + Nual) <= AltoPl) {// Determina corte horizontal,
+                            // la pieza la pone por debajo del patrn de corte
+                            if(Acan > Nuan) {        // Genera Prdida al lado derecho de la nueva pieza
+                                // y por debajo del patrn de corte actual
+                                // Ingresa nueva Prdida de dimensiones (crecimiento a lo alto
+                                // (hacia abajo) del patrn) x (Alto de la nueva pieza)
+                                app_agregalistap_g(Acan - Nuan,Nual);
+                                // Dimensiona nuevo alto del patrn de corte actual
+                                Acal = Acal + Nual;
+                            } else if(Nuan > Acan) {   // Genera Prdida al lado derecho el patrn de corte
+                                // y por encima de la nueva pieza.
+                                // Ingresa nueva Prdida de dimensiones (crecimiento a lo ancho
+                                // (hacia lado derecho) del patrn) x (Alto del patrn de corte antiguo)
+                                app_agregalistap_g(Nuan - Acan,Acal);
+                                // Dimensiona nuevo ancho del patrn de corte actual
+                                Acan = Nuan;
+                                // Dimensiona nuevo alto del patrn de corte actual
+                                Acal = Acal + Nual;
+                            } else// No hay pérdida,el ancho de la nueva pieza coincide exacto con el del patrn
+                                // de corte, pero hay que actualizar el alto del nuevo patrn de corte
+                                Acal = Acal + Nual;
+                        } else if((Acan + Nuan) <= AnchoPl) { // Determina corte vertical, pieza la pone
+                            // al lado derecho del patrn de corte
+                            if(Acal > Nual) {        // Genera Prdida bajo la nueva pieza
+                                // y a la derecha del patrn de corte actual
+                                // Ingresa nueva Prdida de dimensiones
+                                // (Ancho nueva pieza) x (crecimiento a lo ancho (derecho) del patrn)
+                                app_agregalistap_g(Nuan,Acal - Nual);
+                                // Dimensiona nuevo ancho del patrn de corte actual
+                                Acan = Acan + Nuan;
+                            } else if(Nual > Acal) {   // Genera Prdida bajo el patrn de corte
+                                // y a la izquierda de la nueva pieza.
+                                // Ingresa nueva Prdida de dimensiones (Ancho del patrn antes de insertar
+                                // nueva pieza) x (crecimiento a lo alto (hacia abajo) del patrn)
+                                app_agregalistap_g(Acan,Nual - Acal);
+                                // Dimensiona nuevo ancho del patrn de corte actual
+                                Acan = Acan + Nuan;
+                                // Dimensiona nuevo alto del patrn de corte actual
+                                Acal = Nual;
+                            } else// No hay pérdida,el alto de la nueva pieza coincide con el del patrn de corte
+                                // pero hay que actualizar el ancho del nuevo patrn de corte
+                                Acan = Acan + Nuan;
+                        } else PieInc--; // Pieza excede el area disponible en la lámina.
+                    }//End else
+         	} else PieInc--; // Pieza excede el area disponible en la lámina.
         }//End for
     }//End if
     PerdExt = (AnchoPl - Acan) * AltoPl + Acan * (AltoPl - Acal);
