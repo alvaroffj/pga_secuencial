@@ -88,6 +88,8 @@ int main(int argc, char *argv[]) {
             // y mejor individuo de la población
             initpop(tipo_problema, run);
             gen = 0;
+            nGen = 0;
+            go = 1;
             while(go) {
                 // Crea una nueva generación
                 generation(tipo_problema, run);
