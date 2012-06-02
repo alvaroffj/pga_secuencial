@@ -30,7 +30,8 @@ int main(int argc, char *argv[]) {
     if (inicializa_archivos(argc, argv) == -1) exit(-1);
 // ./paramils -numRun 0 -scenariofile escenario.txt -validN 5
     runmax = consistenciaarchivo();
-    int s = 0;
+    int s = 0, genStop = 100, nGen = 0, go = 1;
+    float lastBest = 0.0;
     // Revisa consistencia del archivo de entrada (contiene el tipo y problema a resolver + parámetros genéticos 
     for (run = 1; run <= runmax; run++) {
         //Nueva semilla aleatoria
@@ -57,7 +58,7 @@ int main(int argc, char *argv[]) {
         for(i=0; i<argc; i++) {
             if(strcmp(argv[i], "-pr")==0) tipo_problema = atoi(argv[++i]);
             if(strcmp(argv[i], "-po")==0) popsize = atoi(argv[++i]);
-            if(strcmp(argv[i], "-g")==0) maxgen = atoi(argv[++i]);
+            if(strcmp(argv[i], "-g")==0) genStop = atoi(argv[++i]);
             if(strcmp(argv[i], "-m")==0) pmutation = atof(argv[++i]);
             if(strcmp(argv[i], "-c")==0) pcross = atof(argv[++i]);
             if(strcmp(argv[i], "-f")==0) sprintf(nomarch, "%s", argv[++i]);
@@ -86,8 +87,8 @@ int main(int argc, char *argv[]) {
             // Initializa la población de individuos 
             // y mejor individuo de la población
             initpop(tipo_problema, run);
-
-            for (gen = 0; gen < maxgen; gen++) {
+            gen = 0;
+            while(go) {
                 // Crea una nueva generación
                 generation(tipo_problema, run);
 /*
@@ -99,8 +100,15 @@ int main(int argc, char *argv[]) {
                 newpop = tempold;
 
                 // Condicin para salir del problema => que la prdida sea cero
-                if (bestfit.PEval.perdida == 0.0) gen = maxgen;
-            }//End for
+                if (bestfit.PEval.perdida == 0.0) go = 0;
+                if(gen>0) {
+                    if(lastBest == bestfit.fitness) {
+                        nGen++;
+                        if(nGen>=genStop) go = 0;
+                    } else nGen = 0;
+                } else lastBest = bestfit.fitness;
+                gen++;
+            }
 
             //Finaliza Contador de Segundos y calcula tiempos 
             ticks_end = times(&time_end);
