@@ -182,6 +182,7 @@ void initialize(void)
     gen = 0;
 
     //Coloca encabezado en archivo de estadísticas
+    fprintf(evofp, "\nInstancia: %s\n", nomarch);
     fprintf(evofp, "\nCorrida;Generación;Mínimo;Máximo;Media;Varianza\n");
 }//End initialize
 

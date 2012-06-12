@@ -51,9 +51,7 @@ int main(int argc, char *argv[]) {
 */
 
         // Lee archivo en infp con parámetros (todos ya chequeados)
-/*
         fscanf(infp, "%d %s %d %d %f %f", &tipo_problema, nomarch, &popsize, &maxgen, &pcross, &pmutation);
-*/
         int i=0;
         for(i=0; i<argc; i++) {
             if(strcmp(argv[i], "-pr")==0) tipo_problema = atoi(argv[++i]);
@@ -135,7 +133,7 @@ int main(int argc, char *argv[]) {
             printf("CPUTime_Mean = %f\n", time_consumtion.elapsed_time);
             printf("BestSolution_Mean = %f\n", bestfit.fitness);
 */
-            printf("Result for ParamILS: SAT, %f, %i, %f, %s\n", time_consumtion.elapsed_time, -1, bestfit.fitness, argv[7]);
+            printf("Result for ParamILS: SAT, %s, %f, %f, %s\n", nomarch, time_consumtion.elapsed_time, bestfit.fitness, argv[7]);
             // Libera memoria temporal del algoritmo no del problema
             freeall();
         }//End if
