@@ -8,7 +8,7 @@
 
 #include "memory.h"
 #include "sga.h"
-#include "var_pcp.h"
+#include "var_cp.h"
 
 void app_liberamemlistaperdidas_cp(int perdidaexterna)
 //Libera memoria de la lista de prdidas
