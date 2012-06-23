@@ -12,7 +12,7 @@
 extern "C" {
 #endif
 
-#include "var_pcp.h"
+#include "var_cp.h"
 
 void     app_liberamemlistaperdidas_cp(int perdidaexterna);
 void     app_agregalistap_cp(int anc,int alt);
