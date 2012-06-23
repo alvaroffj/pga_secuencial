@@ -264,7 +264,7 @@ int app_leearchivo_cp(char *nombrearchivo) {
         id--;
         cantidadtipospiezas=id;
         if(NumPie == 0) return 0;
-        largo_cromosoma = NumPie; //Define el largo del cromosoma
+        largo_cromosoma = bit_reservados_cp + NumPie; //Define el largo del cromosoma
         fitness_inicial = (float) (AltoPl * AnchoPl); //Obtiene el fitness_inicial
 
         // Establece valor en variables utilizadas en función evaluación
@@ -469,18 +469,18 @@ void app_objfunc_cp(struct individual *critter) {
         rt = critter->chmut[i];
         for (j = 0; j < stop; j++) {
             bitpos = j + UINTSIZE*i;
-            if((i==0 && j >=bit_reservados) || i>0) {
+            if((i==0 && j >=bit_reservados_cp) || i>0) {
                 /*
                 * Extrae segmento del cromosoma correspondiente a las piezas
                 */
-                if (tp & mask) chrom[bitpos - bit_reservados] = 1;
-                else chrom[bitpos - bit_reservados] = 0;
+                if (tp & mask) chrom[bitpos - bit_reservados_cp] = 1;
+                else chrom[bitpos - bit_reservados_cp] = 0;
 
                 /*
                 * Extrae segmento del cromosoma correspondiente a la orientacion de la pieza
                 */
-                if (rt & mask) arreglo_rotar[bitpos - bit_reservados] = 1; //Rotada
-                else arreglo_rotar[bitpos - bit_reservados] = 0; //No rotada
+                if (rt & mask) arreglo_rotar[bitpos - bit_reservados_cp] = 1; //Rotada
+                else arreglo_rotar[bitpos - bit_reservados_cp] = 0; //No rotada
             }
             tp = tp >> 1;
             rt = rt >> 1;
@@ -646,4 +646,3 @@ void app_genera_resultados_problema_cp(int corrida, int tipo_problema, char *nom
             //MS_AREA_OCUPADA;MS_NUMERO_PIEZAS_COLOCADAS;MS_NUMERO_PERDIDAS_GENERADAS;GENERACION_OCURRENCIA;
             bestfit.PEval.areaocupada, bestfit.PEval.piezas, bestfit.PEval.n_perdidas, bestfit.generation);
 }//End app_genera_resultados_problema_g
-

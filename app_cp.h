@@ -1,9 +1,16 @@
-/*----------------------------------------------------------------------------*/
-/* app_cp.h - rutinas para Problema de Corte de Piezas Guillotina             */
-/*----------------------------------------------------------------------------*/
+/* 
+ * File:   app_cp.h
+ * Author: Alvaro
+ *
+ * Created on 23 de junio de 2012, 06:09 PM
+ */
 
 #ifndef APP_CP_H
-#define APP_CP_H
+#define	APP_CP_H
+
+#ifdef	__cplusplus
+extern "C" {
+#endif
 
 #include "var_pcp.h"
 
@@ -21,4 +28,10 @@ int      HorizontalNodoAPCompara_cp(TNodoAP *Nodoi, TNodoAP *Nodoj);
 int      VerticalNodoAPCompara_cp(TNodoAP *Nodoi, TNodoAP *Nodoj);
 void 	 app_genera_resultados_problema_cp(int corrida, int tipo_problema, char *nombrearchivo);
 
-#endif /*APP_CP_H*/
+
+#ifdef	__cplusplus
+}
+#endif
+
+#endif	/* APP_CP_H */
+
