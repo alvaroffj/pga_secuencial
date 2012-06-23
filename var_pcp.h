@@ -15,6 +15,7 @@ float 			peso_uni;			/* Uso en funcin evaluación - Factor unificación de pérd
 float 			peso_perdida;		/* Factor de la componente pérdida */
 float 			peso_distancia;		/* Factor de la componente distancia */
 float 			peso_digregacion;	/* Factor de la componente digregación */
+int bit_reservados = 5; //Bits usados en el cromosoma para interpretarlo
 
 /* Estructuras de la aplicación */
 

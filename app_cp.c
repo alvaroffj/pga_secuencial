@@ -263,7 +263,6 @@ int app_leearchivo_cp(char *nombrearchivo) {
         //Establece la cantidad máxima de tipos de piezas distintos del problema
         id--;
         cantidadtipospiezas=id;
-
         if(NumPie == 0) return 0;
         largo_cromosoma = NumPie; //Define el largo del cromosoma
         fitness_inicial = (float) (AltoPl * AnchoPl); //Obtiene el fitness_inicial
