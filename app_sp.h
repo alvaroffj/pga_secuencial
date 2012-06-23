@@ -5,7 +5,7 @@
 #ifndef APP_SP_H
 #define	APP_SP_H
 
-#include "var_pcp.h"
+//#include "var_pcp.h"
 
 int      app_leearchivo_sp(char *nombrearchivo);
 void 	 app_free_sp(void);
