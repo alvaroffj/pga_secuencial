@@ -17,6 +17,8 @@
       <itemPath>app.h</itemPath>
       <itemPath>app2.c</itemPath>
       <itemPath>app2.h</itemPath>
+      <itemPath>app_cp.c</itemPath>
+      <itemPath>app_cp.h</itemPath>
       <itemPath>app_g.c</itemPath>
       <itemPath>app_g.h</itemPath>
       <itemPath>app_sp.c</itemPath>

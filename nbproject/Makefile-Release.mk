@@ -39,6 +39,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/utility.o \
 	${OBJECTDIR}/memory.o \
 	${OBJECTDIR}/app_sp.o \
+	${OBJECTDIR}/app_cp.o \
 	${OBJECTDIR}/generate.o \
 	${OBJECTDIR}/main.o \
 	${OBJECTDIR}/app.o \
@@ -93,6 +94,11 @@ ${OBJECTDIR}/app_sp.o: app_sp.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
 	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/app_sp.o app_sp.c
+
+${OBJECTDIR}/app_cp.o: app_cp.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/app_cp.o app_cp.c
 
 ${OBJECTDIR}/generate.o: generate.c 
 	${MKDIR} -p ${OBJECTDIR}
