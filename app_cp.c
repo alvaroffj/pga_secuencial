@@ -443,7 +443,7 @@ void app_objfuncfinal_cp(struct bestever *critter) {
 void app_objfunc_cp(struct individual *critter) {
     unsigned mask = 1, tp, rt, bitpos, dir, salto, go = 1, m, b;
     int j, k, stop, i, ini, vueltas = 0, pIni = 0, valPos, nAsig = 0;
-    int chrom[numero_piezas];
+    int chrom[NumPie];
     TNodoAP *piezaschromo; // variable que apunta a todas las piezas del cromosoma generado
     
     if ((piezaschromo = (TNodoAP*) malloc(NumPie * sizeof (TNodoAP))) == NULL)
@@ -452,7 +452,7 @@ void app_objfunc_cp(struct individual *critter) {
     printf("Malloc, App_g.c, 440, piezaschromo, %d\n", NumPie * sizeof (TNodoAP));
 #endif
     
-    for(i=0; i<numero_piezas; i++) {
+    for(i=0; i<NumPie; i++) {
         arreglo_orden[i] = -1;
         arreglo_ocupado[i] = 0;
         chrom[i] = 0;
@@ -515,7 +515,7 @@ void app_objfunc_cp(struct individual *critter) {
             while(arreglo_ocupado[pIni] != 0) { //si ya se ordeno la pieza pasa a la de la derecha
                 pIni++;
             }
-            for(i=pIni; i<numero_piezas; i = i+salto) { //desde la posicion inicial hasta el final, con (i + salto) como valor de incremento
+            for(i=pIni; i<NumPie; i = i+salto) { //desde la posicion inicial hasta el final, con (i + salto) como valor de incremento
                 if(arreglo_ocupado[i] == 0) { // si no ha sido agregado
                     valPos = chrom[i]; //obtiene el valor en esa posicion
                     arreglo_ocupado[i] = 1; //se marca como leida
@@ -535,11 +535,11 @@ void app_objfunc_cp(struct individual *critter) {
                         piezaschromo[nAsig].cantidadpiezas = 1;
                     }
                     nAsig++;
-                    if(nAsig == numero_piezas) go = 0; //si se ordenaron todas las piezas termina
+                    if(nAsig == NumPie) go = 0; //si se ordenaron todas las piezas termina
                 }
             }
         } else {//der->izq
-            pIni = numero_piezas-1; //se ubica en la ultima posicion del string
+            pIni = NumPie-1; //se ubica en la ultima posicion del string
             while(arreglo_ocupado[pIni] != 0) { //si ya se ordeno la pieza pasa a la de la izquierda
                 pIni--;
             }
@@ -565,7 +565,7 @@ void app_objfunc_cp(struct individual *critter) {
                         piezaschromo[nAsig].cantidadpiezas = 1;
                     }
                     nAsig++;
-                    if(nAsig == numero_piezas) go = 0;
+                    if(nAsig == NumPie) go = 0;
                 }
             }
         }
