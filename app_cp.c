@@ -453,10 +453,10 @@ void app_objfunc_cp(struct individual *critter) {
 #endif
     
     for(i=0; i<NumPie; i++) {
-        arreglo_orden[i] = -1;
-        arreglo_ocupado[i] = 0;
+        arreglo_orden_cp[i] = -1;
+        arreglo_ocupado_cp[i] = 0;
         chrom[i] = 0;
-        arreglo_rotar[i] = 0;
+        arreglo_rotar_cp[i] = 0;
     }
     
     for (i = 0; i < chromsize; i++) {
@@ -479,8 +479,8 @@ void app_objfunc_cp(struct individual *critter) {
                 /*
                 * Extrae segmento del cromosoma correspondiente a la orientacion de la pieza
                 */
-                if (rt & mask) arreglo_rotar[bitpos - bit_reservados_cp] = 1; //Rotada
-                else arreglo_rotar[bitpos - bit_reservados_cp] = 0; //No rotada
+                if (rt & mask) arreglo_rotar_cp[bitpos - bit_reservados_cp] = 1; //Rotada
+                else arreglo_rotar_cp[bitpos - bit_reservados_cp] = 0; //No rotada
             }
             tp = tp >> 1;
             rt = rt >> 1;
@@ -512,16 +512,16 @@ void app_objfunc_cp(struct individual *critter) {
     while(go) { //mientras queden piezas por ordenar
         if(dir == 1) {//izq->der
             pIni = 0; //posicion inicial
-            while(arreglo_ocupado[pIni] != 0) { //si ya se ordeno la pieza pasa a la de la derecha
+            while(arreglo_ocupado_cp[pIni] != 0) { //si ya se ordeno la pieza pasa a la de la derecha
                 pIni++;
             }
             for(i=pIni; i<NumPie; i = i+salto) { //desde la posicion inicial hasta el final, con (i + salto) como valor de incremento
-                if(arreglo_ocupado[i] == 0) { // si no ha sido agregado
+                if(arreglo_ocupado_cp[i] == 0) { // si no ha sido agregado
                     valPos = chrom[i]; //obtiene el valor en esa posicion
-                    arreglo_ocupado[i] = 1; //se marca como leida
+                    arreglo_ocupado_cp[i] = 1; //se marca como leida
                     if(valPos==ini) { //si es igual al valor buscado se agrega al listado de piezas ordenado
-                        arreglo_orden[nAsig] = i; //se agrega al listado de piezas ordenado
-                        if(arreglo_rotar[i]==1) {
+                        arreglo_orden_cp[nAsig] = i; //se agrega al listado de piezas ordenado
+                        if(arreglo_rotar_cp[i]==1) {
                             piezaschromo[nAsig].ancho = piezasproblema[i].alto;
                             piezaschromo[nAsig].alto = piezasproblema[i].ancho;
                         } else {
@@ -540,16 +540,16 @@ void app_objfunc_cp(struct individual *critter) {
             }
         } else {//der->izq
             pIni = NumPie-1; //se ubica en la ultima posicion del string
-            while(arreglo_ocupado[pIni] != 0) { //si ya se ordeno la pieza pasa a la de la izquierda
+            while(arreglo_ocupado_cp[pIni] != 0) { //si ya se ordeno la pieza pasa a la de la izquierda
                 pIni--;
             }
             for(i=pIni; i>=0; i = i-salto) { //desde la posicion inicial hasta el inicio del string, con (i + salto) como valor de retroceso
-                if(arreglo_ocupado[i] == 0) { // si no ha sido agregado
+                if(arreglo_ocupado_cp[i] == 0) { // si no ha sido agregado
                     valPos = chrom[i]; //obtiene el valor en esa posicion
-                    arreglo_ocupado[i] = 1; //se marca como leida
+                    arreglo_ocupado_cp[i] = 1; //se marca como leida
                     if(valPos==ini) { //si es igual al valor buscado se agrega al listado de piezas ordenado
-                        arreglo_orden[nAsig] = i; //se agrega al listado de piezas ordenado
-                        if(arreglo_rotar[i]==1) {
+                        arreglo_orden_cp[nAsig] = i; //se agrega al listado de piezas ordenado
+                        if(arreglo_rotar_cp[i]==1) {
                             piezaschromo[nAsig].ancho = piezasproblema[i].alto;
                             piezaschromo[nAsig].alto = piezasproblema[i].ancho;
                         } else {

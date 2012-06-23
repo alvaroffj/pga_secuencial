@@ -16,6 +16,9 @@ float 			peso_perdida;		/* Factor de la componente pérdida */
 float 			peso_distancia;		/* Factor de la componente distancia */
 float 			peso_digregacion;	/* Factor de la componente digregación */
 int bit_reservados_cp = 5; //Bits usados en el cromosoma para interpretarlo
+int *arreglo_ocupado_cp; //arreglo que guarda si la pieza a sido ingresada o no al strip
+int *arreglo_orden_cp; //arreglo que guarda el numero de la pieza que es ingresada en la posicion i
+int *arreglo_rotar_cp; //arreglo que indica si la pieza i debe ir rotada o no
 
 /* Estructuras de la aplicación */
 
