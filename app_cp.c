@@ -266,6 +266,9 @@ int app_leearchivo_cp(char *nombrearchivo) {
         if(NumPie == 0) return 0;
         largo_cromosoma = bit_reservados_cp + NumPie; //Define el largo del cromosoma
         fitness_inicial = (float) (AltoPl * AnchoPl); //Obtiene el fitness_inicial
+        arreglo_ocupado_cp = (int *) malloc(NumPie * sizeof(int)); //en este arreglo se guarda si la pieza fue ocupada o no
+        arreglo_orden_cp = (int *) malloc(NumPie * sizeof(int)); //arreglo que guarda el numero de la pieza que es ingresada en la posicion i
+        arreglo_rotar_cp = (int *) malloc(NumPie * sizeof(int)); //arreglo que indica si la pieza i debe ir rotada o no
         printf("NumPie: %i\n", NumPie);
         printf("largo_cromosoma: %i\n", largo_cromosoma);
         // Establece valor en variables utilizadas en función evaluación
@@ -452,7 +455,7 @@ void app_objfunc_cp(struct individual *critter) {
 #ifdef _DEBUG_MALLOC_		
     printf("Malloc, App_g.c, 440, piezaschromo, %d\n", NumPie * sizeof (TNodoAP));
 #endif
-    
+    printf("0\n");
     for(i=0; i<NumPie; i++) {
         arreglo_orden_cp[i] = -1;
         arreglo_ocupado_cp[i] = 0;
