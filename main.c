@@ -26,6 +26,7 @@
 */
 
 int main(int argc, char *argv[]) {
+    printf("Hola!\n");
     // Obtiene rutas de trabajo y crea archivos generales
     if (inicializa_archivos(argc, argv) == -1) exit(-1);
 // ./paramils -numRun 0 -scenariofile escenario.txt -validN 5
