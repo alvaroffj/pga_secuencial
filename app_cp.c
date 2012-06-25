@@ -322,7 +322,6 @@ TEval app_funceval_cp(TNodoAP *piezas) {
                 //aqui se deberia crear la primera perdida a la derecha de la pieza
             } else PieInc--;
 	}//End for
-        printf("siguiente: %i, NumPie: %i \n", siguiente, NumPie);
 	if(siguiente<NumPie) {
             for(i=siguiente;i<NumPie;i++) {
         	Nuan = piezas[i].ancho;
