@@ -460,6 +460,7 @@ void app_objfunc_cp(struct individual *critter) {
         arreglo_rotar_cp[i] = 0;
     }
     
+    printf("1\n");
     for (i = 0; i < chromsize; i++) {
         if (i == (chromsize - 1)) //ultimo bloque
             stop = lchrom - (i * UINTSIZE);
@@ -487,8 +488,7 @@ void app_objfunc_cp(struct individual *critter) {
             rt = rt >> 1;
         }
     }
-    printf("1\n");
-    
+    printf("2\n");
     tp = critter->chrom[0];
     /*
      * ini: Valor que se considera primero, 0 o 1, al recorrer el cromosoma
