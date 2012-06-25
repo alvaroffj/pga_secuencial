@@ -70,11 +70,10 @@ int main(int argc, char *argv[]) {
         pmutation = atof(argv[8]);
 */
                 
-/*
         printf("Espere, efectuando Corrida %d, Archivo %s...\n", run, nomarch);
         printf("Generaciones: %d\n", maxgen);
         printf("Poblacion: %d\n", popsize);
-*/
+        
         if (app_leearchivo(tipo_problema, nomarch)) {
             //Inicializa Contador de Segundos 
             ticks_start = times(&time_start);
