@@ -615,7 +615,7 @@ void app_objfunc_cp(struct individual *critter) {
 */
 
     critter->PEval = app_funceval_cp(piezaschromo);
-    critter->fitness = (float) critter->PEval.perdida;
+    critter->fitness = (float) critter->PEval.perdida*100.0;
 
     free(piezaschromo);
 #ifdef _DEBUG_MALLOC_		
