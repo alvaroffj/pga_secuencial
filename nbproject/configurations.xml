@@ -17,10 +17,10 @@
       <itemPath>app.h</itemPath>
       <itemPath>app2.c</itemPath>
       <itemPath>app2.h</itemPath>
-      <itemPath>app_cp.c</itemPath>
-      <itemPath>app_cp.h</itemPath>
       <itemPath>app_g.c</itemPath>
       <itemPath>app_g.h</itemPath>
+      <itemPath>app_g2.c</itemPath>
+      <itemPath>app_g2.h</itemPath>
       <itemPath>app_sp.c</itemPath>
       <itemPath>app_sp.h</itemPath>
       <itemPath>generate.c</itemPath>
@@ -33,6 +33,7 @@
       <itemPath>sga.h</itemPath>
       <itemPath>utility.c</itemPath>
       <itemPath>utility.h</itemPath>
+      <itemPath>var_cp.h</itemPath>
       <itemPath>var_pcp.h</itemPath>
       <itemPath>var_pcpir.h</itemPath>
       <itemPath>var_sp.h</itemPath>
