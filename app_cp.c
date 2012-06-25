@@ -266,7 +266,8 @@ int app_leearchivo_cp(char *nombrearchivo) {
         if(NumPie == 0) return 0;
         largo_cromosoma = bit_reservados_cp + NumPie; //Define el largo del cromosoma
         fitness_inicial = (float) (AltoPl * AnchoPl); //Obtiene el fitness_inicial
-
+        printf("NumPie: %i\n", NumPie);
+        printf("largo_cromosoma: %i\n", largo_cromosoma);
         // Establece valor en variables utilizadas en función evaluación
         peso_func_obj    = 0.85;// Uso en función evaluación - Factor de la pérdida
         peso_uni      	 = 0.15;// Uso en función evaluación - Factor unificación de pérdidas
@@ -486,6 +487,7 @@ void app_objfunc_cp(struct individual *critter) {
             rt = rt >> 1;
         }
     }
+    printf("1\n");
     
     tp = critter->chrom[0];
     /*
