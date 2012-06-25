@@ -646,3 +646,4 @@ void app_genera_resultados_problema_cp(int corrida, int tipo_problema, char *nom
             //MS_AREA_OCUPADA;MS_NUMERO_PIEZAS_COLOCADAS;MS_NUMERO_PERDIDAS_GENERADAS;GENERACION_OCURRENCIA;
             bestfit.PEval.areaocupada, bestfit.PEval.piezas, bestfit.PEval.n_perdidas, bestfit.generation);
 }//End app_genera_resultados_problema_g
+
