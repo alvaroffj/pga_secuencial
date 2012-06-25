@@ -88,7 +88,9 @@ int main(int argc, char *argv[]) {
             while(go) {
                 // Crea una nueva generación
                 generation(tipo_problema, run);
+/*
                 printf("generacion: %d => %f\n\n",gen, bestfit.fitness);
+*/
                 // Avanza de Generación
                 tempold = oldpop;
                 oldpop = newpop;
