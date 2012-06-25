@@ -8,6 +8,7 @@
 #include "sga.h"
 #include "app_g.h"
 #include "app_sp.h"
+#include "app_cp.h"
 
 /*
  * Función principal de lectura del archivo
