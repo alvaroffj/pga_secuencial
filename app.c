@@ -14,7 +14,6 @@
  * Función principal de lectura del archivo
  */
 int app_leearchivo(int tipo_problema, char *nombrearchivo) { 
-    printf("app_leerarchivo\n");
     //Problema de Corte de Pieza Guillotina
     if(tipo_problema == 0){ 
         if(app_leearchivo_g(nombrearchivo)) return -1;
@@ -36,7 +35,6 @@ int app_leearchivo(int tipo_problema, char *nombrearchivo) {
  * Función Objetivo general, llama a la función objetivo de acuerdo al problema
  */
 void app_objfunc(int tipo_problema, struct individual *critter) {
-    printf("app_objfunc\n");
     //Problema de Corte de Pieza Guillotina
     if (tipo_problema == 0) app_objfunc_g(critter);
     //Problema de Strip Packing

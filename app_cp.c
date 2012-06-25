@@ -269,8 +269,6 @@ int app_leearchivo_cp(char *nombrearchivo) {
         arreglo_ocupado_cp = (int *) malloc(NumPie * sizeof(int)); //en este arreglo se guarda si la pieza fue ocupada o no
         arreglo_orden_cp = (int *) malloc(NumPie * sizeof(int)); //arreglo que guarda el numero de la pieza que es ingresada en la posicion i
         arreglo_rotar_cp = (int *) malloc(NumPie * sizeof(int)); //arreglo que indica si la pieza i debe ir rotada o no
-        printf("NumPie: %i\n", NumPie);
-        printf("largo_cromosoma: %i\n", largo_cromosoma);
         // Establece valor en variables utilizadas en función evaluación
         peso_func_obj    = 0.85;// Uso en función evaluación - Factor de la pérdida
         peso_uni      	 = 0.15;// Uso en función evaluación - Factor unificación de pérdidas
@@ -455,7 +453,6 @@ void app_objfunc_cp(struct individual *critter) {
 #ifdef _DEBUG_MALLOC_		
     printf("Malloc, App_g.c, 440, piezaschromo, %d\n", NumPie * sizeof (TNodoAP));
 #endif
-    printf("0\n");
     for(i=0; i<NumPie; i++) {
         arreglo_orden_cp[i] = -1;
         arreglo_ocupado_cp[i] = 0;
@@ -463,7 +460,6 @@ void app_objfunc_cp(struct individual *critter) {
         arreglo_rotar_cp[i] = 0;
     }
     
-    printf("1\n");
     for (i = 0; i < chromsize; i++) {
         if (i == (chromsize - 1)) //ultimo bloque
             stop = lchrom - (i * UINTSIZE);
@@ -491,7 +487,6 @@ void app_objfunc_cp(struct individual *critter) {
             rt = rt >> 1;
         }
     }
-    printf("2\n");
     tp = critter->chrom[0];
     /*
      * ini: Valor que se considera primero, 0 o 1, al recorrer el cromosoma
