@@ -526,6 +526,7 @@ void app_objfuncfinal_sp(struct bestever *critter) {
         dir = (dir==0)?1:0;
         if(vueltas%2 == 0) ini = (ini==0)?1:0;
     }
+    fprintf(outfp, "lala");
     
 /*
     printf("Mejor resultado\n");
