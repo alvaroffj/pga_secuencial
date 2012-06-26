@@ -30,7 +30,6 @@ int main(int argc, char *argv[]) {
     if (inicializa_archivos(argc, argv) == -1) exit(-1);
 // ./paramils -numRun 0 -scenariofile escenario.txt -validN 5
     runmax = consistenciaarchivo();
-    printf("Hola!\n");
     int s = 0, genStop = 100, nGen = 0, go = 1;
     float lastBest = 0.0;
     // Revisa consistencia del archivo de entrada (contiene el tipo y problema a resolver + parámetros genéticos 
@@ -44,12 +43,9 @@ int main(int argc, char *argv[]) {
         } else {
             randomseed = (float)((atoi(argv[7])%10000)/10000.0);
         }
-        printf("lala %i\n", atoi(argv[7])%10000);
-        printf("randomseed: %f\n", randomseed);
 
         // Lee archivo en infp con parámetros (todos ya chequeados)
         fscanf(infp, "%d %s %d %d %f %f", &tipo_problema, nomarch, &popsize, &maxgen, &pcross, &pmutation);
-        printf("Hola 2!\n");
         int i=0;
         for(i=0; i<argc; i++) {
             if(strcmp(argv[i], "-pr")==0) tipo_problema = atoi(argv[++i]);
@@ -68,9 +64,11 @@ int main(int argc, char *argv[]) {
         pmutation = atof(argv[8]);
 */
                 
+/*
         printf("Espere, efectuando Corrida %d, Archivo %s...\n", run, nomarch);
         printf("Generaciones: %d\n", maxgen);
         printf("Poblacion: %d\n", popsize);
+*/
         
         if (app_leearchivo(tipo_problema, nomarch)) {
             //Inicializa Contador de Segundos 
