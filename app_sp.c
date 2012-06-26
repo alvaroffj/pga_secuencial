@@ -471,16 +471,16 @@ void app_objfuncfinal_sp(struct bestever *critter) {
         if(tp & mask) salto = salto + b;
     }
     
-/*
-    printf("ini: %d\n", ini);
-    printf("dir: %d\n", dir);
-    printf("salto: %d\n", salto);
-    printf("chrom: ");
+    fprintf(outfp, "Mejor resultado\n");
+    fprintf(outfp, "Fitness: %f\n", critter->fitness);
+    fprintf(outfp, "ini: %d\n", ini);
+    fprintf(outfp, "dir: %d\n", dir);
+    fprintf(outfp, "salto: %d\n", salto);
+    fprintf(outfp, "chrom: ");
     for(i=0; i<numero_piezas; i++) {
-        printf("%d ", chrom[i]);
+        fprintf(outfp, "%d ", chrom[i]);
     }
-    printf("\n");
-*/
+    fprintf(outfp, "\n");
     
     /*
      * Obtiene el orden en que deben ser insertadas las piezas según el cromosoma
@@ -526,24 +526,19 @@ void app_objfuncfinal_sp(struct bestever *critter) {
         dir = (dir==0)?1:0;
         if(vueltas%2 == 0) ini = (ini==0)?1:0;
     }
-    fprintf(outfp, "lala");
     
-/*
-    printf("Mejor resultado\n");
-    printf("Fitness: %f\n", critter->fitness);
     
-    printf("O: ");
+    fprintf(outfp, "O: ");
     for(i=0; i<numero_piezas; i++) {
-        printf("%d ", arreglo_orden[i]);
+        fprintf(outfp, "%d ", arreglo_orden[i]);
     }
-    printf("\n");
+    fprintf(outfp, "\n");
     
-    printf("R: ");
+    fprintf(outfp, "R: ");
     for(i=0; i<numero_piezas; i++) {
-        printf("%d ", arreglo_rotar[arreglo_orden[i]]);
+        fprintf(outfp, "%d ", arreglo_rotar[arreglo_orden[i]]);
     }
-    printf("\n");
-*/
+    fprintf(outfp, "\n");
 }
 
 
