@@ -93,7 +93,7 @@ float fitness() {
 /*
  * Inserta las piezas en la tira, según el orden y sentido correspondiente
  */
-void creaLayout() {
+void creaLayout(int write) {
     int i, x = 0, j, altura = 0, n = 1, fit = 0, cAncho = 0, cAlto = 0, pen = 0;
     Datos_pieza cPieza;
 
@@ -141,10 +141,9 @@ void creaLayout() {
                 altura = arreglo_alturas[j+1];
             }
         }
-        
-/*
-        printf("insertar pieza[%d]: %d x %d en (%d,%d)\n", arreglo_orden[i], cAncho, cAlto, x, altura);
-*/
+        if(write==1) {
+            fprintf(outfp, "insertar pieza[%d]: %d x %d en (%d,%d)\n", arreglo_orden[i], cAncho, cAlto, x, altura);
+        }
         for(j=x; j<cAncho+x; j++) {
             arreglo_alturas[j] = altura + cAlto;
         }
@@ -156,13 +155,13 @@ void creaLayout() {
         printf("\n");
 */
     }
-/*
-    printf("arreglo_altura: ");
-    for(j=0; j<ancho; j++) {
-        printf("%d ", arreglo_alturas[j]);
+    if(write==1) {
+        fprintf(outfp, "arreglo_altura: ");
+        for(j=0; j<ancho; j++) {
+            fprintf(outfp, "%d ", arreglo_alturas[j]);
+        }
+        fprintf(outfp, "\n");
     }
-    printf("\n");
-*/
 /*
     if(pen>0) {
         for(j=0; j<ancho; j++) {
@@ -384,7 +383,7 @@ void app_objfunc_sp(struct individual *critter) {
         printf("%d ", arreglo_orden[i]);
     }
 */
-    creaLayout();
+    creaLayout(0);
 /*
     critter->fitness = fitness();
 */
@@ -539,6 +538,8 @@ void app_objfuncfinal_sp(struct bestever *critter) {
         fprintf(outfp, "%d ", arreglo_rotar[arreglo_orden[i]]);
     }
     fprintf(outfp, "\n");
+    
+    creaLayout(1);
 }
 
 
