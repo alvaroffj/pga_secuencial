@@ -128,7 +128,7 @@ int main(int argc, char *argv[]) {
             printf("CPUTime_Mean = %f\n", time_consumtion.elapsed_time);
             printf("BestSolution_Mean = %f\n", bestfit.fitness);
 */
-            printf("Result for ParamILS: SAT, %s, %f, %f, %s, %f\n", nomarch, time_consumtion.elapsed_time, bestfit.fitness, argv[7], bestfit.PEval.perdida);
+            printf("Result for ParamILS: SAT, %s, %f, %f, %s\n", nomarch, time_consumtion.elapsed_time, bestfit.fitness, argv[7]);
             // Libera memoria temporal del algoritmo no del problema
             freeall();
         }//End if
