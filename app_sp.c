@@ -103,6 +103,9 @@ void creaLayout(int write) {
     for(i=0; i<numero_piezas; i++) {
         arreglo_ocupado[i] = 0;
     }
+    if(write==1) {
+        fprintf(outfp, "Piezas: ");
+    }
     for(i=0; i<numero_piezas; i++) {
         x = posMenorAltura();
         cPieza = lista_piezas[arreglo_orden[i]];
@@ -155,8 +158,8 @@ void creaLayout(int write) {
         printf("\n");
 */
     }
-    fprintf(outfp, "\n");
     if(write==1) {
+        fprintf(outfp, "\n");
         fprintf(outfp, "arreglo_altura: ");
         for(j=0; j<ancho; j++) {
             fprintf(outfp, "%d ", arreglo_alturas[j]);
