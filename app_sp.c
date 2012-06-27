@@ -475,8 +475,9 @@ void app_objfuncfinal_sp(struct bestever *critter) {
     }
     
     fprintf(outfp, "Mejor resultado\n");
-    fprintf(outfp, "Fitness: %f\n", critter->fitness);
     fprintf(outfp, "Corrida: %d\n", run);
+    fprintf(outfp, "Instancia: %d\n", nomarch);
+    fprintf(outfp, "Fitness: %f\n", critter->fitness);
     fprintf(outfp, "ini: %d\n", ini);
     fprintf(outfp, "dir: %d\n", dir);
     fprintf(outfp, "salto: %d\n", salto);
