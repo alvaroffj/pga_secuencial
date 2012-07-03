@@ -490,8 +490,7 @@ void app_objfunc_cp(struct individual *critter) {
     /*
      * ini: Valor que se considera primero, 0 o 1, al recorrer el cromosoma
      */
-    ini = (tp & mask)?1:0;
-    tp = tp >> 1;
+    ini = 1;
     /*
      * dir: Direccion inicial en que se recorre el cromosoma
      * 0: der -> izq
