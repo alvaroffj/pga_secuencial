@@ -52,7 +52,7 @@ void app_free(int tipo_problema) {
     //Problema de Strip Packing
     else if (tipo_problema == 1) app_free_sp();
     //Problema de Corte de Piezas Guillotina 2.0
-    else if (tipo_problema == 1) app_free_cp();
+    else if (tipo_problema == 2) app_free_cp();
 }
 
 /*
@@ -64,7 +64,7 @@ void app_genera_resultados_problema(int corrida, int tipo_problema, char *nombre
     //Problema de Strip Packing
     else if (tipo_problema == 1) app_genera_resultados_problema_sp(corrida, tipo_problema, nombrearchivo);
     //Problema de Corte de Piezas Guillotina 2.0
-    else if (tipo_problema == 1) app_genera_resultados_problema_cp(corrida, tipo_problema, nombrearchivo);
+    else if (tipo_problema == 2) app_genera_resultados_problema_cp(corrida, tipo_problema, nombrearchivo);
 }
 
 void app_objfuncfinal(int tipo_problema, char *archivodestino, char *nomarch, cpu_consummed_time_t *time_consumtion, struct bestever *bestcritter) {
@@ -72,5 +72,5 @@ void app_objfuncfinal(int tipo_problema, char *archivodestino, char *nomarch, cp
     //Problema de Strip Packing
     else if (tipo_problema == 1) app_objfuncfinal_sp(bestcritter);
     //Problema de Corte de Piezas Guillotina 2.0
-    else if (tipo_problema == 1) app_objfuncfinal_cp(bestcritter);
+    else if (tipo_problema == 2) app_objfuncfinal_cp(bestcritter);
 }
