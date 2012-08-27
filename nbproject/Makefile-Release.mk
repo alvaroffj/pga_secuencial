@@ -39,8 +39,9 @@ OBJECTFILES= \
 	${OBJECTDIR}/utility.o \
 	${OBJECTDIR}/memory.o \
 	${OBJECTDIR}/app_sp.o \
-	${OBJECTDIR}/app_cp.o \
 	${OBJECTDIR}/generate.o \
+	${OBJECTDIR}/app_cp.o \
+	${OBJECTDIR}/app2_g.o \
 	${OBJECTDIR}/main.o \
 	${OBJECTDIR}/app.o \
 	${OBJECTDIR}/random.o
@@ -95,15 +96,20 @@ ${OBJECTDIR}/app_sp.o: app_sp.c
 	${RM} $@.d
 	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/app_sp.o app_sp.c
 
+${OBJECTDIR}/generate.o: generate.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/generate.o generate.c
+
 ${OBJECTDIR}/app_cp.o: app_cp.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
 	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/app_cp.o app_cp.c
 
-${OBJECTDIR}/generate.o: generate.c 
+${OBJECTDIR}/app2_g.o: app2_g.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
-	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/generate.o generate.c
+	$(COMPILE.c) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/app2_g.o app2_g.c
 
 ${OBJECTDIR}/main.o: main.c 
 	${MKDIR} -p ${OBJECTDIR}

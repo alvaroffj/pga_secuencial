@@ -1,0 +1,26 @@
+32 11 70 40
+CANTIDAD_PIEZAS                : 23
+INSTANCIA                      : GT1/OF1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 87.248218
+MS_FITNESS                     : 173.000000
+MS_PERDIDA (%)                 : 17300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.821430
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 2
+WORKER_MEJOR_INDIVIDUO         : 6
+TOTAL PIEZAS+PERDIDAS HECHAS   : 11
+
+PIEZAS: E,0,39,70,1;E,69,0,1,39;P,67,23,2,16;G,48,23,19,16;P,46,23,2,16;G,27,23,19,16;G,48,0,21,23;G,27,0,21,23;G,18,0,9,39;G,9,0,9,39;G,0,0,9,39;
+---------------------------------------------------------------------------------------------------

@@ -17,6 +17,8 @@
       <itemPath>app.h</itemPath>
       <itemPath>app2.c</itemPath>
       <itemPath>app2.h</itemPath>
+      <itemPath>app2_g.c</itemPath>
+      <itemPath>app2_g.h</itemPath>
       <itemPath>app_cp.c</itemPath>
       <itemPath>app_cp.h</itemPath>
       <itemPath>app_g.c</itemPath>
@@ -34,6 +36,7 @@
       <itemPath>utility.c</itemPath>
       <itemPath>utility.h</itemPath>
       <itemPath>var_cp.h</itemPath>
+      <itemPath>var_g.h</itemPath>
       <itemPath>var_pcp.h</itemPath>
       <itemPath>var_pcpir.h</itemPath>
       <itemPath>var_sp.h</itemPath>

@@ -21,7 +21,7 @@ FC=gfortran
 AS=as
 
 # Macros
-CND_PLATFORM=Cygwin-Windows
+CND_PLATFORM=GNU-Linux-x86
 CND_CONF=Debug
 CND_DISTDIR=dist
 CND_BUILDDIR=build
@@ -39,8 +39,9 @@ OBJECTFILES= \
 	${OBJECTDIR}/utility.o \
 	${OBJECTDIR}/memory.o \
 	${OBJECTDIR}/app_sp.o \
-	${OBJECTDIR}/app_cp.o \
 	${OBJECTDIR}/generate.o \
+	${OBJECTDIR}/app_cp.o \
+	${OBJECTDIR}/app2_g.o \
 	${OBJECTDIR}/main.o \
 	${OBJECTDIR}/app.o \
 	${OBJECTDIR}/random.o
@@ -64,9 +65,9 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/pga_secuencial.exe
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/pga_secuencial
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/pga_secuencial.exe: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/pga_secuencial: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/pga_secuencial ${OBJECTFILES} ${LDLIBSOPTIONS} 
 
@@ -95,15 +96,20 @@ ${OBJECTDIR}/app_sp.o: nbproject/Makefile-${CND_CONF}.mk app_sp.c
 	${RM} $@.d
 	$(COMPILE.c) -g -MMD -MP -MF $@.d -o ${OBJECTDIR}/app_sp.o app_sp.c
 
+${OBJECTDIR}/generate.o: nbproject/Makefile-${CND_CONF}.mk generate.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.c) -g -MMD -MP -MF $@.d -o ${OBJECTDIR}/generate.o generate.c
+
 ${OBJECTDIR}/app_cp.o: nbproject/Makefile-${CND_CONF}.mk app_cp.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
 	$(COMPILE.c) -g -MMD -MP -MF $@.d -o ${OBJECTDIR}/app_cp.o app_cp.c
 
-${OBJECTDIR}/generate.o: nbproject/Makefile-${CND_CONF}.mk generate.c 
+${OBJECTDIR}/app2_g.o: nbproject/Makefile-${CND_CONF}.mk app2_g.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
-	$(COMPILE.c) -g -MMD -MP -MF $@.d -o ${OBJECTDIR}/generate.o generate.c
+	$(COMPILE.c) -g -MMD -MP -MF $@.d -o ${OBJECTDIR}/app2_g.o app2_g.c
 
 ${OBJECTDIR}/main.o: nbproject/Makefile-${CND_CONF}.mk main.c 
 	${MKDIR} -p ${OBJECTDIR}
@@ -126,7 +132,7 @@ ${OBJECTDIR}/random.o: nbproject/Makefile-${CND_CONF}.mk random.c
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
-	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/pga_secuencial.exe
+	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/pga_secuencial
 
 # Subprojects
 .clean-subprojects:

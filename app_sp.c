@@ -43,7 +43,96 @@ int posMenorAltura() {
     return pos;
 }
 
-int posNMenorAltura(int n) {
+int findPos(int w) {
+/*
+    printf("findPos: %d\n", w);
+*/
+    int go = 1, menor = -1, mayor = -1, pos = -1, j, ini, lastMenor = -1, ok = 1, n=0;
+    while(go == 1) {
+        if(menor == -1) {
+            menor = arreglo_alturas[0];
+            mayor = arreglo_alturas[0];
+            pos = 0;
+            ini = 1;
+        }
+        for(j=ancho-1; j>=0; j--) {
+            if(arreglo_alturas[j]<=menor && arreglo_alturas[j]>lastMenor) {
+                menor = arreglo_alturas[j];
+                pos = j;
+            }
+            if(arreglo_alturas[j]>mayor) mayor = arreglo_alturas[j];
+        }
+/*
+        printf("%d=>%d\n", pos, menor);
+*/
+        ok = 1;
+        if(w + pos <= ancho) {
+/*
+            for(j=pos; j<w+pos; j++) {
+                if(arreglo_alturas[j] > menor) {
+                    ok = 0;
+                    j = w+pos;
+                    lastMenor = menor;
+                    menor = mayor+1;
+*/
+/*
+                    printf("lastMenor: %d\n", lastMenor);
+                    printf("Menor: %d\n", menor);
+*/
+/*
+                }
+            }
+*/
+        } else {
+            ok = 0;
+            lastMenor = menor;
+            menor = mayor+1;
+/*
+            printf("*lastMenor: %d\n", lastMenor);
+            printf("*Menor: %d\n", menor);
+*/
+        }
+        if(ok == 1) go = 0;
+        if(lastMenor == menor) return 0;
+    }
+    return pos;
+}
+
+
+
+int mayorHEntre(int a, int b) {
+    int i=0, mayor = arreglo_alturas[a];
+    for(i=a+1; i<b; i++) {
+        if(mayor<arreglo_alturas[i])
+            mayor = arreglo_alturas[i];
+    }
+    return mayor;
+}
+
+int posMayorHEntre(int a, int b) {
+    int i=0, mayor = arreglo_alturas[a], pos = 0;
+    for(i=a+1; i<b; i++) {
+        if(mayor<arreglo_alturas[i])
+            pos = i;
+    }
+    return pos;
+}
+
+int izquierda(int x, int y) {
+    int i = x;
+    while(arreglo_alturas[i]<=y && i>=0) i--;
+    i++;
+    if(x<=i) return -1;
+    else return i;
+}
+
+int abajo(int x, int h, int w) {
+    int mayor = mayorHEntre(x, x+w);
+    if(h<=mayor) return -1;
+    else return mayor;
+}
+
+int posNMenorAltura(int n, int w) {
     int menor[n], pos[n], i, j, k, mayor, distinto = 1;
     
     for(i=0; i<n; i++) {
@@ -94,7 +183,7 @@ float fitness() {
  * Inserta las piezas en la tira, según el orden y sentido correspondiente
  */
 void creaLayout(int write) {
-    int i, x = 0, j, altura = 0, n = 1, fit = 0, cAncho = 0, cAlto = 0, pen = 0;
+    int i, x = 0, j, altura = 0, n = 1, fit = 0, cAncho = 0, cAlto = 0, pen = 0, y = 0, mayorH, ok = 1, down, left, xIni, yIni, go = 1;
     Datos_pieza cPieza;
 
     for(i=0; i<ancho; i++) {
@@ -107,55 +196,104 @@ void creaLayout(int write) {
         fprintf(outfp, "Piezas: ");
     }
     for(i=0; i<numero_piezas; i++) {
+/*
         x = posMenorAltura();
+*/
         cPieza = lista_piezas[arreglo_orden[i]];
 /*
-        printf("ubicar pieza[%d]: %d %d x %d\n", arreglo_orden[i], arreglo_rotar[arreglo_orden[i]], cPieza.ancho, cPieza.alto);
+        if(write==1)
+            printf("ubicar pieza[%d]: %d %d x %d\n", arreglo_orden[i], arreglo_rotar[arreglo_orden[i]], cPieza.ancho, cPieza.alto);
 */
         n = 1;
-        while(!fit) {
-            x = posNMenorAltura(n);
+        down = 1; 
+        left = 1;
+        mayorH = mayorHEntre(0, ancho);
 /*
-            printf("%d x: %d => %d\n", n, x, arreglo_alturas[x]);
+        if(write==1)
+            printf("mayorH: %d\n", mayorH);
 */
+        while(!fit) {
+            ok=1;
             if(arreglo_rotar[arreglo_orden[i]] == 1) { //normal
-                if(cPieza.ancho <= (ancho - x)) {
-                    fit = 1;
-                    cAncho = cPieza.ancho;
-                    cAlto = cPieza.alto;
-                } else n++;
+                cAncho = cPieza.ancho;
+                cAlto = cPieza.alto;
             } else { //rotada en 90°
                 if(cPieza.alto <= ancho) {
-                    if(cPieza.alto <= (ancho - x)) {
-                        fit = 1;
-                        cAlto = cPieza.ancho;
-                        cAncho = cPieza.alto;
-                    } else n++;
+                    cAlto = cPieza.ancho;
+                    cAncho = cPieza.alto;
                 } else {
                     arreglo_rotar[arreglo_orden[i]] = 1;
-                    pen++;
+                    ok = 0;
+                }
+            }
+            if(ok) {
+                j=0;
+                go = 1;
+                while(go) {
+                    if(j==0) {
+                        xIni = ancho-cAncho;
+                        yIni = mayorH;
+                    } else {
+                        xIni = x;
+                        yIni = y;
+                    }
+                    if(down) {
+                        y = abajo(xIni, yIni, cAncho);
+/*
+                        if(write==1) printf("*y: %d\n", y);
+*/
+                        if(y<0) {
+                            down = 0;
+                            y = yIni;
+                        } else down = 1;
+                    }
+/*
+                    if(write==1) printf("y: %d\n", y);
+*/
+                    if(left) {
+                        x = izquierda(xIni, y);
+/*
+                        if(write==1) printf("*x: %d, y: %d\n", x, y);
+*/
+                        if(x<0) {
+                            left = 0;
+                            x = xIni;
+                        } else left = 1;
+                    }
+/*
+                    if(write==1) printf("x: %d\n", x);
+*/
+                    j++;
+                    if(j>10) exit(0);
+                    if(down || left) {
+                        go = 1;
+                        down = 1;
+                        left = 1;
+                    } else go = 0;
+/*
+                    if(write==1)
+                        if(go) printf("go\n");
+                        else printf("stop\n");
+*/
+                    fit = !go;
                 }
             }
         }
         fit = 0;
-        altura = arreglo_alturas[x];
-        for(j=x; j<cAncho+x-1; j++) {
-            if(altura < arreglo_alturas[j+1]) {
-                altura = arreglo_alturas[j+1];
-            }
-        }
         if(write==1) {
-            fprintf(outfp, "%d,%d,%d,%d;", x, altura, cAncho, cAlto);
+            fprintf(outfp, "%d,%d,%d,%d;", x, y, cAncho, cAlto);
         }
         for(j=x; j<cAncho+x; j++) {
-            arreglo_alturas[j] = altura + cAlto;
+            arreglo_alturas[j] = y + cAlto;
         }
 /*
-        printf("arreglo_altura: ");
-        for(j=0; j<ancho; j++) {
-            printf("%d ", arreglo_alturas[j]);
+        if(write==1) {
+            printf("arreglo_altura: ");
+            for(j=0; j<ancho; j++) {
+                printf("%d ", arreglo_alturas[j]);
+            }
+            printf("\n");
         }
-        printf("\n");
 */
     }
     if(write==1) {

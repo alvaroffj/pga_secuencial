@@ -1,0 +1,3640 @@
+32 11 70 40
+CANTIDAD_PIEZAS                : 23
+INSTANCIA                      : GT1/OF1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 87.248218
+MS_FITNESS                     : 173.000000
+MS_PERDIDA (%)                 : 17300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.821430
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 2
+WORKER_MEJOR_INDIVIDUO         : 18
+TOTAL PIEZAS+PERDIDAS HECHAS   : 11
+
+PIEZAS: E,0,39,70,1;E,69,0,1,39;P,23,37,16,2;G,23,18,16,19;P,67,23,2,16;G,48,23,19,16;G,0,18,23,21;G,48,0,21,23;G,0,9,39,9;G,39,0,9,39;G,0,0,39,9;
+---------------------------------------------------------------------------------------------------
+32 11 70 40
+CANTIDAD_PIEZAS                : 23
+INSTANCIA                      : GT1/OF1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 87.248218
+MS_FITNESS                     : 173.000000
+MS_PERDIDA (%)                 : 17300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.821430
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 2
+WORKER_MEJOR_INDIVIDUO         : 18
+TOTAL PIEZAS+PERDIDAS HECHAS   : 11
+
+PIEZAS: E,0,39,70,1;E,69,0,1,39;P,32,37,16,2;G,32,18,16,19;P,67,23,2,16;G,48,23,19,16;G,48,0,21,23;G,9,18,23,21;G,9,9,39,9;G,9,0,39,9;G,0,0,9,39;
+---------------------------------------------------------------------------------------------------
+32 12 70 40
+CANTIDAD_PIEZAS                : 23
+INSTANCIA                      : GT1/OF1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.019649
+MS_FITNESS                     : 197.000000
+MS_PERDIDA (%)                 : 19700.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 92.964286
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 12
+TOTAL PIEZAS+PERDIDAS HECHAS   : 12
+
+PIEZAS: E,0,39,70,1;P,66,22,4,17;G,66,0,4,22;P,57,36,9,3;G,57,0,9,36;P,55,23,2,16;G,36,23,19,16;G,36,0,21,23;G,27,0,9,39;G,18,0,9,39;G,9,0,9,39;G,0,0,9,39;
+---------------------------------------------------------------------------------------------------
+32 11 70 40
+CANTIDAD_PIEZAS                : 23
+INSTANCIA                      : GT1/OF1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 87.248218
+MS_FITNESS                     : 173.000000
+MS_PERDIDA (%)                 : 17300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.821430
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 2
+WORKER_MEJOR_INDIVIDUO         : 155
+TOTAL PIEZAS+PERDIDAS HECHAS   : 11
+
+PIEZAS: E,0,39,70,1;E,69,0,1,39;P,67,23,2,16;G,48,23,19,16;P,23,37,16,2;G,23,18,16,19;G,0,18,23,21;G,48,0,21,23;G,39,0,9,39;G,0,9,39,9;G,0,0,39,9;
+---------------------------------------------------------------------------------------------------
+32 12 70 40
+CANTIDAD_PIEZAS                : 23
+INSTANCIA                      : GT1/OF1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.769650
+MS_FITNESS                     : 197.000000
+MS_PERDIDA (%)                 : 19700.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 92.964286
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 9
+TOTAL PIEZAS+PERDIDAS HECHAS   : 12
+
+PIEZAS: E,69,0,1,40;P,44,30,16,1;G,44,19,16,11;P,60,39,9,1;G,60,0,9,39;P,0,28,29,3;G,0,14,29,14;P,55,31,5,9;G,0,31,55,9;G,44,0,16,19;G,29,0,15,31;G,0,0,29,14;
+---------------------------------------------------------------------------------------------------
+32 16 70 40
+CANTIDAD_PIEZAS                : 23
+INSTANCIA                      : GT1/OF1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 81.951785
+MS_FITNESS                     : 171.000000
+MS_PERDIDA (%)                 : 17100.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.892854
+MS_NUMERO_PIEZAS_COLOCADAS     : 9
+MS_NUMERO_PERDIDAS_GENERADAS   : 7
+WORKER_MEJOR_INDIVIDUO         : 14
+TOTAL PIEZAS+PERDIDAS HECHAS   : 16
+
+PIEZAS: P,61,39,9,1;G,61,0,9,39;P,52,39,9,1;G,52,0,9,39;P,41,11,2,29;G,27,11,14,29;P,43,36,9,4;G,43,0,9,36;G,27,0,16,11;P,18,39,9,1;G,18,0,9,39;P,16,29,2,11;G,0,29,16,11;P,0,22,4,7;G,4,0,14,29;G,0,0,4,22;
+---------------------------------------------------------------------------------------------------
+32 11 70 40
+CANTIDAD_PIEZAS                : 23
+INSTANCIA                      : GT1/OF1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 87.248218
+MS_FITNESS                     : 173.000000
+MS_PERDIDA (%)                 : 17300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.821430
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 2
+WORKER_MEJOR_INDIVIDUO         : 21
+TOTAL PIEZAS+PERDIDAS HECHAS   : 11
+
+PIEZAS: E,0,39,70,1;E,69,0,1,39;P,67,23,2,16;G,48,23,19,16;G,48,0,21,23;G,39,0,9,39;G,30,0,9,39;G,21,0,9,39;P,19,0,2,16;G,0,16,21,23;G,0,0,19,16;
+---------------------------------------------------------------------------------------------------
+32 11 70 40
+CANTIDAD_PIEZAS                : 23
+INSTANCIA                      : GT1/OF1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 87.248218
+MS_FITNESS                     : 173.000000
+MS_PERDIDA (%)                 : 17300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.821430
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 2
+WORKER_MEJOR_INDIVIDUO         : 32
+TOTAL PIEZAS+PERDIDAS HECHAS   : 11
+
+PIEZAS: E,0,39,70,1;E,69,0,1,39;P,67,23,2,16;G,48,23,19,16;P,46,23,2,16;G,27,23,19,16;G,48,0,21,23;G,27,0,21,23;G,18,0,9,39;G,9,0,9,39;G,0,0,9,39;
+---------------------------------------------------------------------------------------------------
+32 12 70 40
+CANTIDAD_PIEZAS                : 23
+INSTANCIA                      : GT1/OF1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.019649
+MS_FITNESS                     : 197.000000
+MS_PERDIDA (%)                 : 19700.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 92.964286
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 9
+TOTAL PIEZAS+PERDIDAS HECHAS   : 12
+
+PIEZAS: E,0,39,70,1;P,66,22,4,17;G,66,0,4,22;P,57,36,9,3;G,57,0,9,36;P,23,37,16,2;G,23,18,16,19;G,0,18,23,21;G,48,0,9,39;G,39,0,9,39;G,0,9,39,9;G,0,0,39,9;
+---------------------------------------------------------------------------------------------------
+32 11 70 40
+CANTIDAD_PIEZAS                : 23
+INSTANCIA                      : GT1/OF1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 87.248218
+MS_FITNESS                     : 173.000000
+MS_PERDIDA (%)                 : 17300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.821430
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 2
+WORKER_MEJOR_INDIVIDUO         : 10
+TOTAL PIEZAS+PERDIDAS HECHAS   : 11
+
+PIEZAS: E,0,39,70,1;E,69,0,1,39;P,23,37,16,2;G,23,18,16,19;P,67,23,2,16;G,48,23,19,16;G,0,18,23,21;G,48,0,21,23;G,0,9,39,9;G,39,0,9,39;G,0,0,39,9;
+---------------------------------------------------------------------------------------------------
+32 10 70 40
+CANTIDAD_PIEZAS                : 24
+INSTANCIA                      : GT1/OF2.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.689288
+MS_FITNESS                     : 142.000000
+MS_PERDIDA (%)                 : 14200.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.928569
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 21
+TOTAL PIEZAS+PERDIDAS HECHAS   : 10
+
+PIEZAS: G,54,36,16,4;G,54,0,16,36;P,18,22,18,1;G,18,0,18,22;P,0,39,44,1;G,44,0,10,40;P,36,29,8,10;G,36,0,8,29;G,0,23,36,16;G,0,0,18,23;
+---------------------------------------------------------------------------------------------------
+32 12 70 40
+CANTIDAD_PIEZAS                : 24
+INSTANCIA                      : GT1/OF2.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 87.814289
+MS_FITNESS                     : 72.000000
+MS_PERDIDA (%)                 : 7200.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 97.428572
+MS_NUMERO_PIEZAS_COLOCADAS     : 9
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 10
+TOTAL PIEZAS+PERDIDAS HECHAS   : 12
+
+PIEZAS: P,36,30,16,2;G,36,17,16,13;G,36,13,16,4;P,58,32,2,8;G,29,32,29,8;G,60,0,10,40;G,0,32,29,8;P,52,29,8,3;G,52,0,8,29;G,36,0,16,13;G,0,16,36,16;G,0,0,36,16;
+---------------------------------------------------------------------------------------------------
+32 12 70 40
+CANTIDAD_PIEZAS                : 24
+INSTANCIA                      : GT1/OF2.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.621435
+MS_FITNESS                     : 136.000000
+MS_PERDIDA (%)                 : 13600.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.142859
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 5
+TOTAL PIEZAS+PERDIDAS HECHAS   : 12
+
+PIEZAS: P,49,13,3,16;P,36,29,16,3;G,36,13,13,16;P,58,32,2,8;G,29,32,29,8;G,0,32,29,8;G,60,0,10,40;P,52,29,8,3;G,52,0,8,29;G,36,0,16,13;G,0,16,36,16;G,0,0,36,16;
+---------------------------------------------------------------------------------------------------
+32 11 70 40
+CANTIDAD_PIEZAS                : 24
+INSTANCIA                      : GT1/OF2.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.626788
+MS_FITNESS                     : 177.000000
+MS_PERDIDA (%)                 : 17700.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.678570
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 107
+TOTAL PIEZAS+PERDIDAS HECHAS   : 11
+
+PIEZAS: E,69,0,1,40;P,65,34,4,3;G,65,18,4,16;G,0,24,36,16;P,46,37,23,3;G,46,18,19,19;G,46,0,23,18;G,36,0,10,40;P,29,16,7,8;G,0,16,29,8;G,0,0,36,16;
+---------------------------------------------------------------------------------------------------
+32 11 70 40
+CANTIDAD_PIEZAS                : 24
+INSTANCIA                      : GT1/OF2.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.689288
+MS_FITNESS                     : 142.000000
+MS_PERDIDA (%)                 : 14200.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.928569
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 24
+TOTAL PIEZAS+PERDIDAS HECHAS   : 11
+
+PIEZAS: E,69,0,1,40;P,52,32,7,8;G,23,32,29,8;P,22,0,1,16;P,18,16,5,6;G,18,0,4,16;G,59,0,10,40;G,23,16,36,16;G,23,0,36,16;G,0,22,23,18;G,0,0,18,22;
+---------------------------------------------------------------------------------------------------
+32 11 70 40
+CANTIDAD_PIEZAS                : 24
+INSTANCIA                      : GT1/OF2.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.689288
+MS_FITNESS                     : 142.000000
+MS_PERDIDA (%)                 : 14200.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.928569
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 16
+TOTAL PIEZAS+PERDIDAS HECHAS   : 11
+
+PIEZAS: E,69,0,1,40;P,22,0,1,16;P,18,16,5,6;G,18,0,4,16;P,52,32,7,8;G,23,32,29,8;G,59,0,10,40;G,23,16,36,16;G,23,0,36,16;G,0,22,23,18;G,0,0,18,22;
+---------------------------------------------------------------------------------------------------
+32 11 70 40
+CANTIDAD_PIEZAS                : 24
+INSTANCIA                      : GT1/OF2.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.689288
+MS_FITNESS                     : 142.000000
+MS_PERDIDA (%)                 : 14200.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.928569
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 17
+TOTAL PIEZAS+PERDIDAS HECHAS   : 11
+
+PIEZAS: E,69,0,1,40;P,22,0,1,16;P,18,16,5,6;G,18,0,4,16;G,23,24,36,16;P,52,16,7,8;G,23,16,29,8;G,59,0,10,40;G,23,0,36,16;G,0,22,23,18;G,0,0,18,22;
+---------------------------------------------------------------------------------------------------
+32 9 70 40
+CANTIDAD_PIEZAS                : 24
+INSTANCIA                      : GT1/OF2.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 88.735718
+MS_FITNESS                     : 124.000000
+MS_PERDIDA (%)                 : 12400.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.571429
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 2
+WORKER_MEJOR_INDIVIDUO         : 14
+TOTAL PIEZAS+PERDIDAS HECHAS   : 9
+
+PIEZAS: P,62,29,8,11;G,62,0,8,29;G,46,36,16,4;G,18,0,18,23;G,46,0,16,36;P,0,39,36,1;G,36,0,10,40;G,0,23,36,16;G,0,0,18,23;
+---------------------------------------------------------------------------------------------------
+32 11 70 40
+CANTIDAD_PIEZAS                : 24
+INSTANCIA                      : GT1/OF2.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.689288
+MS_FITNESS                     : 142.000000
+MS_PERDIDA (%)                 : 14200.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.928569
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 10
+TOTAL PIEZAS+PERDIDAS HECHAS   : 11
+
+PIEZAS: E,69,0,1,40;P,22,0,1,16;P,18,16,5,6;G,18,0,4,16;G,23,24,36,16;P,52,16,7,8;G,23,16,29,8;G,59,0,10,40;G,23,0,36,16;G,0,22,23,18;G,0,0,18,22;
+---------------------------------------------------------------------------------------------------
+32 10 70 40
+CANTIDAD_PIEZAS                : 24
+INSTANCIA                      : GT1/OF2.pbm
+CANTIDAD_TIPOS_PIEZAS          : 10
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.689288
+MS_FITNESS                     : 142.000000
+MS_PERDIDA (%)                 : 14200.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.928569
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 22
+TOTAL PIEZAS+PERDIDAS HECHAS   : 10
+
+PIEZAS: P,62,29,8,11;G,62,0,8,29;G,46,36,16,4;G,46,0,16,36;P,18,22,18,1;G,18,0,18,22;P,0,39,36,1;G,36,0,10,40;G,0,23,36,16;G,0,0,18,23;
+---------------------------------------------------------------------------------------------------
+32 9 70 40
+CANTIDAD_PIEZAS                : 62
+INSTANCIA                      : GT1/W.pbm
+CANTIDAD_TIPOS_PIEZAS          : 20
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.598218
+MS_FITNESS                     : 145.000000
+MS_PERDIDA (%)                 : 14500.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.821429
+MS_NUMERO_PIEZAS_COLOCADAS     : 5
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 9
+TOTAL PIEZAS+PERDIDAS HECHAS   : 9
+
+PIEZAS: E,0,39,70,1;P,59,38,11,1;G,59,19,11,19;G,59,0,11,19;P,31,38,28,1;G,31,0,28,38;P,29,21,2,18;G,0,21,29,18;G,0,0,31,21;
+---------------------------------------------------------------------------------------------------
+32 7 70 40
+CANTIDAD_PIEZAS                : 62
+INSTANCIA                      : GT1/W.pbm
+CANTIDAD_TIPOS_PIEZAS          : 20
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 96.357143
+MS_FITNESS                     : 120.000000
+MS_PERDIDA (%)                 : 12000.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.714283
+MS_NUMERO_PIEZAS_COLOCADAS     : 4
+MS_NUMERO_PERDIDAS_GENERADAS   : 1
+WORKER_MEJOR_INDIVIDUO         : 6
+TOTAL PIEZAS+PERDIDAS HECHAS   : 7
+
+PIEZAS: E,0,39,70,1;E,69,0,1,39;P,58,38,11,1;G,58,19,11,19;G,58,0,11,19;G,29,0,29,39;G,0,0,29,39;
+---------------------------------------------------------------------------------------------------
+32 7 70 40
+CANTIDAD_PIEZAS                : 62
+INSTANCIA                      : GT1/W.pbm
+CANTIDAD_TIPOS_PIEZAS          : 20
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 96.357143
+MS_FITNESS                     : 120.000000
+MS_PERDIDA (%)                 : 12000.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.714283
+MS_NUMERO_PIEZAS_COLOCADAS     : 4
+MS_NUMERO_PERDIDAS_GENERADAS   : 1
+WORKER_MEJOR_INDIVIDUO         : 28
+TOTAL PIEZAS+PERDIDAS HECHAS   : 7
+
+PIEZAS: E,0,39,70,1;E,69,0,1,39;P,58,38,11,1;G,58,19,11,19;G,58,0,11,19;G,29,0,29,39;G,0,0,29,39;
+---------------------------------------------------------------------------------------------------
+32 9 70 40
+CANTIDAD_PIEZAS                : 62
+INSTANCIA                      : GT1/W.pbm
+CANTIDAD_TIPOS_PIEZAS          : 20
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 98.208928
+MS_FITNESS                     : 59.000000
+MS_PERDIDA (%)                 : 5900.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 97.892857
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 1
+WORKER_MEJOR_INDIVIDUO         : 117
+TOTAL PIEZAS+PERDIDAS HECHAS   : 9
+
+PIEZAS: E,69,0,1,40;P,68,21,1,19;G,57,21,11,19;G,57,0,12,21;G,38,29,19,11;G,19,29,19,11;G,0,29,19,11;G,39,0,18,29;G,0,0,39,29;
+---------------------------------------------------------------------------------------------------
+32 7 70 40
+CANTIDAD_PIEZAS                : 62
+INSTANCIA                      : GT1/W.pbm
+CANTIDAD_TIPOS_PIEZAS          : 20
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 96.357143
+MS_FITNESS                     : 120.000000
+MS_PERDIDA (%)                 : 12000.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.714283
+MS_NUMERO_PIEZAS_COLOCADAS     : 4
+MS_NUMERO_PERDIDAS_GENERADAS   : 1
+WORKER_MEJOR_INDIVIDUO         : 9
+TOTAL PIEZAS+PERDIDAS HECHAS   : 7
+
+PIEZAS: E,0,39,70,1;E,69,0,1,39;P,58,38,11,1;G,58,19,11,19;G,58,0,11,19;G,29,0,29,39;G,0,0,29,39;
+---------------------------------------------------------------------------------------------------
+32 7 70 40
+CANTIDAD_PIEZAS                : 62
+INSTANCIA                      : GT1/W.pbm
+CANTIDAD_TIPOS_PIEZAS          : 20
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 96.357143
+MS_FITNESS                     : 120.000000
+MS_PERDIDA (%)                 : 12000.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.714283
+MS_NUMERO_PIEZAS_COLOCADAS     : 4
+MS_NUMERO_PERDIDAS_GENERADAS   : 1
+WORKER_MEJOR_INDIVIDUO         : 50
+TOTAL PIEZAS+PERDIDAS HECHAS   : 7
+
+PIEZAS: E,0,39,70,1;E,69,0,1,39;P,0,38,11,1;G,0,19,11,19;G,40,0,29,39;G,11,0,29,39;G,0,0,11,19;
+---------------------------------------------------------------------------------------------------
+32 7 70 40
+CANTIDAD_PIEZAS                : 62
+INSTANCIA                      : GT1/W.pbm
+CANTIDAD_TIPOS_PIEZAS          : 20
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 96.357143
+MS_FITNESS                     : 120.000000
+MS_PERDIDA (%)                 : 12000.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.714283
+MS_NUMERO_PIEZAS_COLOCADAS     : 4
+MS_NUMERO_PERDIDAS_GENERADAS   : 1
+WORKER_MEJOR_INDIVIDUO         : 3
+TOTAL PIEZAS+PERDIDAS HECHAS   : 7
+
+PIEZAS: E,0,39,70,1;E,69,0,1,39;P,58,38,11,1;G,58,19,11,19;G,58,0,11,19;G,29,0,29,39;G,0,0,29,39;
+---------------------------------------------------------------------------------------------------
+32 10 70 40
+CANTIDAD_PIEZAS                : 62
+INSTANCIA                      : GT1/W.pbm
+CANTIDAD_TIPOS_PIEZAS          : 20
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.719645
+MS_FITNESS                     : 141.000000
+MS_PERDIDA (%)                 : 14100.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.964284
+MS_NUMERO_PIEZAS_COLOCADAS     : 6
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 25
+TOTAL PIEZAS+PERDIDAS HECHAS   : 10
+
+PIEZAS: E,0,39,70,1;G,47,25,23,14;P,46,29,1,9;P,29,38,18,1;G,29,29,17,9;P,66,14,4,11;G,47,14,19,11;G,47,0,23,14;G,29,0,18,29;G,0,0,29,39;
+---------------------------------------------------------------------------------------------------
+32 7 70 40
+CANTIDAD_PIEZAS                : 62
+INSTANCIA                      : GT1/W.pbm
+CANTIDAD_TIPOS_PIEZAS          : 20
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 90.010715
+MS_FITNESS                     : 82.000000
+MS_PERDIDA (%)                 : 8200.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 97.071427
+MS_NUMERO_PIEZAS_COLOCADAS     : 5
+MS_NUMERO_PERDIDAS_GENERADAS   : 2
+WORKER_MEJOR_INDIVIDUO         : 2
+TOTAL PIEZAS+PERDIDAS HECHAS   : 7
+
+PIEZAS: P,69,26,1,14;G,46,26,23,14;G,23,26,23,14;G,0,26,23,14;P,0,24,34,2;G,34,0,36,26;G,0,0,34,24;
+---------------------------------------------------------------------------------------------------
+32 8 70 40
+CANTIDAD_PIEZAS                : 62
+INSTANCIA                      : GT1/W.pbm
+CANTIDAD_TIPOS_PIEZAS          : 20
+ANCHO_LAMINA (unidades)        : 70
+LARGO_LAMINA (unidades)        : 40
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 86.823219
+MS_FITNESS                     : 187.000000
+MS_PERDIDA (%)                 : 18700.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.321431
+MS_NUMERO_PIEZAS_COLOCADAS     : 4
+MS_NUMERO_PERDIDAS_GENERADAS   : 2
+WORKER_MEJOR_INDIVIDUO         : 7
+TOTAL PIEZAS+PERDIDAS HECHAS   : 8
+
+PIEZAS: E,0,39,70,1;E,68,0,2,39;P,57,38,11,1;G,57,19,11,19;G,57,0,11,19;P,29,38,28,1;G,29,0,28,38;G,0,0,29,39;
+---------------------------------------------------------------------------------------------------
+32 13 100 125
+CANTIDAD_PIEZAS                : 82
+INSTANCIA                      : GT1/CU1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 100
+LARGO_LAMINA (unidades)        : 125
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.968804
+MS_FITNESS                     : 409.000000
+MS_PERDIDA (%)                 : 40900.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.727997
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 12
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,123,100,2;P,78,75,1,24;G,39,75,39,24;P,80,122,20,1;G,80,56,20,66;G,80,0,20,56;P,79,0,1,99;G,0,99,80,24;G,0,75,39,24;P,76,53,3,22;G,34,53,42,22;G,34,0,45,53;G,0,0,34,75;
+---------------------------------------------------------------------------------------------------
+32 14 100 125
+CANTIDAD_PIEZAS                : 82
+INSTANCIA                      : GT1/CU1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 100
+LARGO_LAMINA (unidades)        : 125
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 86.009610
+MS_FITNESS                     : 403.000000
+MS_PERDIDA (%)                 : 40300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.776003
+MS_NUMERO_PIEZAS_COLOCADAS     : 9
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 3
+TOTAL PIEZAS+PERDIDAS HECHAS   : 14
+
+PIEZAS: E,0,124,100,1;P,80,122,20,2;G,80,66,20,56;P,79,61,1,38;G,51,61,28,38;P,23,99,57,1;G,23,61,28,38;G,80,0,20,66;G,0,100,80,24;G,23,38,57,23;G,23,0,57,38;P,20,44,3,56;G,0,44,20,56;G,0,0,23,44;
+---------------------------------------------------------------------------------------------------
+32 14 100 125
+CANTIDAD_PIEZAS                : 82
+INSTANCIA                      : GT1/CU1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 100
+LARGO_LAMINA (unidades)        : 125
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 86.818808
+MS_FITNESS                     : 284.000000
+MS_PERDIDA (%)                 : 28400.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 97.728002
+MS_NUMERO_PIEZAS_COLOCADAS     : 10
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 5
+TOTAL PIEZAS+PERDIDAS HECHAS   : 14
+
+PIEZAS: P,80,122,20,3;G,80,56,20,66;G,39,101,41,24;G,80,0,20,56;G,0,101,39,24;P,57,100,23,1;G,57,50,23,50;G,57,0,23,50;P,50,78,7,23;G,0,78,50,23;P,56,0,1,40;G,0,40,57,38;G,0,20,56,20;G,0,0,56,20;
+---------------------------------------------------------------------------------------------------
+32 12 100 125
+CANTIDAD_PIEZAS                : 82
+INSTANCIA                      : GT1/CU1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 100
+LARGO_LAMINA (unidades)        : 125
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 87.545204
+MS_FITNESS                     : 361.000000
+MS_PERDIDA (%)                 : 36100.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 97.112000
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 30
+TOTAL PIEZAS+PERDIDAS HECHAS   : 12
+
+PIEZAS: E,0,123,100,2;P,80,122,20,1;G,80,56,20,66;G,41,99,39,24;G,80,0,20,56;G,0,99,41,24;P,79,0,1,75;G,0,75,80,24;P,76,53,3,22;G,34,53,42,22;G,34,0,45,53;G,0,0,34,75;
+---------------------------------------------------------------------------------------------------
+32 13 100 125
+CANTIDAD_PIEZAS                : 82
+INSTANCIA                      : GT1/CU1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 100
+LARGO_LAMINA (unidades)        : 125
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.070402
+MS_FITNESS                     : 872.000000
+MS_PERDIDA (%)                 : 87200.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.023998
+MS_NUMERO_PIEZAS_COLOCADAS     : 9
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 57
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,122,100,3;P,49,0,1,65;P,28,65,22,11;G,28,0,21,65;P,95,69,5,53;G,50,69,45,53;G,50,46,50,23;G,50,23,50,23;G,50,0,50,23;G,0,99,50,23;G,0,76,50,23;G,0,38,28,38;G,0,0,28,38;
+---------------------------------------------------------------------------------------------------
+32 12 100 125
+CANTIDAD_PIEZAS                : 82
+INSTANCIA                      : GT1/CU1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 100
+LARGO_LAMINA (unidades)        : 125
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 87.545204
+MS_FITNESS                     : 361.000000
+MS_PERDIDA (%)                 : 36100.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 97.112000
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 82
+TOTAL PIEZAS+PERDIDAS HECHAS   : 12
+
+PIEZAS: E,0,123,100,2;P,80,122,20,1;G,80,56,20,66;P,76,53,3,22;G,34,53,42,22;G,41,99,39,24;G,80,0,20,56;G,0,99,41,24;P,79,0,1,75;G,0,75,80,24;G,34,0,45,53;G,0,0,34,75;
+---------------------------------------------------------------------------------------------------
+32 14 100 125
+CANTIDAD_PIEZAS                : 82
+INSTANCIA                      : GT1/CU1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 100
+LARGO_LAMINA (unidades)        : 125
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.085202
+MS_FITNESS                     : 686.000000
+MS_PERDIDA (%)                 : 68600.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.511998
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 75
+TOTAL PIEZAS+PERDIDAS HECHAS   : 14
+
+PIEZAS: E,0,122,100,3;E,99,0,1,122;P,78,98,1,24;G,39,98,39,24;G,79,66,20,56;G,79,0,20,66;G,0,98,39,24;P,75,69,4,29;G,0,69,75,29;P,58,65,21,4;G,58,0,21,65;P,56,0,2,20;G,0,20,58,49;G,0,0,56,20;
+---------------------------------------------------------------------------------------------------
+32 14 100 125
+CANTIDAD_PIEZAS                : 82
+INSTANCIA                      : GT1/CU1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 100
+LARGO_LAMINA (unidades)        : 125
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.879603
+MS_FITNESS                     : 753.000000
+MS_PERDIDA (%)                 : 75300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.976003
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 0
+TOTAL PIEZAS+PERDIDAS HECHAS   : 14
+
+PIEZAS: E,99,0,1,125;P,79,122,20,3;G,79,66,20,56;P,77,61,2,39;P,53,100,26,2;G,53,61,24,39;G,79,0,20,66;P,73,102,6,23;G,29,102,44,23;G,29,61,24,41;G,29,0,50,61;P,23,0,6,50;G,0,50,29,75;G,0,0,23,50;
+---------------------------------------------------------------------------------------------------
+32 13 100 125
+CANTIDAD_PIEZAS                : 82
+INSTANCIA                      : GT1/CU1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 100
+LARGO_LAMINA (unidades)        : 125
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 83.954799
+MS_FITNESS                     : 889.000000
+MS_PERDIDA (%)                 : 88900.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 92.887998
+MS_NUMERO_PIEZAS_COLOCADAS     : 9
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 11
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,123,100,2;P,99,99,1,24;G,50,99,49,24;P,95,46,5,53;G,50,46,45,53;G,50,23,50,23;G,23,50,23,50;G,50,0,50,23;P,46,0,4,100;G,0,100,50,23;G,23,0,23,50;G,0,50,23,50;G,0,0,23,50;
+---------------------------------------------------------------------------------------------------
+32 15 100 125
+CANTIDAD_PIEZAS                : 82
+INSTANCIA                      : GT1/CU1.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 100
+LARGO_LAMINA (unidades)        : 125
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.560003
+MS_FITNESS                     : 800.000000
+MS_PERDIDA (%)                 : 80000.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.599999
+MS_NUMERO_PIEZAS_COLOCADAS     : 9
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 7
+TOTAL PIEZAS+PERDIDAS HECHAS   : 15
+
+PIEZAS: E,99,0,1,125;P,75,121,24,4;G,75,80,24,41;P,73,39,1,57;G,50,39,23,57;G,75,0,24,80;P,74,0,1,96;G,0,96,75,29;G,50,0,24,39;P,45,46,5,42;P,23,88,27,8;G,23,46,22,42;G,0,46,23,50;G,0,23,50,23;G,0,0,50,23;
+---------------------------------------------------------------------------------------------------
+32 15 150 175
+CANTIDAD_PIEZAS                : 90
+INSTANCIA                      : GT1/CU2.pbm
+CANTIDAD_TIPOS_PIEZAS          : 35
+ANCHO_LAMINA (unidades)        : 150
+LARGO_LAMINA (unidades)        : 175
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 81.120950
+MS_FITNESS                     : 1970.000000
+MS_PERDIDA (%)                 : 197000.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 92.495239
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 6
+WORKER_MEJOR_INDIVIDUO         : 132
+TOTAL PIEZAS+PERDIDAS HECHAS   : 15
+
+PIEZAS: E,0,174,150,1;E,149,0,1,174;P,141,135,8,38;P,75,173,74,1;G,75,135,66,38;P,145,93,4,36;P,79,129,70,6;G,79,93,66,36;G,0,135,75,39;P,145,57,4,36;G,79,57,66,36;G,79,0,70,57;P,63,100,16,35;G,0,100,63,35;G,0,0,79,100;
+---------------------------------------------------------------------------------------------------
+32 14 150 175
+CANTIDAD_PIEZAS                : 90
+INSTANCIA                      : GT1/CU2.pbm
+CANTIDAD_TIPOS_PIEZAS          : 35
+ANCHO_LAMINA (unidades)        : 150
+LARGO_LAMINA (unidades)        : 175
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.563233
+MS_FITNESS                     : 1679.000000
+MS_PERDIDA (%)                 : 167900.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.603808
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 35
+TOTAL PIEZAS+PERDIDAS HECHAS   : 14
+
+PIEZAS: E,0,172,150,3;E,149,0,1,172;P,94,0,1,95;P,63,95,32,7;G,63,0,31,95;P,147,133,2,38;P,81,171,68,1;G,81,133,66,38;G,0,133,81,39;P,95,122,54,11;G,95,61,54,61;G,95,0,54,61;G,0,102,95,31;G,0,0,63,102;
+---------------------------------------------------------------------------------------------------
+32 14 150 175
+CANTIDAD_PIEZAS                : 90
+INSTANCIA                      : GT1/CU2.pbm
+CANTIDAD_TIPOS_PIEZAS          : 35
+ANCHO_LAMINA (unidades)        : 150
+LARGO_LAMINA (unidades)        : 175
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 81.701910
+MS_FITNESS                     : 1945.000000
+MS_PERDIDA (%)                 : 194500.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 92.590475
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 6
+TOTAL PIEZAS+PERDIDAS HECHAS   : 14
+
+PIEZAS: E,147,0,3,175;P,100,94,2,45;G,50,94,50,45;P,132,139,15,36;G,66,139,66,36;P,146,50,1,78;P,102,128,45,11;G,102,50,44,78;G,0,139,66,36;G,102,0,45,50;G,0,94,50,45;P,95,63,7,31;G,0,63,95,31;G,0,0,102,63;
+---------------------------------------------------------------------------------------------------
+32 13 150 175
+CANTIDAD_PIEZAS                : 90
+INSTANCIA                      : GT1/CU2.pbm
+CANTIDAD_TIPOS_PIEZAS          : 35
+ANCHO_LAMINA (unidades)        : 150
+LARGO_LAMINA (unidades)        : 175
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.895529
+MS_FITNESS                     : 1808.000000
+MS_PERDIDA (%)                 : 180800.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.112379
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 13
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,172,150,3;E,149,0,1,172;P,142,133,7,39;G,75,133,67,39;P,94,0,1,95;P,63,95,32,7;G,63,0,31,95;G,0,133,75,39;P,95,122,54,11;G,95,61,54,61;G,95,0,54,61;G,0,102,95,31;G,0,0,63,102;
+---------------------------------------------------------------------------------------------------
+32 14 150 175
+CANTIDAD_PIEZAS                : 90
+INSTANCIA                      : GT1/CU2.pbm
+CANTIDAD_TIPOS_PIEZAS          : 35
+ANCHO_LAMINA (unidades)        : 150
+LARGO_LAMINA (unidades)        : 175
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 81.701910
+MS_FITNESS                     : 1945.000000
+MS_PERDIDA (%)                 : 194500.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 92.590475
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 3
+TOTAL PIEZAS+PERDIDAS HECHAS   : 14
+
+PIEZAS: E,147,0,3,175;P,100,94,2,45;G,50,94,50,45;P,132,139,15,36;G,66,139,66,36;P,146,50,1,78;P,102,128,45,11;G,102,50,44,78;G,0,139,66,36;G,102,0,45,50;G,0,94,50,45;P,95,63,7,31;G,0,63,95,31;G,0,0,102,63;
+---------------------------------------------------------------------------------------------------
+32 14 150 175
+CANTIDAD_PIEZAS                : 90
+INSTANCIA                      : GT1/CU2.pbm
+CANTIDAD_TIPOS_PIEZAS          : 35
+ANCHO_LAMINA (unidades)        : 150
+LARGO_LAMINA (unidades)        : 175
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 81.805527
+MS_FITNESS                     : 1913.000000
+MS_PERDIDA (%)                 : 191300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 92.712379
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 17
+TOTAL PIEZAS+PERDIDAS HECHAS   : 14
+
+PIEZAS: E,0,172,150,3;E,149,0,1,172;P,94,0,1,95;P,63,95,32,7;G,63,0,31,95;P,141,133,8,38;P,75,171,74,1;G,75,133,66,38;G,0,133,75,39;P,95,122,54,11;G,95,61,54,61;G,95,0,54,61;G,0,102,95,31;G,0,0,63,102;
+---------------------------------------------------------------------------------------------------
+32 13 150 175
+CANTIDAD_PIEZAS                : 90
+INSTANCIA                      : GT1/CU2.pbm
+CANTIDAD_TIPOS_PIEZAS          : 35
+ANCHO_LAMINA (unidades)        : 150
+LARGO_LAMINA (unidades)        : 175
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.299721
+MS_FITNESS                     : 1992.000000
+MS_PERDIDA (%)                 : 199200.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 92.411429
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 2
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,147,0,3,175;P,100,130,2,45;G,50,130,50,45;G,102,125,45,50;P,141,50,6,75;G,102,50,39,75;G,102,0,45,50;G,0,130,50,45;P,93,63,9,61;P,39,124,63,6;G,39,63,54,61;G,0,63,39,67;G,0,0,102,63;
+---------------------------------------------------------------------------------------------------
+32 15 150 175
+CANTIDAD_PIEZAS                : 90
+INSTANCIA                      : GT1/CU2.pbm
+CANTIDAD_TIPOS_PIEZAS          : 35
+ANCHO_LAMINA (unidades)        : 150
+LARGO_LAMINA (unidades)        : 175
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.425904
+MS_FITNESS                     : 1567.000000
+MS_PERDIDA (%)                 : 156700.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.030476
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 6
+WORKER_MEJOR_INDIVIDUO         : 18
+TOTAL PIEZAS+PERDIDAS HECHAS   : 15
+
+PIEZAS: E,0,172,150,3;E,149,0,1,172;P,94,0,1,95;P,63,95,32,7;G,63,0,31,95;P,147,61,2,70;P,95,131,54,2;G,95,61,52,70;P,141,133,8,38;P,75,171,74,1;G,75,133,66,38;G,0,133,75,39;G,95,0,54,61;G,0,102,95,31;G,0,0,63,102;
+---------------------------------------------------------------------------------------------------
+32 10 150 175
+CANTIDAD_PIEZAS                : 90
+INSTANCIA                      : GT1/CU2.pbm
+CANTIDAD_TIPOS_PIEZAS          : 35
+ANCHO_LAMINA (unidades)        : 150
+LARGO_LAMINA (unidades)        : 175
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 83.368295
+MS_FITNESS                     : 1662.000000
+MS_PERDIDA (%)                 : 166200.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.668574
+MS_NUMERO_PIEZAS_COLOCADAS     : 6
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 123
+TOTAL PIEZAS+PERDIDAS HECHAS   : 10
+
+PIEZAS: P,126,140,24,35;G,63,140,63,35;G,0,140,63,35;P,144,93,6,44;P,66,137,84,3;G,66,93,78,44;G,66,0,84,93;P,63,0,3,102;G,0,102,66,38;G,0,0,63,102;
+---------------------------------------------------------------------------------------------------
+32 15 150 175
+CANTIDAD_PIEZAS                : 90
+INSTANCIA                      : GT1/CU2.pbm
+CANTIDAD_TIPOS_PIEZAS          : 35
+ANCHO_LAMINA (unidades)        : 150
+LARGO_LAMINA (unidades)        : 175
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 83.183616
+MS_FITNESS                     : 1333.000000
+MS_PERDIDA (%)                 : 133300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.921905
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 6
+WORKER_MEJOR_INDIVIDUO         : 45
+TOTAL PIEZAS+PERDIDAS HECHAS   : 15
+
+PIEZAS: E,0,172,150,3;E,149,0,1,172;P,147,133,2,38;P,81,171,68,1;G,81,133,66,38;P,94,0,1,95;P,63,95,32,7;G,63,0,31,95;G,0,133,81,39;P,147,61,2,70;P,95,131,54,2;G,95,61,52,70;G,95,0,54,61;G,0,102,95,31;G,0,0,63,102;
+---------------------------------------------------------------------------------------------------
+32 13 134 125
+CANTIDAD_PIEZAS                : 158
+INSTANCIA                      : GT1/CU3.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 134
+LARGO_LAMINA (unidades)        : 125
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.397018
+MS_FITNESS                     : 710.000000
+MS_PERDIDA (%)                 : 71000.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.761192
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 35
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,133,0,1,125;P,36,57,35,2;G,36,27,35,30;P,70,0,1,27;G,36,0,34,27;P,128,74,5,48;P,71,122,62,3;G,71,74,57,48;P,131,43,2,31;G,71,43,60,31;G,71,0,62,43;G,0,59,71,66;G,0,0,36,59;
+---------------------------------------------------------------------------------------------------
+32 13 134 125
+CANTIDAD_PIEZAS                : 158
+INSTANCIA                      : GT1/CU3.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 134
+LARGO_LAMINA (unidades)        : 125
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 86.157906
+MS_FITNESS                     : 363.000000
+MS_PERDIDA (%)                 : 36300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 97.832835
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 51
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: P,36,57,35,2;G,36,27,35,30;P,96,70,1,55;G,71,70,25,55;P,132,72,2,50;P,97,122,37,3;G,97,72,35,50;G,97,0,37,72;P,70,0,1,27;G,36,0,34,27;G,71,0,26,70;G,0,59,71,66;G,0,0,36,59;
+---------------------------------------------------------------------------------------------------
+32 12 134 125
+CANTIDAD_PIEZAS                : 158
+INSTANCIA                      : GT1/CU3.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 134
+LARGO_LAMINA (unidades)        : 125
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 89.358807
+MS_FITNESS                     : 619.000000
+MS_PERDIDA (%)                 : 61900.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.304476
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 2
+WORKER_MEJOR_INDIVIDUO         : 8
+TOTAL PIEZAS+PERDIDAS HECHAS   : 12
+
+PIEZAS: E,0,124,134,1;E,132,0,2,124;P,125,71,7,25;P,70,96,62,1;G,70,71,55,25;G,99,97,33,27;G,66,97,33,27;G,33,97,33,27;G,0,97,33,27;G,0,71,70,26;G,66,0,66,71;G,0,0,66,71;
+---------------------------------------------------------------------------------------------------
+32 7 134 125
+CANTIDAD_PIEZAS                : 158
+INSTANCIA                      : GT1/CU3.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 134
+LARGO_LAMINA (unidades)        : 125
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 97.909260
+MS_FITNESS                     : 412.000000
+MS_PERDIDA (%)                 : 41200.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 97.540301
+MS_NUMERO_PIEZAS_COLOCADAS     : 5
+MS_NUMERO_PERDIDAS_GENERADAS   : 1
+WORKER_MEJOR_INDIVIDUO         : 75
+TOTAL PIEZAS+PERDIDAS HECHAS   : 7
+
+PIEZAS: E,132,0,2,125;P,129,71,3,54;G,86,71,43,54;G,43,71,43,54;G,0,71,43,54;G,66,0,66,71;G,0,0,66,71;
+---------------------------------------------------------------------------------------------------
+32 13 134 125
+CANTIDAD_PIEZAS                : 158
+INSTANCIA                      : GT1/CU3.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 134
+LARGO_LAMINA (unidades)        : 125
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.202837
+MS_FITNESS                     : 699.000000
+MS_PERDIDA (%)                 : 69900.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.826864
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 16
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,133,0,1,125;P,98,116,35,4;G,98,86,35,30;P,36,57,35,2;G,36,27,35,30;P,71,120,62,5;G,71,86,27,34;P,69,0,2,27;G,36,0,33,27;G,71,43,62,43;G,71,0,62,43;G,0,59,71,66;G,0,0,36,59;
+---------------------------------------------------------------------------------------------------
+32 13 134 125
+CANTIDAD_PIEZAS                : 158
+INSTANCIA                      : GT1/CU3.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 134
+LARGO_LAMINA (unidades)        : 125
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 86.157906
+MS_FITNESS                     : 363.000000
+MS_PERDIDA (%)                 : 36300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 97.832835
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 14
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: P,96,70,1,55;G,71,70,25,55;P,36,57,35,2;G,36,27,35,30;P,132,72,2,50;P,97,122,37,3;G,97,72,35,50;G,97,0,37,72;P,70,0,1,27;G,36,0,34,27;G,71,0,26,70;G,0,59,71,66;G,0,0,36,59;
+---------------------------------------------------------------------------------------------------
+32 15 134 125
+CANTIDAD_PIEZAS                : 158
+INSTANCIA                      : GT1/CU3.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 134
+LARGO_LAMINA (unidades)        : 125
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.660900
+MS_FITNESS                     : 658.000000
+MS_PERDIDA (%)                 : 65800.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.071643
+MS_NUMERO_PIEZAS_COLOCADAS     : 9
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 165
+TOTAL PIEZAS+PERDIDAS HECHAS   : 15
+
+PIEZAS: E,132,0,2,125;P,36,57,35,2;G,36,27,35,30;P,129,82,3,42;P,102,124,30,1;G,102,82,27,42;G,102,41,30,41;G,102,0,30,41;P,70,0,1,27;G,36,0,34,27;P,71,120,31,5;G,71,60,31,60;G,71,0,31,60;G,0,59,71,66;G,0,0,36,59;
+---------------------------------------------------------------------------------------------------
+32 13 134 125
+CANTIDAD_PIEZAS                : 158
+INSTANCIA                      : GT1/CU3.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 134
+LARGO_LAMINA (unidades)        : 125
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 86.009711
+MS_FITNESS                     : 540.000000
+MS_PERDIDA (%)                 : 54000.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.776122
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 36
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,133,0,1,125;P,131,86,2,35;G,101,86,30,35;P,36,57,35,2;G,36,27,35,30;P,71,121,62,4;G,71,86,30,35;P,70,0,1,27;G,36,0,34,27;G,71,43,62,43;G,71,0,62,43;G,0,59,71,66;G,0,0,36,59;
+---------------------------------------------------------------------------------------------------
+32 13 134 125
+CANTIDAD_PIEZAS                : 158
+INSTANCIA                      : GT1/CU3.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 134
+LARGO_LAMINA (unidades)        : 125
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.259999
+MS_FITNESS                     : 737.000000
+MS_PERDIDA (%)                 : 73700.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.599997
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 8
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,133,0,1,125;P,36,57,35,2;G,36,27,35,30;P,128,74,5,48;P,71,122,62,3;G,71,74,57,48;P,69,0,2,27;G,36,0,33,27;P,131,43,2,31;G,71,43,60,31;G,71,0,62,43;G,0,59,71,66;G,0,0,36,59;
+---------------------------------------------------------------------------------------------------
+32 17 134 125
+CANTIDAD_PIEZAS                : 158
+INSTANCIA                      : GT1/CU3.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 134
+LARGO_LAMINA (unidades)        : 125
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.531941
+MS_FITNESS                     : 979.000000
+MS_PERDIDA (%)                 : 97900.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.155222
+MS_NUMERO_PIEZAS_COLOCADAS     : 10
+MS_NUMERO_PERDIDAS_GENERADAS   : 6
+WORKER_MEJOR_INDIVIDUO         : 70
+TOTAL PIEZAS+PERDIDAS HECHAS   : 17
+
+PIEZAS: E,131,0,3,125;P,96,70,1,55;G,71,70,25,55;P,127,81,4,41;P,97,122,34,3;G,97,81,30,41;G,97,54,34,27;G,97,27,34,27;G,97,0,34,27;P,69,27,2,27;P,36,54,35,5;G,36,27,33,27;P,69,0,2,27;G,36,0,33,27;G,71,0,26,70;G,0,59,71,66;G,0,0,36,59;
+---------------------------------------------------------------------------------------------------
+32 13 285 354
+CANTIDAD_PIEZAS                : 113
+INSTANCIA                      : GT1/CU4.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 285
+LARGO_LAMINA (unidades)        : 354
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.497105
+MS_FITNESS                     : 3861.000000
+MS_PERDIDA (%)                 : 386100.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.173060
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 25
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,353,285,1;E,284,0,1,353;P,206,349,78,4;G,206,257,78,92;G,206,92,78,165;G,206,0,78,92;P,190,120,16,92;P,112,212,94,2;G,112,120,78,92;P,197,214,9,139;G,0,214,197,139;G,0,120,112,94;G,0,0,206,120;
+---------------------------------------------------------------------------------------------------
+32 20 285 354
+CANTIDAD_PIEZAS                : 113
+INSTANCIA                      : GT1/CU4.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 285
+LARGO_LAMINA (unidades)        : 354
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 83.703828
+MS_FITNESS                     : 3764.000000
+MS_PERDIDA (%)                 : 376400.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.269202
+MS_NUMERO_PIEZAS_COLOCADAS     : 11
+MS_NUMERO_PERDIDAS_GENERADAS   : 8
+WORKER_MEJOR_INDIVIDUO         : 15
+TOTAL PIEZAS+PERDIDAS HECHAS   : 20
+
+PIEZAS: E,0,353,285,1;P,283,266,2,78;P,191,344,94,9;G,191,266,92,78;P,283,188,2,78;G,191,188,92,78;P,190,99,1,165;P,112,264,79,3;G,112,99,78,165;P,283,110,2,78;G,191,110,92,78;P,99,345,92,8;G,99,267,92,78;G,191,0,94,110;G,0,267,99,86;G,112,0,79,99;P,99,188,13,79;G,0,188,99,79;G,0,94,112,94;G,0,0,112,94;
+---------------------------------------------------------------------------------------------------
+32 17 285 354
+CANTIDAD_PIEZAS                : 113
+INSTANCIA                      : GT1/CU4.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 285
+LARGO_LAMINA (unidades)        : 354
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 83.172148
+MS_FITNESS                     : 4713.000000
+MS_PERDIDA (%)                 : 471300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.328575
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 7
+WORKER_MEJOR_INDIVIDUO         : 22
+TOTAL PIEZAS+PERDIDAS HECHAS   : 17
+
+PIEZAS: E,0,350,285,4;E,284,0,1,350;P,283,248,1,99;P,197,347,87,3;G,197,248,86,99;P,283,167,1,81;G,197,167,86,81;G,197,0,87,167;P,186,130,11,78;P,94,208,103,3;G,94,130,92,78;P,196,0,1,130;G,94,0,102,130;G,0,211,197,139;P,79,112,15,99;G,0,112,79,99;G,0,0,94,112;
+---------------------------------------------------------------------------------------------------
+32 17 285 354
+CANTIDAD_PIEZAS                : 113
+INSTANCIA                      : GT1/CU4.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 285
+LARGO_LAMINA (unidades)        : 354
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 83.231044
+MS_FITNESS                     : 5067.000000
+MS_PERDIDA (%)                 : 506700.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.977701
+MS_NUMERO_PIEZAS_COLOCADAS     : 10
+MS_NUMERO_PERDIDAS_GENERADAS   : 6
+WORKER_MEJOR_INDIVIDUO         : 19
+TOTAL PIEZAS+PERDIDAS HECHAS   : 17
+
+PIEZAS: E,0,352,285,2;P,189,260,2,92;G,111,260,78,92;P,189,168,2,92;G,111,168,78,92;P,191,334,94,18;G,191,224,94,110;G,191,112,94,112;G,191,0,94,112;P,189,76,2,92;G,111,76,78,92;G,111,0,80,76;P,109,238,2,114;G,0,238,109,114;P,86,157,25,81;G,0,157,86,81;G,0,0,111,157;
+---------------------------------------------------------------------------------------------------
+32 23 285 354
+CANTIDAD_PIEZAS                : 113
+INSTANCIA                      : GT1/CU4.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 285
+LARGO_LAMINA (unidades)        : 354
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 83.150214
+MS_FITNESS                     : 3976.000000
+MS_PERDIDA (%)                 : 397600.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.059072
+MS_NUMERO_PIEZAS_COLOCADAS     : 11
+MS_NUMERO_PERDIDAS_GENERADAS   : 10
+WORKER_MEJOR_INDIVIDUO         : 18
+TOTAL PIEZAS+PERDIDAS HECHAS   : 23
+
+PIEZAS: E,0,352,285,2;E,281,0,4,352;P,280,248,1,99;P,194,347,87,5;G,194,248,86,99;P,193,179,1,92;P,115,271,79,2;G,115,179,78,92;P,280,167,1,81;G,194,167,86,81;P,191,99,3,80;G,115,99,76,80;G,194,0,87,167;P,191,273,3,78;P,99,351,95,1;G,99,273,92,78;G,0,273,99,79;G,115,0,79,99;P,112,179,3,94;G,0,179,112,94;P,112,85,3,94;G,0,85,112,94;G,0,0,115,85;
+---------------------------------------------------------------------------------------------------
+32 13 285 354
+CANTIDAD_PIEZAS                : 113
+INSTANCIA                      : GT1/CU4.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 285
+LARGO_LAMINA (unidades)        : 354
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.497105
+MS_FITNESS                     : 3861.000000
+MS_PERDIDA (%)                 : 386100.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.173060
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 3
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,353,285,1;E,284,0,1,353;P,206,349,78,4;G,206,257,78,92;G,206,165,78,92;G,206,0,78,165;P,204,120,2,78;P,112,198,94,16;G,112,120,92,78;P,197,214,9,139;G,0,214,197,139;G,0,120,112,94;G,0,0,206,120;
+---------------------------------------------------------------------------------------------------
+32 11 285 354
+CANTIDAD_PIEZAS                : 113
+INSTANCIA                      : GT1/CU4.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 285
+LARGO_LAMINA (unidades)        : 354
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.870904
+MS_FITNESS                     : 4901.000000
+MS_PERDIDA (%)                 : 490100.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.142233
+MS_NUMERO_PIEZAS_COLOCADAS     : 6
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 0
+TOTAL PIEZAS+PERDIDAS HECHAS   : 11
+
+PIEZAS: E,0,353,285,1;E,283,0,2,353;P,210,319,73,34;G,210,99,73,220;G,210,0,73,99;P,198,274,12,79;G,99,274,99,79;G,0,274,99,79;P,206,0,4,120;G,0,120,210,154;G,0,0,206,120;
+---------------------------------------------------------------------------------------------------
+32 13 285 354
+CANTIDAD_PIEZAS                : 113
+INSTANCIA                      : GT1/CU4.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 285
+LARGO_LAMINA (unidades)        : 354
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.497105
+MS_FITNESS                     : 3861.000000
+MS_PERDIDA (%)                 : 386100.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.173060
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 6
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,353,285,1;E,284,0,1,353;P,206,349,78,4;G,206,257,78,92;G,206,92,78,165;G,206,0,78,92;P,190,120,16,92;P,112,212,94,2;G,112,120,78,92;P,197,214,9,139;G,0,214,197,139;G,0,120,112,94;G,0,0,206,120;
+---------------------------------------------------------------------------------------------------
+32 13 285 354
+CANTIDAD_PIEZAS                : 113
+INSTANCIA                      : GT1/CU4.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 285
+LARGO_LAMINA (unidades)        : 354
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.338718
+MS_FITNESS                     : 4049.000000
+MS_PERDIDA (%)                 : 404900.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.986718
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 10
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,353,285,1;E,284,0,1,353;P,206,349,78,4;G,206,257,78,92;G,206,165,78,92;G,206,0,78,165;P,202,259,4,78;P,110,337,96,16;G,110,259,92,78;G,0,259,110,94;P,197,120,9,139;G,0,120,197,139;G,0,0,206,120;
+---------------------------------------------------------------------------------------------------
+32 13 285 354
+CANTIDAD_PIEZAS                : 113
+INSTANCIA                      : GT1/CU4.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 285
+LARGO_LAMINA (unidades)        : 354
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.486722
+MS_FITNESS                     : 5357.000000
+MS_PERDIDA (%)                 : 535700.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.690257
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 7
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,350,285,4;E,284,0,1,350;P,206,349,78,1;G,206,257,78,92;P,130,328,76,22;G,130,248,76,80;G,206,92,78,165;P,133,219,73,29;G,133,120,73,99;G,206,0,78,92;G,0,248,130,102;G,0,120,133,128;G,0,0,206,120;
+---------------------------------------------------------------------------------------------------
+32 17 456 385
+CANTIDAD_PIEZAS                : 120
+INSTANCIA                      : GT1/CU5.pbm
+CANTIDAD_TIPOS_PIEZAS          : 50
+ANCHO_LAMINA (unidades)        : 456
+LARGO_LAMINA (unidades)        : 385
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.911742
+MS_FITNESS                     : 8739.000000
+MS_PERDIDA (%)                 : 873900.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.022213
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 7
+WORKER_MEJOR_INDIVIDUO         : 10
+TOTAL PIEZAS+PERDIDAS HECHAS   : 17
+
+PIEZAS: E,0,383,456,2;E,452,0,4,383;P,178,92,1,186;P,94,278,85,8;G,94,92,84,186;P,444,286,8,94;P,156,380,296,3;G,156,286,288,94;G,0,286,156,97;P,275,273,177,13;G,275,0,177,273;P,269,113,6,168;P,179,281,96,5;G,179,113,90,168;G,179,0,96,113;G,0,92,94,194;G,0,0,179,92;
+---------------------------------------------------------------------------------------------------
+32 9 456 385
+CANTIDAD_PIEZAS                : 120
+INSTANCIA                      : GT1/CU5.pbm
+CANTIDAD_TIPOS_PIEZAS          : 50
+ANCHO_LAMINA (unidades)        : 456
+LARGO_LAMINA (unidades)        : 385
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 87.591535
+MS_FITNESS                     : 10138.000000
+MS_PERDIDA (%)                 : 1013800.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.225335
+MS_NUMERO_PIEZAS_COLOCADAS     : 5
+MS_NUMERO_PERDIDAS_GENERADAS   : 2
+WORKER_MEJOR_INDIVIDUO         : 4
+TOTAL PIEZAS+PERDIDAS HECHAS   : 9
+
+PIEZAS: E,0,382,456,3;E,446,0,10,382;P,336,379,110,3;G,336,292,110,87;G,168,292,168,90;G,0,292,168,90;P,236,270,210,22;G,236,0,210,270;G,0,0,236,292;
+---------------------------------------------------------------------------------------------------
+32 9 456 385
+CANTIDAD_PIEZAS                : 120
+INSTANCIA                      : GT1/CU5.pbm
+CANTIDAD_TIPOS_PIEZAS          : 50
+ANCHO_LAMINA (unidades)        : 456
+LARGO_LAMINA (unidades)        : 385
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 87.591535
+MS_FITNESS                     : 10138.000000
+MS_PERDIDA (%)                 : 1013800.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.225335
+MS_NUMERO_PIEZAS_COLOCADAS     : 5
+MS_NUMERO_PERDIDAS_GENERADAS   : 2
+WORKER_MEJOR_INDIVIDUO         : 5
+TOTAL PIEZAS+PERDIDAS HECHAS   : 9
+
+PIEZAS: E,0,382,456,3;E,446,0,10,382;P,336,379,110,3;G,336,292,110,87;G,168,292,168,90;G,0,292,168,90;P,236,270,210,22;G,236,0,210,270;G,0,0,236,292;
+---------------------------------------------------------------------------------------------------
+32 16 456 385
+CANTIDAD_PIEZAS                : 120
+INSTANCIA                      : GT1/CU5.pbm
+CANTIDAD_TIPOS_PIEZAS          : 50
+ANCHO_LAMINA (unidades)        : 456
+LARGO_LAMINA (unidades)        : 385
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.107941
+MS_FITNESS                     : 7006.000000
+MS_PERDIDA (%)                 : 700600.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.009344
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 6
+WORKER_MEJOR_INDIVIDUO         : 46
+TOTAL PIEZAS+PERDIDAS HECHAS   : 16
+
+PIEZAS: E,0,382,456,3;E,455,0,1,382;P,374,356,81,26;G,374,178,81,178;P,362,288,12,90;P,194,378,180,4;G,194,288,168,90;G,374,0,81,178;P,372,195,2,87;P,262,282,112,3;G,262,195,110,87;G,0,288,194,94;P,94,285,280,3;G,94,195,168,90;G,94,0,280,195;G,0,0,94,288;
+---------------------------------------------------------------------------------------------------
+32 14 456 385
+CANTIDAD_PIEZAS                : 120
+INSTANCIA                      : GT1/CU5.pbm
+CANTIDAD_TIPOS_PIEZAS          : 50
+ANCHO_LAMINA (unidades)        : 456
+LARGO_LAMINA (unidades)        : 385
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 83.622181
+MS_FITNESS                     : 9042.000000
+MS_PERDIDA (%)                 : 904200.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.849622
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 18
+TOTAL PIEZAS+PERDIDAS HECHAS   : 14
+
+PIEZAS: E,0,382,456,3;E,455,0,1,382;P,446,280,9,84;P,260,364,195,18;G,260,280,186,84;G,260,0,195,280;P,259,285,1,81;P,81,366,179,16;G,81,285,178,81;P,259,204,1,81;G,81,204,178,81;G,0,204,81,178;G,130,0,130,204;G,0,0,130,204;
+---------------------------------------------------------------------------------------------------
+32 13 456 385
+CANTIDAD_PIEZAS                : 120
+INSTANCIA                      : GT1/CU5.pbm
+CANTIDAD_TIPOS_PIEZAS          : 50
+ANCHO_LAMINA (unidades)        : 456
+LARGO_LAMINA (unidades)        : 385
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 83.548594
+MS_FITNESS                     : 9194.000000
+MS_PERDIDA (%)                 : 919400.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.763047
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 22
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: P,366,336,90,49;G,366,168,90,168;P,350,288,16,94;P,156,382,210,3;G,156,288,194,94;G,366,0,90,168;G,0,288,156,97;G,272,0,94,288;P,0,287,178,1;G,178,0,94,288;P,166,0,12,206;G,0,206,178,81;G,0,0,166,206;
+---------------------------------------------------------------------------------------------------
+32 13 456 385
+CANTIDAD_PIEZAS                : 120
+INSTANCIA                      : GT1/CU5.pbm
+CANTIDAD_TIPOS_PIEZAS          : 50
+ANCHO_LAMINA (unidades)        : 456
+LARGO_LAMINA (unidades)        : 385
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 83.460951
+MS_FITNESS                     : 9375.000000
+MS_PERDIDA (%)                 : 937500.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.659942
+MS_NUMERO_PIEZAS_COLOCADAS     : 6
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 5
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,374,456,11;E,455,0,1,374;P,451,194,4,168;P,361,362,94,12;G,361,194,90,168;G,361,0,94,194;P,356,204,5,168;P,266,372,95,2;G,266,204,90,168;G,0,204,266,170;P,130,199,231,5;G,130,0,231,199;G,0,0,130,204;
+---------------------------------------------------------------------------------------------------
+32 17 456 385
+CANTIDAD_PIEZAS                : 120
+INSTANCIA                      : GT1/CU5.pbm
+CANTIDAD_TIPOS_PIEZAS          : 50
+ANCHO_LAMINA (unidades)        : 456
+LARGO_LAMINA (unidades)        : 385
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 83.146393
+MS_FITNESS                     : 8992.000000
+MS_PERDIDA (%)                 : 899200.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.878107
+MS_NUMERO_PIEZAS_COLOCADAS     : 9
+MS_NUMERO_PERDIDAS_GENERADAS   : 6
+WORKER_MEJOR_INDIVIDUO         : 0
+TOTAL PIEZAS+PERDIDAS HECHAS   : 17
+
+PIEZAS: E,0,384,456,1;E,454,0,2,384;P,432,188,22,87;P,322,275,132,10;G,322,188,110,87;P,162,206,4,178;G,81,206,81,178;P,444,285,10,87;P,334,372,120,3;G,334,285,110,87;P,166,375,288,9;G,166,285,168,90;G,166,188,156,97;G,166,94,288,94;G,166,0,288,94;G,0,206,81,178;G,0,0,166,206;
+---------------------------------------------------------------------------------------------------
+32 9 456 385
+CANTIDAD_PIEZAS                : 120
+INSTANCIA                      : GT1/CU5.pbm
+CANTIDAD_TIPOS_PIEZAS          : 50
+ANCHO_LAMINA (unidades)        : 456
+LARGO_LAMINA (unidades)        : 385
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 87.591535
+MS_FITNESS                     : 10138.000000
+MS_PERDIDA (%)                 : 1013800.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.225335
+MS_NUMERO_PIEZAS_COLOCADAS     : 5
+MS_NUMERO_PERDIDAS_GENERADAS   : 2
+WORKER_MEJOR_INDIVIDUO         : 1
+TOTAL PIEZAS+PERDIDAS HECHAS   : 9
+
+PIEZAS: E,0,382,456,3;E,446,0,10,382;P,336,379,110,3;G,336,292,110,87;G,168,292,168,90;G,0,292,168,90;P,236,270,210,22;G,236,0,210,270;G,0,0,236,292;
+---------------------------------------------------------------------------------------------------
+32 13 456 385
+CANTIDAD_PIEZAS                : 120
+INSTANCIA                      : GT1/CU5.pbm
+CANTIDAD_TIPOS_PIEZAS          : 50
+ANCHO_LAMINA (unidades)        : 456
+LARGO_LAMINA (unidades)        : 385
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.717882
+MS_FITNESS                     : 8328.000000
+MS_PERDIDA (%)                 : 832800.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.256323
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 26
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,382,456,3;E,455,0,1,382;P,446,280,9,84;P,260,364,195,18;G,260,280,186,84;P,237,285,23,97;G,81,285,156,97;G,260,0,195,280;P,259,204,1,81;G,81,204,178,81;G,0,204,81,178;G,130,0,130,204;G,0,0,130,204;
+---------------------------------------------------------------------------------------------------
+32 16 356 447
+CANTIDAD_PIEZAS                : 124
+INSTANCIA                      : GT1/CU6.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 356
+LARGO_LAMINA (unidades)        : 447
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 83.845896
+MS_FITNESS                     : 6841.000000
+MS_PERDIDA (%)                 : 684100.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.701051
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 6
+WORKER_MEJOR_INDIVIDUO         : 54
+TOTAL PIEZAS+PERDIDAS HECHAS   : 16
+
+PIEZAS: E,0,445,356,2;E,354,0,2,445;P,348,301,6,144;G,250,301,98,144;P,248,336,2,102;P,127,438,123,7;G,127,336,121,102;P,342,132,12,169;G,250,132,92,169;G,250,0,104,132;P,245,0,5,110;P,128,110,122,6;G,128,0,117,110;G,0,336,127,109;G,0,116,250,220;G,0,0,128,116;
+---------------------------------------------------------------------------------------------------
+32 16 356 447
+CANTIDAD_PIEZAS                : 124
+INSTANCIA                      : GT1/CU6.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 356
+LARGO_LAMINA (unidades)        : 447
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.737005
+MS_FITNESS                     : 8917.000000
+MS_PERDIDA (%)                 : 891700.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.396478
+MS_NUMERO_PIEZAS_COLOCADAS     : 10
+MS_NUMERO_PERDIDAS_GENERADAS   : 6
+WORKER_MEJOR_INDIVIDUO         : 7
+TOTAL PIEZAS+PERDIDAS HECHAS   : 16
+
+PIEZAS: P,274,412,82,35;G,274,206,82,206;G,274,0,82,206;P,272,232,2,96;P,146,328,128,10;G,146,232,126,96;P,271,338,3,98;P,127,436,147,11;G,127,338,144,98;G,0,338,127,109;G,146,116,128,116;G,146,0,128,116;P,128,190,18,148;G,0,190,128,148;G,0,95,146,95;G,0,0,146,95;
+---------------------------------------------------------------------------------------------------
+32 17 356 447
+CANTIDAD_PIEZAS                : 124
+INSTANCIA                      : GT1/CU6.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 356
+LARGO_LAMINA (unidades)        : 447
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 83.473265
+MS_FITNESS                     : 6870.000000
+MS_PERDIDA (%)                 : 687000.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.682830
+MS_NUMERO_PIEZAS_COLOCADAS     : 9
+MS_NUMERO_PERDIDAS_GENERADAS   : 7
+WORKER_MEJOR_INDIVIDUO         : 24
+TOTAL PIEZAS+PERDIDAS HECHAS   : 17
+
+PIEZAS: E,0,446,356,1;P,239,442,117,4;G,239,332,117,110;P,231,169,8,144;P,133,313,106,4;G,133,169,98,144;P,354,225,2,107;G,239,225,115,107;P,346,110,10,115;G,239,110,107,115;G,239,0,117,110;P,225,0,14,169;G,133,0,92,169;G,0,317,239,129;P,128,0,5,148;G,0,148,133,169;G,0,0,128,148;
+---------------------------------------------------------------------------------------------------
+32 16 356 447
+CANTIDAD_PIEZAS                : 124
+INSTANCIA                      : GT1/CU6.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 356
+LARGO_LAMINA (unidades)        : 447
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.854021
+MS_FITNESS                     : 9634.000000
+MS_PERDIDA (%)                 : 963400.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.945909
+MS_NUMERO_PIEZAS_COLOCADAS     : 9
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 15
+TOTAL PIEZAS+PERDIDAS HECHAS   : 16
+
+PIEZAS: E,0,446,356,1;E,351,0,5,446;P,250,354,19,92;G,125,354,125,92;P,269,412,82,34;G,269,206,82,206;G,269,0,82,206;P,268,210,1,126;P,172,336,97,18;G,172,210,96,126;G,0,354,125,92;P,264,82,5,128;G,148,82,116,128;G,0,210,172,144;G,0,82,148,128;G,0,0,269,82;
+---------------------------------------------------------------------------------------------------
+32 18 356 447
+CANTIDAD_PIEZAS                : 124
+INSTANCIA                      : GT1/CU6.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 356
+LARGO_LAMINA (unidades)        : 447
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 80.624121
+MS_FITNESS                     : 12204.000000
+MS_PERDIDA (%)                 : 1220400.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 92.330897
+MS_NUMERO_PIEZAS_COLOCADAS     : 9
+MS_NUMERO_PERDIDAS_GENERADAS   : 7
+WORKER_MEJOR_INDIVIDUO         : 6
+TOTAL PIEZAS+PERDIDAS HECHAS   : 18
+
+PIEZAS: E,0,446,356,1;E,354,0,2,446;P,350,315,4,125;P,258,440,96,6;G,258,315,92,125;G,258,189,96,126;P,254,295,4,125;P,162,420,96,26;G,162,295,92,125;G,258,0,96,189;P,254,126,4,169;G,162,126,92,169;G,162,0,96,126;P,126,350,36,96;G,0,350,126,96;P,146,0,16,172;G,0,172,162,178;G,0,0,146,172;
+---------------------------------------------------------------------------------------------------
+32 17 356 447
+CANTIDAD_PIEZAS                : 124
+INSTANCIA                      : GT1/CU6.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 356
+LARGO_LAMINA (unidades)        : 447
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.507318
+MS_FITNESS                     : 9347.000000
+MS_PERDIDA (%)                 : 934700.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.126260
+MS_NUMERO_PIEZAS_COLOCADAS     : 9
+MS_NUMERO_PERDIDAS_GENERADAS   : 6
+WORKER_MEJOR_INDIVIDUO         : 22
+TOTAL PIEZAS+PERDIDAS HECHAS   : 17
+
+PIEZAS: E,0,446,356,1;E,352,0,4,446;P,345,232,7,102;P,224,334,128,1;G,224,232,121,102;P,342,335,10,110;P,225,445,127,1;G,225,335,117,110;G,0,335,225,111;G,224,116,128,116;G,224,0,128,116;P,96,296,128,39;G,96,148,128,148;G,96,0,128,148;P,95,0,1,146;G,0,146,96,189;G,0,0,95,146;
+---------------------------------------------------------------------------------------------------
+32 14 356 447
+CANTIDAD_PIEZAS                : 124
+INSTANCIA                      : GT1/CU6.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 356
+LARGO_LAMINA (unidades)        : 447
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.422924
+MS_FITNESS                     : 9505.000000
+MS_PERDIDA (%)                 : 950500.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.026971
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 6
+WORKER_MEJOR_INDIVIDUO         : 124
+TOTAL PIEZAS+PERDIDAS HECHAS   : 14
+
+PIEZAS: E,349,0,7,447;P,348,323,1,102;P,227,425,122,22;G,227,323,121,102;P,224,111,1,116;P,96,227,129,10;G,96,111,128,116;P,339,152,10,171;G,227,152,112,171;G,227,0,122,152;P,225,0,2,237;G,0,237,227,210;G,0,111,96,126;G,0,0,225,111;
+---------------------------------------------------------------------------------------------------
+32 18 356 447
+CANTIDAD_PIEZAS                : 124
+INSTANCIA                      : GT1/CU6.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 356
+LARGO_LAMINA (unidades)        : 447
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 83.397216
+MS_FITNESS                     : 7681.000000
+MS_PERDIDA (%)                 : 768100.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.173192
+MS_NUMERO_PIEZAS_COLOCADAS     : 10
+MS_NUMERO_PERDIDAS_GENERADAS   : 6
+WORKER_MEJOR_INDIVIDUO         : 27
+TOTAL PIEZAS+PERDIDAS HECHAS   : 18
+
+PIEZAS: E,0,442,356,5;E,353,0,3,442;P,349,239,4,92;P,224,331,129,4;G,224,239,125,92;P,221,243,3,92;G,96,243,125,92;P,345,335,8,107;G,230,335,115,107;G,115,335,115,107;G,0,335,115,107;P,205,116,19,127;G,96,116,109,127;G,224,0,129,239;G,96,0,128,116;P,95,0,1,146;G,0,146,96,189;G,0,0,95,146;
+---------------------------------------------------------------------------------------------------
+32 15 356 447
+CANTIDAD_PIEZAS                : 124
+INSTANCIA                      : GT1/CU6.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 356
+LARGO_LAMINA (unidades)        : 447
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.898521
+MS_FITNESS                     : 7946.000000
+MS_PERDIDA (%)                 : 794600.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.006663
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 7
+WORKER_MEJOR_INDIVIDUO         : 5
+TOTAL PIEZAS+PERDIDAS HECHAS   : 15
+
+PIEZAS: P,354,332,2,107;P,239,439,117,8;G,239,332,115,107;P,354,225,2,107;G,239,225,115,107;P,346,110,10,115;G,239,110,107,115;G,239,0,117,110;P,232,0,7,206;P,150,206,89,14;G,150,0,82,206;P,211,349,28,98;G,0,349,211,98;G,0,220,239,129;G,0,0,150,220;
+---------------------------------------------------------------------------------------------------
+32 13 356 447
+CANTIDAD_PIEZAS                : 124
+INSTANCIA                      : GT1/CU6.pbm
+CANTIDAD_TIPOS_PIEZAS          : 45
+ANCHO_LAMINA (unidades)        : 356
+LARGO_LAMINA (unidades)        : 447
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.807076
+MS_FITNESS                     : 11126.000000
+MS_PERDIDA (%)                 : 1112600.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.008322
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 68
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,440,356,7;P,274,412,82,28;G,274,206,82,206;G,274,0,82,206;P,270,296,4,144;G,172,296,98,144;P,249,172,25,102;P,128,274,146,22;G,128,172,121,102;G,0,296,172,144;G,128,0,146,172;G,0,148,128,148;G,0,0,128,148;
+---------------------------------------------------------------------------------------------------
+32 12 563 458
+CANTIDAD_PIEZAS                : 56
+INSTANCIA                      : GT1/CU7.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 563
+LARGO_LAMINA (unidades)        : 458
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.879982
+MS_FITNESS                     : 11740.000000
+MS_PERDIDA (%)                 : 1174000.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.447034
+MS_NUMERO_PIEZAS_COLOCADAS     : 6
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 17
+TOTAL PIEZAS+PERDIDAS HECHAS   : 12
+
+PIEZAS: E,0,455,563,3;E,561,0,2,455;P,555,332,6,123;G,274,332,281,123;G,0,332,274,123;P,546,180,15,128;P,390,308,171,11;G,390,180,156,128;P,207,319,354,13;G,207,180,183,139;G,207,0,354,180;G,0,0,207,332;
+---------------------------------------------------------------------------------------------------
+32 13 563 458
+CANTIDAD_PIEZAS                : 56
+INSTANCIA                      : GT1/CU7.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 563
+LARGO_LAMINA (unidades)        : 458
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.424090
+MS_FITNESS                     : 13123.000000
+MS_PERDIDA (%)                 : 1312300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.910687
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 0
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,456,563,2;E,553,0,10,456;P,410,328,15,128;G,254,328,156,128;P,548,156,5,281;P,425,437,128,19;G,425,156,123,281;G,425,0,128,156;G,254,164,171,164;G,254,0,171,164;P,248,176,6,280;G,0,176,248,280;G,0,0,254,176;
+---------------------------------------------------------------------------------------------------
+32 14 563 458
+CANTIDAD_PIEZAS                : 56
+INSTANCIA                      : GT1/CU7.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 563
+LARGO_LAMINA (unidades)        : 458
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.371936
+MS_FITNESS                     : 11006.000000
+MS_PERDIDA (%)                 : 1100600.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.731694
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 9
+TOTAL PIEZAS+PERDIDAS HECHAS   : 14
+
+PIEZAS: E,0,456,563,2;P,408,317,9,138;P,183,455,234,1;G,183,317,225,138;G,417,228,146,228;G,417,0,146,228;G,0,317,183,139;P,294,281,123,36;G,294,0,123,281;P,0,299,164,18;G,164,0,130,317;P,156,171,8,128;G,0,171,156,128;G,0,0,164,171;
+---------------------------------------------------------------------------------------------------
+32 12 563 458
+CANTIDAD_PIEZAS                : 56
+INSTANCIA                      : GT1/CU7.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 563
+LARGO_LAMINA (unidades)        : 458
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.652531
+MS_FITNESS                     : 12430.000000
+MS_PERDIDA (%)                 : 1243000.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.179445
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 36
+TOTAL PIEZAS+PERDIDAS HECHAS   : 12
+
+PIEZAS: E,561,0,2,458;P,555,335,6,123;G,281,335,274,123;G,0,335,281,123;P,438,281,123,54;G,438,0,123,281;P,171,324,267,11;G,171,162,267,162;G,171,0,267,162;P,164,0,7,171;G,0,171,171,164;G,0,0,164,171;
+---------------------------------------------------------------------------------------------------
+32 14 563 458
+CANTIDAD_PIEZAS                : 56
+INSTANCIA                      : GT1/CU7.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 563
+LARGO_LAMINA (unidades)        : 458
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.808769
+MS_FITNESS                     : 15748.000000
+MS_PERDIDA (%)                 : 1574800.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.892670
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 13
+TOTAL PIEZAS+PERDIDAS HECHAS   : 14
+
+PIEZAS: E,561,0,2,458;P,555,335,6,123;G,281,335,274,123;G,0,335,281,123;P,438,281,123,54;G,438,0,123,281;P,427,162,11,156;G,299,162,128,156;P,171,318,267,17;G,171,162,128,156;G,171,0,267,162;P,164,0,7,171;G,0,171,171,164;G,0,0,164,171;
+---------------------------------------------------------------------------------------------------
+32 11 563 458
+CANTIDAD_PIEZAS                : 56
+INSTANCIA                      : GT1/CU7.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 563
+LARGO_LAMINA (unidades)        : 458
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.984797
+MS_FITNESS                     : 15214.000000
+MS_PERDIDA (%)                 : 1521400.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.099760
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 24
+TOTAL PIEZAS+PERDIDAS HECHAS   : 11
+
+PIEZAS: E,560,0,3,458;P,548,335,12,123;G,274,335,274,123;P,312,0,20,128;G,156,0,156,128;G,0,335,274,123;P,332,292,228,43;G,332,146,228,146;G,332,0,228,146;G,0,128,332,207;G,0,0,156,128;
+---------------------------------------------------------------------------------------------------
+32 12 563 458
+CANTIDAD_PIEZAS                : 56
+INSTANCIA                      : GT1/CU7.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 563
+LARGO_LAMINA (unidades)        : 458
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.652531
+MS_FITNESS                     : 12430.000000
+MS_PERDIDA (%)                 : 1243000.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.179445
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 10
+TOTAL PIEZAS+PERDIDAS HECHAS   : 12
+
+PIEZAS: E,561,0,2,458;P,555,335,6,123;G,281,335,274,123;G,0,335,281,123;P,438,281,123,54;G,438,0,123,281;P,171,324,267,11;G,171,162,267,162;G,171,0,267,162;P,164,164,7,171;G,0,164,164,171;G,0,0,171,164;
+---------------------------------------------------------------------------------------------------
+32 13 563 458
+CANTIDAD_PIEZAS                : 56
+INSTANCIA                      : GT1/CU7.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 563
+LARGO_LAMINA (unidades)        : 458
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.424090
+MS_FITNESS                     : 13123.000000
+MS_PERDIDA (%)                 : 1312300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.910687
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 76
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,456,563,2;E,553,0,10,456;P,410,328,15,128;G,254,328,156,128;P,548,156,5,281;P,425,437,128,19;G,425,156,123,281;G,425,0,128,156;G,254,164,171,164;G,254,0,171,164;P,248,176,6,280;G,0,176,248,280;G,0,0,254,176;
+---------------------------------------------------------------------------------------------------
+32 14 563 458
+CANTIDAD_PIEZAS                : 56
+INSTANCIA                      : GT1/CU7.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 563
+LARGO_LAMINA (unidades)        : 458
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.041309
+MS_FITNESS                     : 12009.000000
+MS_PERDIDA (%)                 : 1200900.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.342714
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 3
+TOTAL PIEZAS+PERDIDAS HECHAS   : 14
+
+PIEZAS: E,0,455,563,3;E,561,0,2,455;P,559,299,2,156;G,287,299,272,156;P,541,123,20,176;G,287,123,254,176;G,287,0,274,123;P,272,299,15,156;G,0,299,272,156;P,164,281,123,18;G,164,0,123,281;P,156,171,8,128;G,0,171,156,128;G,0,0,164,171;
+---------------------------------------------------------------------------------------------------
+32 13 563 458
+CANTIDAD_PIEZAS                : 56
+INSTANCIA                      : GT1/CU7.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 563
+LARGO_LAMINA (unidades)        : 458
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.044337
+MS_FITNESS                     : 14275.000000
+MS_PERDIDA (%)                 : 1427500.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.463921
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 22
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,455,563,3;E,560,0,3,455;P,432,312,128,20;G,432,156,128,156;P,555,332,5,123;G,281,332,274,123;G,0,332,281,123;G,432,0,128,156;P,207,138,18,172;P,0,310,225,22;G,0,138,207,172;G,225,0,207,332;G,0,0,225,138;
+---------------------------------------------------------------------------------------------------
+32 15 587 756
+CANTIDAD_PIEZAS                : 78
+INSTANCIA                      : GT1/CU8.pbm
+CANTIDAD_TIPOS_PIEZAS          : 35
+ANCHO_LAMINA (unidades)        : 587
+LARGO_LAMINA (unidades)        : 756
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 83.332288
+MS_FITNESS                     : 21759.000000
+MS_PERDIDA (%)                 : 2175900.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.096809
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 6
+WORKER_MEJOR_INDIVIDUO         : 86
+TOTAL PIEZAS+PERDIDAS HECHAS   : 15
+
+PIEZAS: E,581,0,6,756;P,395,364,28,217;G,275,364,120,217;P,578,338,3,229;P,423,567,158,26;G,423,338,155,229;P,573,593,8,155;P,344,748,237,8;G,344,593,229,155;G,0,593,344,163;P,155,581,268,12;G,155,364,120,217;G,423,0,158,338;G,0,364,155,229;G,0,0,423,364;
+---------------------------------------------------------------------------------------------------
+32 10 587 756
+CANTIDAD_PIEZAS                : 78
+INSTANCIA                      : GT1/CU8.pbm
+CANTIDAD_TIPOS_PIEZAS          : 35
+ANCHO_LAMINA (unidades)        : 587
+LARGO_LAMINA (unidades)        : 756
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.722715
+MS_FITNESS                     : 15805.000000
+MS_PERDIDA (%)                 : 1580500.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.438485
+MS_NUMERO_PIEZAS_COLOCADAS     : 6
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 29
+TOTAL PIEZAS+PERDIDAS HECHAS   : 10
+
+PIEZAS: P,423,542,164,36;G,423,271,164,271;P,579,578,8,155;P,350,733,237,23;G,350,578,229,155;G,0,578,350,178;G,423,0,164,271;P,408,364,15,214;G,0,364,408,214;G,0,0,423,364;
+---------------------------------------------------------------------------------------------------
+32 13 587 756
+CANTIDAD_PIEZAS                : 78
+INSTANCIA                      : GT1/CU8.pbm
+CANTIDAD_TIPOS_PIEZAS          : 35
+ANCHO_LAMINA (unidades)        : 587
+LARGO_LAMINA (unidades)        : 756
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.368408
+MS_FITNESS                     : 18960.000000
+MS_PERDIDA (%)                 : 1896000.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.727533
+MS_NUMERO_PIEZAS_COLOCADAS     : 6
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 94
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,750,587,6;E,585,0,2,750;P,581,513,4,229;P,426,742,159,8;G,426,513,155,229;P,581,284,4,229;G,426,284,155,229;G,426,0,159,284;P,419,0,7,511;G,0,511,426,239;P,378,334,41,177;G,0,334,378,177;G,0,0,419,334;
+---------------------------------------------------------------------------------------------------
+32 12 587 756
+CANTIDAD_PIEZAS                : 78
+INSTANCIA                      : GT1/CU8.pbm
+CANTIDAD_TIPOS_PIEZAS          : 35
+ANCHO_LAMINA (unidades)        : 587
+LARGO_LAMINA (unidades)        : 756
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.217477
+MS_FITNESS                     : 19748.000000
+MS_PERDIDA (%)                 : 1974800.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.549965
+MS_NUMERO_PIEZAS_COLOCADAS     : 6
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 7
+TOTAL PIEZAS+PERDIDAS HECHAS   : 12
+
+PIEZAS: E,586,0,1,756;P,580,344,6,380;P,423,724,163,32;G,423,344,157,380;G,423,0,163,344;P,412,521,11,217;P,292,738,131,18;G,292,521,120,217;G,0,521,292,235;P,380,364,43,157;G,0,364,380,157;G,0,0,423,364;
+---------------------------------------------------------------------------------------------------
+32 11 587 756
+CANTIDAD_PIEZAS                : 78
+INSTANCIA                      : GT1/CU8.pbm
+CANTIDAD_TIPOS_PIEZAS          : 35
+ANCHO_LAMINA (unidades)        : 587
+LARGO_LAMINA (unidades)        : 756
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.436911
+MS_FITNESS                     : 22518.000000
+MS_PERDIDA (%)                 : 2251800.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.925773
+MS_NUMERO_PIEZAS_COLOCADAS     : 5
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 30
+TOTAL PIEZAS+PERDIDAS HECHAS   : 11
+
+PIEZAS: E,0,755,587,1;E,581,0,6,755;P,580,338,1,380;P,423,718,158,37;G,423,338,157,380;G,423,0,158,338;P,408,541,15,214;G,0,541,408,214;P,378,364,45,177;G,0,364,378,177;G,0,0,423,364;
+---------------------------------------------------------------------------------------------------
+32 13 587 756
+CANTIDAD_PIEZAS                : 78
+INSTANCIA                      : GT1/CU8.pbm
+CANTIDAD_TIPOS_PIEZAS          : 35
+ANCHO_LAMINA (unidades)        : 587
+LARGO_LAMINA (unidades)        : 756
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.244972
+MS_FITNESS                     : 16994.000000
+MS_PERDIDA (%)                 : 1699400.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.170557
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 6
+WORKER_MEJOR_INDIVIDUO         : 14
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: P,586,534,1,217;P,466,751,121,5;G,466,534,120,217;P,578,271,9,229;P,423,500,164,34;G,423,271,155,229;P,393,364,30,155;P,164,519,259,15;G,164,364,229,155;G,0,534,466,222;G,423,0,164,271;G,0,364,164,170;G,0,0,423,364;
+---------------------------------------------------------------------------------------------------
+32 13 587 756
+CANTIDAD_PIEZAS                : 78
+INSTANCIA                      : GT1/CU8.pbm
+CANTIDAD_TIPOS_PIEZAS          : 35
+ANCHO_LAMINA (unidades)        : 587
+LARGO_LAMINA (unidades)        : 756
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 86.023247
+MS_FITNESS                     : 14236.000000
+MS_PERDIDA (%)                 : 1423600.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.792048
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 86
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,752,587,4;E,586,0,1,752;P,581,466,5,120;P,364,586,222,7;G,364,466,217,120;P,568,593,18,159;G,284,593,284,159;G,0,593,284,159;P,328,423,36,170;G,164,423,164,170;G,364,0,222,466;G,0,423,164,170;G,0,0,364,423;
+---------------------------------------------------------------------------------------------------
+32 10 587 756
+CANTIDAD_PIEZAS                : 78
+INSTANCIA                      : GT1/CU8.pbm
+CANTIDAD_TIPOS_PIEZAS          : 35
+ANCHO_LAMINA (unidades)        : 587
+LARGO_LAMINA (unidades)        : 756
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.722715
+MS_FITNESS                     : 15805.000000
+MS_PERDIDA (%)                 : 1580500.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.438485
+MS_NUMERO_PIEZAS_COLOCADAS     : 6
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 12
+TOTAL PIEZAS+PERDIDAS HECHAS   : 10
+
+PIEZAS: P,579,578,8,155;P,350,733,237,23;G,350,578,229,155;P,423,542,164,36;G,423,271,164,271;G,0,578,350,178;G,423,0,164,271;P,408,364,15,214;G,0,364,408,214;G,0,0,423,364;
+---------------------------------------------------------------------------------------------------
+32 11 587 756
+CANTIDAD_PIEZAS                : 78
+INSTANCIA                      : GT1/CU8.pbm
+CANTIDAD_TIPOS_PIEZAS          : 35
+ANCHO_LAMINA (unidades)        : 587
+LARGO_LAMINA (unidades)        : 756
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.282749
+MS_FITNESS                     : 18102.000000
+MS_PERDIDA (%)                 : 1810200.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.920879
+MS_NUMERO_PIEZAS_COLOCADAS     : 6
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 27
+TOTAL PIEZAS+PERDIDAS HECHAS   : 11
+
+PIEZAS: E,0,755,587,1;P,423,725,164,30;G,423,555,164,170;P,582,271,5,284;G,423,271,159,284;G,423,0,164,271;P,408,541,15,214;G,0,541,408,214;P,378,364,45,177;G,0,364,378,177;G,0,0,423,364;
+---------------------------------------------------------------------------------------------------
+32 13 587 756
+CANTIDAD_PIEZAS                : 78
+INSTANCIA                      : GT1/CU8.pbm
+CANTIDAD_TIPOS_PIEZAS          : 35
+ANCHO_LAMINA (unidades)        : 587
+LARGO_LAMINA (unidades)        : 756
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.091437
+MS_FITNESS                     : 20406.000000
+MS_PERDIDA (%)                 : 2040600.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.401692
+MS_NUMERO_PIEZAS_COLOCADAS     : 6
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 8
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,751,587,5;E,581,0,6,751;P,573,588,8,155;P,344,743,237,8;G,344,588,229,155;P,578,338,3,229;P,423,567,158,21;G,423,338,155,229;G,0,588,344,163;G,423,0,158,338;P,397,364,26,224;G,0,364,397,224;G,0,0,423,364;
+---------------------------------------------------------------------------------------------------
+32 13 856 785
+CANTIDAD_PIEZAS                : 76
+INSTANCIA                      : GT1/CU9.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 856
+LARGO_LAMINA (unidades)        : 785
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.373248
+MS_FITNESS                     : 28671.000000
+MS_PERDIDA (%)                 : 2867100.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.733225
+MS_NUMERO_PIEZAS_COLOCADAS     : 6
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 57
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,774,856,11;E,848,0,8,774;P,836,399,12,373;P,650,772,198,2;G,650,399,186,373;P,625,487,25,285;P,294,772,356,2;G,294,487,331,285;G,650,0,198,399;G,0,487,294,287;P,296,486,354,1;G,296,0,354,486;G,0,0,296,487;
+---------------------------------------------------------------------------------------------------
+32 9 856 785
+CANTIDAD_PIEZAS                : 76
+INSTANCIA                      : GT1/CU9.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 856
+LARGO_LAMINA (unidades)        : 785
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.972637
+MS_FITNESS                     : 31838.000000
+MS_PERDIDA (%)                 : 3183800.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.261919
+MS_NUMERO_PIEZAS_COLOCADAS     : 4
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 2
+TOTAL PIEZAS+PERDIDAS HECHAS   : 9
+
+PIEZAS: E,0,781,856,4;E,848,0,8,781;P,828,490,20,274;P,497,764,351,17;G,497,490,331,274;G,497,0,351,490;P,470,384,27,397;G,0,384,470,397;G,0,0,497,384;
+---------------------------------------------------------------------------------------------------
+32 13 856 785
+CANTIDAD_PIEZAS                : 76
+INSTANCIA                      : GT1/CU9.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 856
+LARGO_LAMINA (unidades)        : 785
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.373248
+MS_FITNESS                     : 28671.000000
+MS_PERDIDA (%)                 : 2867100.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.733225
+MS_NUMERO_PIEZAS_COLOCADAS     : 6
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 27
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,781,856,4;E,848,0,8,781;P,836,399,12,373;P,650,772,198,9;G,650,399,186,373;P,618,487,32,285;P,287,772,363,9;G,287,487,331,285;G,650,0,198,399;G,0,487,287,294;P,296,486,354,1;G,296,0,354,486;G,0,0,296,487;
+---------------------------------------------------------------------------------------------------
+32 13 856 785
+CANTIDAD_PIEZAS                : 76
+INSTANCIA                      : GT1/CU9.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 856
+LARGO_LAMINA (unidades)        : 785
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.701230
+MS_FITNESS                     : 41889.000000
+MS_PERDIDA (%)                 : 4188900.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.766147
+MS_NUMERO_PIEZAS_COLOCADAS     : 6
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 6
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,781,856,4;E,848,0,8,781;P,830,399,18,312;P,650,711,198,70;G,650,399,180,312;P,618,487,32,285;P,287,772,363,9;G,287,487,331,285;G,650,0,198,399;G,0,487,287,294;P,296,486,354,1;G,296,0,354,486;G,0,0,296,487;
+---------------------------------------------------------------------------------------------------
+32 11 856 785
+CANTIDAD_PIEZAS                : 76
+INSTANCIA                      : GT1/CU9.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 856
+LARGO_LAMINA (unidades)        : 785
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 83.286911
+MS_FITNESS                     : 43188.000000
+MS_PERDIDA (%)                 : 4318800.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.572831
+MS_NUMERO_PIEZAS_COLOCADAS     : 5
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 8
+TOTAL PIEZAS+PERDIDAS HECHAS   : 11
+
+PIEZAS: E,0,773,856,12;E,851,0,5,773;P,828,486,23,274;P,497,760,354,13;G,497,486,331,274;P,458,384,39,373;P,272,757,225,16;G,272,384,186,373;G,497,0,354,486;G,0,384,272,389;G,0,0,497,384;
+---------------------------------------------------------------------------------------------------
+32 8 856 785
+CANTIDAD_PIEZAS                : 76
+INSTANCIA                      : GT1/CU9.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 856
+LARGO_LAMINA (unidades)        : 785
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 86.047524
+MS_FITNESS                     : 31246.000000
+MS_PERDIDA (%)                 : 3124600.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.350021
+MS_NUMERO_PIEZAS_COLOCADAS     : 4
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 77
+TOTAL PIEZAS+PERDIDAS HECHAS   : 8
+
+PIEZAS: E,0,772,856,13;P,822,490,34,270;P,505,760,351,12;G,505,490,317,270;G,505,0,351,490;P,486,418,19,354;G,0,418,486,354;G,0,0,505,418;
+---------------------------------------------------------------------------------------------------
+32 9 856 785
+CANTIDAD_PIEZAS                : 76
+INSTANCIA                      : GT1/CU9.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 856
+LARGO_LAMINA (unidades)        : 785
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.972637
+MS_FITNESS                     : 31838.000000
+MS_PERDIDA (%)                 : 3183800.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.261919
+MS_NUMERO_PIEZAS_COLOCADAS     : 4
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 19
+TOTAL PIEZAS+PERDIDAS HECHAS   : 9
+
+PIEZAS: E,0,781,856,4;E,848,0,8,781;P,828,490,20,274;P,497,764,351,17;G,497,490,331,274;G,497,0,351,490;P,470,384,27,397;G,0,384,470,397;G,0,0,497,384;
+---------------------------------------------------------------------------------------------------
+32 13 856 785
+CANTIDAD_PIEZAS                : 76
+INSTANCIA                      : GT1/CU9.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 856
+LARGO_LAMINA (unidades)        : 785
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.383881
+MS_FITNESS                     : 34516.000000
+MS_PERDIDA (%)                 : 3451600.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.863385
+MS_NUMERO_PIEZAS_COLOCADAS     : 7
+MS_NUMERO_PERDIDAS_GENERADAS   : 4
+WORKER_MEJOR_INDIVIDUO         : 133
+TOTAL PIEZAS+PERDIDAS HECHAS   : 13
+
+PIEZAS: E,0,773,856,12;E,854,0,2,773;P,668,746,186,27;G,668,373,186,373;P,662,499,6,274;G,331,499,331,274;G,668,0,186,373;G,0,499,331,274;P,0,487,488,12;G,488,0,180,499;P,0,434,192,53;G,192,0,296,487;G,0,0,192,434;
+---------------------------------------------------------------------------------------------------
+32 9 856 785
+CANTIDAD_PIEZAS                : 76
+INSTANCIA                      : GT1/CU9.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 856
+LARGO_LAMINA (unidades)        : 785
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 85.173690
+MS_FITNESS                     : 38154.000000
+MS_PERDIDA (%)                 : 3815400.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.321984
+MS_NUMERO_PIEZAS_COLOCADAS     : 4
+MS_NUMERO_PERDIDAS_GENERADAS   : 3
+WORKER_MEJOR_INDIVIDUO         : 63
+TOTAL PIEZAS+PERDIDAS HECHAS   : 9
+
+PIEZAS: E,0,781,856,4;E,848,0,8,781;P,791,490,57,287;P,497,777,351,4;G,497,490,294,287;G,497,0,351,490;P,470,384,27,397;G,0,384,470,397;G,0,0,497,384;
+---------------------------------------------------------------------------------------------------
+32 15 856 785
+CANTIDAD_PIEZAS                : 76
+INSTANCIA                      : GT1/CU9.pbm
+CANTIDAD_TIPOS_PIEZAS          : 25
+ANCHO_LAMINA (unidades)        : 856
+LARGO_LAMINA (unidades)        : 785
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 83.649945
+MS_FITNESS                     : 34389.000000
+MS_PERDIDA (%)                 : 3438900.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.882286
+MS_NUMERO_PIEZAS_COLOCADAS     : 8
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 7
+TOTAL PIEZAS+PERDIDAS HECHAS   : 15
+
+PIEZAS: E,0,782,856,3;E,855,0,1,782;P,669,746,186,36;G,669,373,186,373;P,666,559,3,214;P,445,773,224,9;G,445,559,221,214;G,669,0,186,373;P,372,0,1,373;G,186,0,186,373;G,0,559,445,223;P,373,487,296,72;G,373,0,296,487;G,0,373,373,186;G,0,0,186,373;
+---------------------------------------------------------------------------------------------------
+32 21 794 985
+CANTIDAD_PIEZAS                : 129
+INSTANCIA                      : GT1/CU10.pbm
+CANTIDAD_TIPOS_PIEZAS          : 40
+ANCHO_LAMINA (unidades)        : 794
+LARGO_LAMINA (unidades)        : 985
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 83.502018
+MS_FITNESS                     : 31035.000000
+MS_PERDIDA (%)                 : 3103500.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.031785
+MS_NUMERO_PIEZAS_COLOCADAS     : 11
+MS_NUMERO_PERDIDAS_GENERADAS   : 8
+WORKER_MEJOR_INDIVIDUO         : 31
+TOTAL PIEZAS+PERDIDAS HECHAS   : 21
+
+PIEZAS: E,0,979,794,6;E,793,0,1,979;P,519,669,14,124;G,282,669,237,124;P,762,793,31,185;P,561,978,232,1;G,561,793,201,185;P,783,618,10,149;P,533,767,260,26;G,533,618,250,149;P,532,520,1,149;G,282,520,250,149;P,789,251,4,367;G,533,251,256,367;G,0,793,561,186;G,533,0,260,251;G,282,260,251,260;G,282,0,251,260;P,264,0,18,429;G,0,429,282,364;G,0,0,264,429;
+---------------------------------------------------------------------------------------------------
+32 18 794 985
+CANTIDAD_PIEZAS                : 129
+INSTANCIA                      : GT1/CU10.pbm
+CANTIDAD_TIPOS_PIEZAS          : 40
+ANCHO_LAMINA (unidades)        : 794
+LARGO_LAMINA (unidades)        : 985
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.381336
+MS_FITNESS                     : 28695.000000
+MS_PERDIDA (%)                 : 2869500.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.330982
+MS_NUMERO_PIEZAS_COLOCADAS     : 10
+MS_NUMERO_PERDIDAS_GENERADAS   : 6
+WORKER_MEJOR_INDIVIDUO         : 9
+TOTAL PIEZAS+PERDIDAS HECHAS   : 18
+
+PIEZAS: E,0,982,794,3;E,793,0,1,982;P,777,793,16,185;P,576,978,217,4;G,576,793,201,185;P,764,511,29,282;G,533,511,231,282;G,0,793,576,189;P,784,251,9,260;G,533,251,251,260;P,282,780,251,13;G,282,520,251,260;G,533,0,260,251;G,282,260,251,260;G,282,0,251,260;P,264,0,18,429;G,0,429,282,364;G,0,0,264,429;
+---------------------------------------------------------------------------------------------------
+32 18 794 985
+CANTIDAD_PIEZAS                : 129
+INSTANCIA                      : GT1/CU10.pbm
+CANTIDAD_TIPOS_PIEZAS          : 40
+ANCHO_LAMINA (unidades)        : 794
+LARGO_LAMINA (unidades)        : 985
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.204620
+MS_FITNESS                     : 30321.000000
+MS_PERDIDA (%)                 : 3032100.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.123081
+MS_NUMERO_PIEZAS_COLOCADAS     : 10
+MS_NUMERO_PERDIDAS_GENERADAS   : 6
+WORKER_MEJOR_INDIVIDUO         : 36
+TOTAL PIEZAS+PERDIDAS HECHAS   : 18
+
+PIEZAS: E,0,982,794,3;E,793,0,1,982;P,777,793,16,185;P,576,978,217,4;G,576,793,201,185;P,770,502,23,268;P,533,770,260,23;G,533,502,237,268;G,0,793,576,189;G,533,251,260,251;G,533,0,260,251;P,282,780,251,13;G,282,520,251,260;G,282,260,251,260;G,282,0,251,260;P,264,0,18,429;G,0,429,282,364;G,0,0,264,429;
+---------------------------------------------------------------------------------------------------
+32 19 794 985
+CANTIDAD_PIEZAS                : 129
+INSTANCIA                      : GT1/CU10.pbm
+CANTIDAD_TIPOS_PIEZAS          : 40
+ANCHO_LAMINA (unidades)        : 794
+LARGO_LAMINA (unidades)        : 985
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 83.620113
+MS_FITNESS                     : 32413.000000
+MS_PERDIDA (%)                 : 3241300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.855594
+MS_NUMERO_PIEZAS_COLOCADAS     : 10
+MS_NUMERO_PERDIDAS_GENERADAS   : 7
+WORKER_MEJOR_INDIVIDUO         : 56
+TOTAL PIEZAS+PERDIDAS HECHAS   : 19
+
+PIEZAS: E,0,979,794,6;E,793,0,1,979;P,762,793,31,185;P,561,978,232,1;G,561,793,201,185;P,783,618,10,149;P,533,767,260,26;G,533,618,250,149;P,789,251,4,367;G,533,251,256,367;G,0,793,561,186;P,282,780,251,13;G,282,520,251,260;G,282,260,251,260;G,533,0,260,251;G,282,0,251,260;P,264,0,18,429;G,0,429,282,364;G,0,0,264,429;
+---------------------------------------------------------------------------------------------------
+32 19 794 985
+CANTIDAD_PIEZAS                : 129
+INSTANCIA                      : GT1/CU10.pbm
+CANTIDAD_TIPOS_PIEZAS          : 40
+ANCHO_LAMINA (unidades)        : 794
+LARGO_LAMINA (unidades)        : 985
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.111148
+MS_FITNESS                     : 27895.000000
+MS_PERDIDA (%)                 : 2789500.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.433276
+MS_NUMERO_PIEZAS_COLOCADAS     : 10
+MS_NUMERO_PERDIDAS_GENERADAS   : 7
+WORKER_MEJOR_INDIVIDUO         : 35
+TOTAL PIEZAS+PERDIDAS HECHAS   : 19
+
+PIEZAS: E,0,982,794,3;E,793,0,1,982;P,777,793,16,185;P,576,978,217,4;G,576,793,201,185;P,783,618,10,149;P,533,767,260,26;G,533,618,250,149;G,0,793,576,189;P,789,251,4,367;G,533,251,256,367;G,533,0,260,251;P,282,780,251,13;G,282,520,251,260;G,282,260,251,260;G,282,0,251,260;P,264,0,18,429;G,0,429,282,364;G,0,0,264,429;
+---------------------------------------------------------------------------------------------------
+32 17 794 985
+CANTIDAD_PIEZAS                : 129
+INSTANCIA                      : GT1/CU10.pbm
+CANTIDAD_TIPOS_PIEZAS          : 40
+ANCHO_LAMINA (unidades)        : 794
+LARGO_LAMINA (unidades)        : 985
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.894168
+MS_FITNESS                     : 28577.000000
+MS_PERDIDA (%)                 : 2857700.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.346074
+MS_NUMERO_PIEZAS_COLOCADAS     : 10
+MS_NUMERO_PERDIDAS_GENERADAS   : 5
+WORKER_MEJOR_INDIVIDUO         : 81
+TOTAL PIEZAS+PERDIDAS HECHAS   : 17
+
+PIEZAS: E,0,982,794,3;E,793,0,1,982;P,777,793,16,185;P,576,978,217,4;G,576,793,201,185;G,0,793,576,189;P,533,753,260,40;G,533,502,260,251;G,533,251,260,251;G,533,0,260,251;P,282,780,251,13;G,282,520,251,260;G,282,260,251,260;G,282,0,251,260;P,264,0,18,429;G,0,429,282,364;G,0,0,264,429;
+---------------------------------------------------------------------------------------------------
+32 18 794 985
+CANTIDAD_PIEZAS                : 129
+INSTANCIA                      : GT1/CU10.pbm
+CANTIDAD_TIPOS_PIEZAS          : 40
+ANCHO_LAMINA (unidades)        : 794
+LARGO_LAMINA (unidades)        : 985
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.381336
+MS_FITNESS                     : 28695.000000
+MS_PERDIDA (%)                 : 2869500.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.330982
+MS_NUMERO_PIEZAS_COLOCADAS     : 10
+MS_NUMERO_PERDIDAS_GENERADAS   : 6
+WORKER_MEJOR_INDIVIDUO         : 94
+TOTAL PIEZAS+PERDIDAS HECHAS   : 18
+
+PIEZAS: E,0,982,794,3;E,793,0,1,982;P,777,793,16,185;P,576,978,217,4;G,576,793,201,185;P,764,502,29,282;P,533,784,260,9;G,533,502,231,282;G,0,793,576,189;G,533,251,260,251;G,533,0,260,251;P,282,780,251,13;G,282,520,251,260;G,282,260,251,260;G,282,0,251,260;P,264,0,18,429;G,0,429,282,364;G,0,0,264,429;
+---------------------------------------------------------------------------------------------------
+32 19 794 985
+CANTIDAD_PIEZAS                : 129
+INSTANCIA                      : GT1/CU10.pbm
+CANTIDAD_TIPOS_PIEZAS          : 40
+ANCHO_LAMINA (unidades)        : 794
+LARGO_LAMINA (unidades)        : 985
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 83.242112
+MS_FITNESS                     : 35891.000000
+MS_PERDIDA (%)                 : 3589100.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.410883
+MS_NUMERO_PIEZAS_COLOCADAS     : 10
+MS_NUMERO_PERDIDAS_GENERADAS   : 7
+WORKER_MEJOR_INDIVIDUO         : 28
+TOTAL PIEZAS+PERDIDAS HECHAS   : 19
+
+PIEZAS: E,0,979,794,6;E,793,0,1,979;P,762,793,31,185;P,561,978,232,1;G,561,793,201,185;P,786,520,7,256;P,542,776,251,17;G,542,520,244,256;G,0,793,561,186;G,542,260,251,260;G,542,0,251,260;P,533,502,9,260;P,282,762,260,31;G,282,502,251,260;G,282,251,260,251;G,282,0,260,251;P,264,0,18,429;G,0,429,282,364;G,0,0,264,429;
+---------------------------------------------------------------------------------------------------
+32 20 794 985
+CANTIDAD_PIEZAS                : 129
+INSTANCIA                      : GT1/CU10.pbm
+CANTIDAD_TIPOS_PIEZAS          : 40
+ANCHO_LAMINA (unidades)        : 794
+LARGO_LAMINA (unidades)        : 985
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.186786
+MS_FITNESS                     : 27199.000000
+MS_PERDIDA (%)                 : 2719900.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.522266
+MS_NUMERO_PIEZAS_COLOCADAS     : 11
+MS_NUMERO_PERDIDAS_GENERADAS   : 7
+WORKER_MEJOR_INDIVIDUO         : 28
+TOTAL PIEZAS+PERDIDAS HECHAS   : 20
+
+PIEZAS: E,0,982,794,3;E,793,0,1,982;P,770,651,23,124;P,533,775,260,18;G,533,651,237,124;P,777,793,16,185;P,576,978,217,4;G,576,793,201,185;P,783,502,10,149;G,533,502,250,149;G,0,793,576,189;G,533,251,260,251;P,282,780,251,13;G,282,520,251,260;G,533,0,260,251;G,282,260,251,260;G,282,0,251,260;P,264,0,18,429;G,0,429,282,364;G,0,0,264,429;
+---------------------------------------------------------------------------------------------------
+32 19 794 985
+CANTIDAD_PIEZAS                : 129
+INSTANCIA                      : GT1/CU10.pbm
+CANTIDAD_TIPOS_PIEZAS          : 40
+ANCHO_LAMINA (unidades)        : 794
+LARGO_LAMINA (unidades)        : 985
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 84.111148
+MS_FITNESS                     : 27895.000000
+MS_PERDIDA (%)                 : 2789500.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 96.433276
+MS_NUMERO_PIEZAS_COLOCADAS     : 10
+MS_NUMERO_PERDIDAS_GENERADAS   : 7
+WORKER_MEJOR_INDIVIDUO         : 16
+TOTAL PIEZAS+PERDIDAS HECHAS   : 19
+
+PIEZAS: E,0,982,794,3;E,793,0,1,982;P,777,793,16,185;P,576,978,217,4;G,576,793,201,185;P,783,618,10,149;P,533,767,260,26;G,533,618,250,149;G,0,793,576,189;P,789,251,4,367;G,533,251,256,367;P,282,780,251,13;G,282,520,251,260;G,533,0,260,251;G,282,260,251,260;G,282,0,251,260;P,264,0,18,429;G,0,429,282,364;G,0,0,264,429;
+---------------------------------------------------------------------------------------------------
+32 26 977 953
+CANTIDAD_PIEZAS                : 134
+INSTANCIA                      : GT1/CU11.pbm
+CANTIDAD_TIPOS_PIEZAS          : 50
+ANCHO_LAMINA (unidades)        : 977
+LARGO_LAMINA (unidades)        : 953
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.189661
+MS_FITNESS                     : 47215.000000
+MS_PERDIDA (%)                 : 4721500.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 94.929010
+MS_NUMERO_PIEZAS_COLOCADAS     : 14
+MS_NUMERO_PERDIDAS_GENERADAS   : 10
+WORKER_MEJOR_INDIVIDUO         : 41
+TOTAL PIEZAS+PERDIDAS HECHAS   : 26
+
+PIEZAS: E,0,949,977,4;E,969,0,8,949;P,845,948,124,1;G,845,711,124,237;G,845,474,124,237;G,845,237,124,237;G,845,0,124,237;P,470,751,54,194;P,264,945,260,4;G,264,751,206,194;P,824,753,21,175;P,524,928,321,21;G,524,753,300,175;P,520,507,4,244;G,264,507,256,244;P,508,251,16,256;G,264,251,244,256;P,838,492,7,261;G,524,492,314,261;G,524,0,321,492;G,264,0,260,251;P,251,689,13,260;G,0,689,251,260;P,251,429,13,260;G,0,429,251,260;G,0,0,264,429;
+---------------------------------------------------------------------------------------------------
+32 23 977 953
+CANTIDAD_PIEZAS                : 134
+INSTANCIA                      : GT1/CU11.pbm
+CANTIDAD_TIPOS_PIEZAS          : 50
+ANCHO_LAMINA (unidades)        : 977
+LARGO_LAMINA (unidades)        : 953
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 81.185180
+MS_FITNESS                     : 58218.000000
+MS_PERDIDA (%)                 : 5821800.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.747270
+MS_NUMERO_PIEZAS_COLOCADAS     : 11
+MS_NUMERO_PERDIDAS_GENERADAS   : 10
+WORKER_MEJOR_INDIVIDUO         : 12
+TOTAL PIEZAS+PERDIDAS HECHAS   : 23
+
+PIEZAS: E,0,949,977,4;E,960,0,17,949;P,944,749,16,194;P,738,943,222,6;G,738,749,206,194;P,952,537,8,212;G,738,537,214,212;P,463,688,29,250;P,314,938,178,11;G,314,688,149,250;G,738,0,222,537;P,483,321,9,309;P,256,630,236,58;G,256,321,227,309;P,736,679,2,256;P,492,935,246,14;G,492,679,244,256;P,729,411,9,268;G,492,411,237,268;G,492,0,246,411;G,0,688,314,261;G,0,321,256,367;G,0,0,492,321;
+---------------------------------------------------------------------------------------------------
+32 23 977 953
+CANTIDAD_PIEZAS                : 134
+INSTANCIA                      : GT1/CU11.pbm
+CANTIDAD_TIPOS_PIEZAS          : 50
+ANCHO_LAMINA (unidades)        : 977
+LARGO_LAMINA (unidades)        : 953
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 79.979670
+MS_FITNESS                     : 71423.000000
+MS_PERDIDA (%)                 : 7142300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 92.329025
+MS_NUMERO_PIEZAS_COLOCADAS     : 11
+MS_NUMERO_PERDIDAS_GENERADAS   : 10
+WORKER_MEJOR_INDIVIDUO         : 8
+TOTAL PIEZAS+PERDIDAS HECHAS   : 23
+
+PIEZAS: E,0,945,977,8;E,969,0,8,945;P,967,227,2,237;P,843,464,126,92;G,843,227,124,237;P,897,817,72,124;P,660,941,309,4;G,660,817,237,124;P,968,556,1,261;G,660,556,308,261;P,643,577,17,319;P,442,896,218,7;G,442,577,201,319;G,660,227,183,329;G,660,0,309,227;P,295,903,365,42;G,295,577,147,326;G,0,577,295,368;P,471,576,189,1;G,471,0,189,576;P,429,0,42,264;G,0,264,471,313;G,0,0,429,264;
+---------------------------------------------------------------------------------------------------
+32 19 977 953
+CANTIDAD_PIEZAS                : 134
+INSTANCIA                      : GT1/CU11.pbm
+CANTIDAD_TIPOS_PIEZAS          : 50
+ANCHO_LAMINA (unidades)        : 977
+LARGO_LAMINA (unidades)        : 953
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 81.754547
+MS_FITNESS                     : 59023.000000
+MS_PERDIDA (%)                 : 5902300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.660808
+MS_NUMERO_PIEZAS_COLOCADAS     : 10
+MS_NUMERO_PERDIDAS_GENERADAS   : 7
+WORKER_MEJOR_INDIVIDUO         : 2
+TOTAL PIEZAS+PERDIDAS HECHAS   : 19
+
+PIEZAS: E,0,947,977,6;E,942,0,35,947;P,500,924,256,23;G,500,680,256,244;P,745,321,11,326;P,598,647,158,28;G,598,321,147,326;P,937,561,5,382;P,756,943,186,4;G,756,561,181,382;G,756,0,186,561;G,431,321,167,354;P,264,675,492,5;G,264,321,167,354;G,0,680,500,267;G,264,0,492,321;P,260,429,4,251;G,0,429,260,251;G,0,0,264,429;
+---------------------------------------------------------------------------------------------------
+32 20 977 953
+CANTIDAD_PIEZAS                : 134
+INSTANCIA                      : GT1/CU11.pbm
+CANTIDAD_TIPOS_PIEZAS          : 50
+ANCHO_LAMINA (unidades)        : 977
+LARGO_LAMINA (unidades)        : 953
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 81.229055
+MS_FITNESS                     : 59563.000000
+MS_PERDIDA (%)                 : 5956300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.602812
+MS_NUMERO_PIEZAS_COLOCADAS     : 10
+MS_NUMERO_PERDIDAS_GENERADAS   : 9
+WORKER_MEJOR_INDIVIDUO         : 17
+TOTAL PIEZAS+PERDIDAS HECHAS   : 20
+
+PIEZAS: E,0,929,977,24;P,688,315,43,351;P,523,666,208,16;G,523,315,165,351;P,720,682,11,201;P,535,883,196,36;G,535,682,185,201;P,975,667,2,256;P,731,923,246,6;G,731,667,244,256;P,975,411,2,256;G,731,411,244,256;P,267,919,464,10;G,267,682,268,237;G,731,0,246,411;G,267,315,256,367;G,267,0,464,315;P,264,0,3,429;G,0,429,267,500;G,0,0,264,429;
+---------------------------------------------------------------------------------------------------
+32 25 977 953
+CANTIDAD_PIEZAS                : 134
+INSTANCIA                      : GT1/CU11.pbm
+CANTIDAD_TIPOS_PIEZAS          : 50
+ANCHO_LAMINA (unidades)        : 977
+LARGO_LAMINA (unidades)        : 953
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.255965
+MS_FITNESS                     : 44995.000000
+MS_PERDIDA (%)                 : 4499500.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.167446
+MS_NUMERO_PIEZAS_COLOCADAS     : 12
+MS_NUMERO_PERDIDAS_GENERADAS   : 11
+WORKER_MEJOR_INDIVIDUO         : 23
+TOTAL PIEZAS+PERDIDAS HECHAS   : 25
+
+PIEZAS: E,0,949,977,4;E,965,0,12,949;P,752,814,30,124;P,515,938,267,11;G,515,814,237,124;P,957,642,8,300;P,782,942,183,7;G,782,642,175,300;P,957,342,8,300;G,782,342,175,300;G,782,0,183,342;P,501,671,14,268;P,264,939,251,10;G,264,671,237,268;P,510,260,5,411;G,264,260,246,411;P,776,500,6,314;G,515,500,261,314;G,515,0,267,500;G,264,0,251,260;P,251,689,13,260;G,0,689,251,260;P,251,429,13,260;G,0,429,251,260;G,0,0,264,429;
+---------------------------------------------------------------------------------------------------
+32 25 977 953
+CANTIDAD_PIEZAS                : 134
+INSTANCIA                      : GT1/CU11.pbm
+CANTIDAD_TIPOS_PIEZAS          : 50
+ANCHO_LAMINA (unidades)        : 977
+LARGO_LAMINA (unidades)        : 953
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 81.096900
+MS_FITNESS                     : 59185.000000
+MS_PERDIDA (%)                 : 5918500.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.643409
+MS_NUMERO_PIEZAS_COLOCADAS     : 13
+MS_NUMERO_PERDIDAS_GENERADAS   : 10
+WORKER_MEJOR_INDIVIDUO         : 15
+TOTAL PIEZAS+PERDIDAS HECHAS   : 25
+
+PIEZAS: E,0,940,977,13;E,962,0,15,940;P,738,813,18,124;G,501,813,237,124;P,264,937,492,3;G,264,813,237,124;P,709,571,47,237;P,585,808,171,5;G,585,571,124,237;P,734,321,22,250;G,585,321,149,250;P,756,931,206,9;G,756,606,206,325;P,950,400,12,206;G,756,400,194,206;P,950,194,12,206;G,756,194,194,206;G,756,0,206,194;G,264,321,321,492;G,264,0,492,321;P,260,689,4,251;G,0,689,260,251;P,251,429,13,260;G,0,429,251,260;G,0,0,264,429;
+---------------------------------------------------------------------------------------------------
+32 19 977 953
+CANTIDAD_PIEZAS                : 134
+INSTANCIA                      : GT1/CU11.pbm
+CANTIDAD_TIPOS_PIEZAS          : 50
+ANCHO_LAMINA (unidades)        : 977
+LARGO_LAMINA (unidades)        : 953
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 81.568491
+MS_FITNESS                     : 61061.000000
+MS_PERDIDA (%)                 : 6106100.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 93.441921
+MS_NUMERO_PIEZAS_COLOCADAS     : 10
+MS_NUMERO_PERDIDAS_GENERADAS   : 7
+WORKER_MEJOR_INDIVIDUO         : 18
+TOTAL PIEZAS+PERDIDAS HECHAS   : 19
+
+PIEZAS: E,0,947,977,6;E,945,0,32,947;P,500,924,256,23;G,500,680,256,244;P,939,576,6,342;P,756,918,189,29;G,756,576,183,342;P,745,321,11,326;P,598,647,158,28;G,598,321,147,326;G,756,0,189,576;G,431,321,167,354;P,264,675,492,5;G,264,321,167,354;G,0,680,500,267;G,264,0,492,321;P,260,429,4,251;G,0,429,260,251;G,0,0,264,429;
+---------------------------------------------------------------------------------------------------
+32 25 977 953
+CANTIDAD_PIEZAS                : 134
+INSTANCIA                      : GT1/CU11.pbm
+CANTIDAD_TIPOS_PIEZAS          : 50
+ANCHO_LAMINA (unidades)        : 977
+LARGO_LAMINA (unidades)        : 953
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.597554
+MS_FITNESS                     : 42747.000000
+MS_PERDIDA (%)                 : 4274700.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.408887
+MS_NUMERO_PIEZAS_COLOCADAS     : 13
+MS_NUMERO_PERDIDAS_GENERADAS   : 10
+WORKER_MEJOR_INDIVIDUO         : 125
+TOTAL PIEZAS+PERDIDAS HECHAS   : 25
+
+PIEZAS: E,0,947,977,6;E,970,0,7,947;P,738,552,18,124;G,501,552,237,124;P,264,676,492,4;G,264,552,237,124;P,941,743,29,201;P,756,944,214,3;G,756,743,185,201;P,957,424,13,319;G,756,424,201,319;G,756,212,214,212;G,756,0,214,212;P,740,321,16,206;P,546,527,210,25;G,546,321,194,206;P,744,680,12,256;P,500,936,256,11;G,500,680,244,256;G,264,321,282,231;G,0,680,500,267;G,264,0,492,321;P,260,429,4,251;G,0,429,260,251;G,0,0,264,429;
+---------------------------------------------------------------------------------------------------
+32 24 977 953
+CANTIDAD_PIEZAS                : 134
+INSTANCIA                      : GT1/CU11.pbm
+CANTIDAD_TIPOS_PIEZAS          : 50
+ANCHO_LAMINA (unidades)        : 977
+LARGO_LAMINA (unidades)        : 953
+MAXIMO_GENERACIONES            : 20
+PESO_PERDIDA  (%)              : 100.000000
+PESO_DISTANCIA  (%)            : 20.000000
+PESO_DIGREGACION (%)           : 100.000000
+TAMANO_POBLACION (ind.)        : 250
+PROBABILIDAD_CRUZAMIENTO (%)   : 89.999998
+PROBABILIDAD_MUTACION (%)      : 10.000000
+MS_CALIDAD (%)                 : 82.888740
+MS_FITNESS                     : 41383.000000
+MS_PERDIDA (%)                 : 4138300.000000
+MS_DISTANCIA (%)               : 0.000000
+MS_DIGREGACION (%)             : 0.000000
+MS_AREA_OCUPADA (%)            : 95.555383
+MS_NUMERO_PIEZAS_COLOCADAS     : 13
+MS_NUMERO_PERDIDAS_GENERADAS   : 9
+WORKER_MEJOR_INDIVIDUO         : 30
+TOTAL PIEZAS+PERDIDAS HECHAS   : 24
+
+PIEZAS: E,0,950,977,3;E,976,0,1,950;P,852,948,124,2;G,852,711,124,237;G,852,474,124,237;G,852,237,124,237;G,852,0,124,237;P,849,689,3,237;P,725,926,127,9;G,725,689,124,237;P,835,500,17,149;P,585,649,267,40;G,585,500,250,149;P,564,492,21,175;P,264,667,321,22;G,264,492,300,175;P,314,935,538,15;G,314,689,411,246;G,0,689,314,261;G,585,0,267,500;G,264,0,321,492;P,251,429,13,260;G,0,429,251,260;G,0,0,264,429;
+---------------------------------------------------------------------------------------------------

@@ -5,7 +5,7 @@
     <conf name="Debug" type="1">
       <toolsSet>
         <developmentServer>localhost</developmentServer>
-        <platform>3</platform>
+        <platform>2</platform>
       </toolsSet>
       <dbx_gdbdebugger version="1">
         <gdb_pathmaps>
@@ -26,9 +26,16 @@
         <runcommandpicklist>
           <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}" in.txt out.txt</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" in.txt out.txt -pr 0 -g 10 -po 250 -c 0.9 -m 0.1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" in.txt out.txt -pr 0 -g 2 -po 2 -c 0.9 -m 0.1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" in.txt out.txt -pr 2 -g 2 -po 2 -c 0.9 -m 0.1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" in.txt out.txt -pr 0 -g 100 -po 250 -c 0.9 -m 0.1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" in.txt out.txt -pr 0 -g 10 -po 4 -c 0.9 -m 0.1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" in.txt out.txt -pr 2 -g 10 -po 4 -c 0.9 -m 0.1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" in.txt out.txt -pr 2 -g 100 -po 250 -c 0.9 -m 0.1</runcommandpicklistitem>
         </runcommandpicklist>
-        <runcommand>"${OUTPUT_PATH}" in.txt out.txt</runcommand>
-        <rundir>/media/win/Users/Alvaro/Documents/Memoria 2012/pga_secuencial/dist/Debug/Cygwin-Windows</rundir>
+        <runcommand>"${OUTPUT_PATH}" in.txt out.txt -pr 2 -g 100 -po 250 -c 0.9 -m 0.1</runcommand>
+        <rundir>/media/win/Users/Alvaro/Documents/Memoria 2012/pga_secuencial/dist/Debug/GNU-Linux-x86</rundir>
         <buildfirst>true</buildfirst>
         <terminal-type>0</terminal-type>
         <remove-instrumentation>0</remove-instrumentation>

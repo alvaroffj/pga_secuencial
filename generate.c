@@ -465,103 +465,104 @@ int crossover (unsigned *parent1,unsigned *parent2,unsigned *child1,unsigned *ch
                             IntercambiaPiezas( k, iBuscaPieza( lparent2[k], lchild1 ), lchild1 );
                     }//End for
         }//End if
-        else {
-            for(k = 0; k < chlistasize; k++) {
-                lchild1[k] = lparent1[k];
-                lchild2[k] = lparent2[k];
-            }//End for
-            jcross = 0;
-        }//End else
-    }//End else if
-    return(jcross);
+                else {
+                        for (k = 0; k < chlistasize; k++) {
+                                lchild1[k] = lparent1[k];
+                                lchild2[k] = lparent2[k];
+                        }//End for
+                        jcross = 0;
+                }//End else
+        }//End else if
+        return (jcross);
 }//End crossover
 
 void preselect(void)
 // Obtiene suma total del fitness para oldpop
 {
-   	int j;
+        int j;
 
-   	sumfitness = 0.0;
-   	for(j = 0; j < popsize; j++) sumfitness += (((double) 1.0) /(double) oldpop[j].fitness);
+        sumfitness = 0.0;
+        for (j = 0; j < popsize; j++) sumfitness += (((double) 1.0) / (double) oldpop[j].fitness);
 }//End preselect
 
 int xselect(void)
 // roulette-wheel selection que considera variables del tipo float
 {
-    double sum, pick;
-    int i;
+        double sum, pick;
+        int i;
 
-    pick = (double) randomperc();
-    sum = 0.0;
-/*
-    printf("sumfitness: %f\n", sumfitness);
-    printf("pick: %f\n", pick);
-*/
-    if(sumfitness != 0.0) {
-        for(i = 0; (sum < pick) && (i < popsize); i++)
-            sum += (double) (((double) 1.0) /(double) oldpop[i].fitness)/((double) sumfitness);
-    } else {
-        i = rnd(1,popsize);
-    }
-    if(i<1) i=1;
-/*
-    printf("sel: %f\n", oldpop[i-1].fitness);
-*/
-    return(i-1);
+        pick = (double) randomperc();
+        sum = 0.0;
+        /*
+            printf("sumfitness: %f\n", sumfitness);
+            printf("pick: %f\n", pick);
+         */
+        if (sumfitness != 0.0) {
+                for (i = 0; (sum < pick) && (i < popsize); i++)
+                        sum += (double) (((double) 1.0) / (double) oldpop[i].fitness) / ((double) sumfitness);
+        } else {
+                i = rnd(1, popsize);
+        }
+        if (i < 1) i = 1;
+        /*
+            printf("sel: %f\n", oldpop[i-1].fitness);
+         */
+        return (i - 1);
 }//End xselect
 
 int tournament(void) {
-    int a,b;
-    
-    a = (int) (randomperc()*1000)%(popsize-1);
-    b = (int) (randomperc()*1000)%(popsize-1);
-    
-    if(oldpop[a].fitness > oldpop[b].fitness) return b;
-    else return a;
+        int a, b;
+
+        a = (int) (randomperc()*1000) % (popsize - 1);
+        b = (int) (randomperc()*1000) % (popsize - 1);
+
+        if (oldpop[a].fitness > oldpop[b].fitness) return b;
+        else return a;
 }
 
 // Rutina que establece la generación de nuevos individuos
+
 void generation(int tipo_problema, int corrida) {
-    int mate1, mate2, jcross=0, jmcross=0, j = 0;
-    // Obtiene suma total del fitness para oldpop
-/*
-    preselect();
-*/
+        int mate1, mate2, jcross = 0, jmcross = 0, j = 0;
+        // Obtiene suma total del fitness para oldpop
+        /*
+            preselect();
+         */
 
-   	// Efecta selección, cruzamiento y mutación
-    do {
-      	// obtiene índices de individuos en oldpop a efectuar cruzamiento
-/*
-      	mate1 = xselect();
-      	mate2 = xselect();
-*/
-        mate1 = tournament();
-        mate2 = tournament();
-		//Cruzamiento en un solo punto para cromosoma String, cromosoma Mutación, cromosoma Lista
-      	jcross = crossover(oldpop[mate1].chrom, oldpop[mate2].chrom, newpop[j].chrom, newpop[j+1].chrom,
-                            oldpop[mate1].chmut, oldpop[mate2].chmut, newpop[j].chmut, newpop[j+1].chmut,
-                            oldpop[mate1].pusListaPiezas, oldpop[mate2].pusListaPiezas, newpop[j].pusListaPiezas, newpop[j+1].pusListaPiezas);
+        // Efecta selección, cruzamiento y mutación
+        do {
+                // obtiene índices de individuos en oldpop a efectuar cruzamiento
+                /*
+                        mate1 = xselect();
+                        mate2 = xselect();
+                 */
+                mate1 = tournament();
+                mate2 = tournament();
+                //Cruzamiento en un solo punto para cromosoma String, cromosoma Mutación, cromosoma Lista
+                jcross = crossover(oldpop[mate1].chrom, oldpop[mate2].chrom, newpop[j].chrom, newpop[j + 1].chrom,
+                        oldpop[mate1].chmut, oldpop[mate2].chmut, newpop[j].chmut, newpop[j + 1].chmut,
+                        oldpop[mate1].pusListaPiezas, oldpop[mate2].pusListaPiezas, newpop[j].pusListaPiezas, newpop[j + 1].pusListaPiezas);
 
-      	mutation(&(newpop[j]));
-        mutation(&(newpop[j+1]));
-      	// Decodifica string, evalúa fitness y guarda parentesco de ambos hijos
-        app_objfunc(tipo_problema, &(newpop[j]));
-      	newpop[j].parent[0] = mate1+1;
-      	newpop[j].xsite = jcross;
-        jmcross = jcross/bitsxcodigobinario;
-        if(jcross%bitsxcodigobinario) jmcross++;
-        newpop[j].msite = jmcross;
-      	newpop[j].parent[1] = mate2+1;
-      	app_objfunc(tipo_problema, &(newpop[j+1]));
-      	newpop[j+1].parent[0] = newpop[j].parent[0];
-      	newpop[j+1].xsite = newpop[j].xsite;
-      	newpop[j+1].msite = newpop[j].msite;
-      	newpop[j+1].parent[1] = newpop[j].parent[1];
-      	// Incrementa índice de la población
-      	j = j + 2;
-    } while(j < (popsize-1));
-    // Efecta estadísticas sobre nueva población y obtiene mejor individuo
-    statistics(newpop, corrida);
+                mutation(&(newpop[j]));
+                mutation(&(newpop[j + 1]));
+                // Decodifica string, evalúa fitness y guarda parentesco de ambos hijos
+                app_objfunc(tipo_problema, &(newpop[j]));
+                newpop[j].parent[0] = mate1 + 1;
+                newpop[j].xsite = jcross;
+                jmcross = jcross / bitsxcodigobinario;
+                if (jcross % bitsxcodigobinario) jmcross++;
+                newpop[j].msite = jmcross;
+                newpop[j].parent[1] = mate2 + 1;
+                app_objfunc(tipo_problema, &(newpop[j + 1]));
+                newpop[j + 1].parent[0] = newpop[j].parent[0];
+                newpop[j + 1].xsite = newpop[j].xsite;
+                newpop[j + 1].msite = newpop[j].msite;
+                newpop[j + 1].parent[1] = newpop[j].parent[1];
+                // Incrementa índice de la población
+                j = j + 2;
+        } while (j < (popsize - 1));
+        // Efecta estadísticas sobre nueva población y obtiene mejor individuo
+        statistics(newpop, corrida);
 }//End generation
 
 
